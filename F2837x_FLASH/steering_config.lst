@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                         PC v6.4.2 *
-       3              ;* Date/Time created: Thu Dec 14 13:38:02 2017                 *
+       3              ;* Date/Time created: Thu Dec 14 15:27:12 2017                 *
        4              ;***************************************************************
        5                      .compiler_opts --cla_support=cla0 --float_support=fpu32 --hll_source=on --mem_model:code=flat --mem_m
        6        0002  FP      .set    XAR2
@@ -58,7 +58,7 @@ steering_config.asm                                                  PAGE    1
       50                      .dwattr $C$DW$6, DW_AT_type(*$C$DW$T$183)
       51                      .dwattr $C$DW$6, DW_AT_location[DW_OP_addr _KI_COMBINED]
       52 00000006               .sect   ".econst"
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE    2
@@ -118,7 +118,7 @@ steering_config.asm                                                  PAGE    2
      100 00000010 0000          .xfloat $strtod("0x1.68p+5")            ; _ANGLE_MAX @ 0
          00000011 4234 
      101              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE    3
@@ -178,7 +178,7 @@ steering_config.asm                                                  PAGE    3
      152                      .dwattr $C$DW$20, DW_AT_TI_symbol_name("_steering_config")
      153                      .dwattr $C$DW$20, DW_AT_type(*$C$DW$T$158)
      154                      .dwattr $C$DW$20, DW_AT_location[DW_OP_addr _steering_config]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE    4
@@ -238,7 +238,7 @@ steering_config.asm                                                  PAGE    4
      204 00000008 7700          NOP       ; [CPU_] 
      205                      .dwpsn  file "C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.2/include/math.h",line 97,column 1,is_stmt,
      206 00000009 FE82          SUBB      SP,#2                 ; [CPU_U] 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE    5
@@ -298,7 +298,7 @@ steering_config.asm                                                  PAGE    5
      259              $C$DW$28        .dwtag  DW_TAG_variable, DW_AT_name("size")
      260                      .dwattr $C$DW$28, DW_AT_TI_symbol_name("_size")
      261                      .dwattr $C$DW$28, DW_AT_type(*$C$DW$T$155)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE    6
@@ -358,7 +358,7 @@ steering_config.asm                                                  PAGE    6
      310                      .dwattr $C$DW$32, DW_AT_TI_return
      311 00000026 0006          LRETR     ; [CPU_] 
      312                      ; return occurs ; [] 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE    7
@@ -418,7 +418,7 @@ steering_config.asm                                                  PAGE    7
      362 0000002d 7640'         LCR       #_set_time_angle_middle_usec ; [CPU_] |57| 
          0000002e 005D 
      363                      ; call occurs [#_set_time_angle_middle_usec] ; [] |57| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE    8
@@ -478,7 +478,7 @@ steering_config.asm                                                  PAGE    8
      409                      ; return occurs ; [] 
      410                      .dwattr $C$DW$33, DW_AT_TI_end_file("../Source/App/steering_config.c")
      411                      .dwattr $C$DW$33, DW_AT_TI_end_line(0x3f)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE    9
@@ -538,7 +538,7 @@ steering_config.asm                                                  PAGE    9
          00000049 0102 
      462 0000004a E720          SUBF32    R1H,R1H,R0H           ; [CPU_] |67| 
          0000004b 0009 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   10
@@ -598,7 +598,7 @@ steering_config.asm                                                  PAGE   10
      509              ;* FNAME: _set_time_angle_middle_usec   FR SIZE:   2           *
      510              ;*                                                             *
      511              ;* FUNCTION ENVIRONMENT                                        *
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   11
@@ -658,7 +658,7 @@ steering_config.asm                                                  PAGE   11
      553                      .dwattr $C$DW$46, DW_AT_TI_end_file("../Source/App/steering_config.c")
      554                      .dwattr $C$DW$46, DW_AT_TI_end_line(0x4b)
      555                      .dwattr $C$DW$46, DW_AT_TI_end_column(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   12
@@ -718,7 +718,7 @@ steering_config.asm                                                  PAGE   12
      606              
      607              $C$DW$52        .dwtag  DW_TAG_subprogram, DW_AT_name("decrement_servo")
      608                      .dwattr $C$DW$52, DW_AT_low_pc(_decrement_servo)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   13
@@ -778,7 +778,7 @@ steering_config.asm                                                  PAGE   13
      660                      .dwattr $C$DW$54, DW_AT_TI_begin_column(0x07)
      661                      .dwattr $C$DW$54, DW_AT_TI_max_frame_size(-2)
      662                      .dwpsn  file "../Source/App/steering_config.c",line 85,column 33,is_stmt,address _get_angle_multiplie
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   14
@@ -838,7 +838,7 @@ steering_config.asm                                                  PAGE   14
      713              ;*                                                             *
      714              ;* FUNCTION ENVIRONMENT                                        *
      715              ;*                                                             *
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   15
@@ -898,7 +898,7 @@ steering_config.asm                                                  PAGE   15
      766              ;***************************************************************
      767              
      768 0000008f       _set_potentiometer_left:
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   16
@@ -958,7 +958,7 @@ steering_config.asm                                                  PAGE   16
      819              ;***************************************************************
      820              ;* FNAME: _get_potentiometer_left       FR SIZE:   0           *
      821              ;*                                                             *
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   17
@@ -1018,7 +1018,7 @@ steering_config.asm                                                  PAGE   17
      873              ;*                            0 Parameter,  1 Auto,  0 SOE     *
      874              ;***************************************************************
      875              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   18
@@ -1078,7 +1078,7 @@ steering_config.asm                                                  PAGE   18
      926                      .dwfde $C$DW$CIE, _get_potentiometer_right
      927              
      928              ;***************************************************************
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   19
@@ -1138,7 +1138,7 @@ steering_config.asm                                                  PAGE   19
      980              ;***************************************************************
      981              
      982 000000b0       _get_potentiometer_zero:
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   20
@@ -1198,7 +1198,7 @@ steering_config.asm                                                  PAGE   20
     1034                      .dwcfi  cfa_offset, -4
     1035              $C$DW$74        .dwtag  DW_TAG_variable, DW_AT_name("model_config")
     1036                      .dwattr $C$DW$74, DW_AT_TI_symbol_name("_model_config")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   21
@@ -1258,7 +1258,7 @@ steering_config.asm                                                  PAGE   21
     1085              ;***************************************************************
     1086              ;* FNAME: _get_KP                       FR SIZE:   0           *
     1087              ;*                                                             *
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   22
@@ -1318,7 +1318,7 @@ steering_config.asm                                                  PAGE   22
     1133 000000da ECF2          BF        $C$L4,EQ              ; [CPU_] |124| 
     1134                      ; branchcc occurs ; [] |124| 
     1135 000000db 6FF6          B         $C$L5,UNC             ; [CPU_] |124| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   23
@@ -1378,7 +1378,7 @@ steering_config.asm                                                  PAGE   23
          000000e1 0004 
     1187 000000e2 6F16          B         $C$L13,UNC            ; [CPU_] |139| 
     1188                      ; branch occurs ; [] |139| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   24
@@ -1438,7 +1438,7 @@ steering_config.asm                                                  PAGE   24
     1236              
     1237              $C$DW$81        .dwtag  DW_TAG_subprogram, DW_AT_name("check_if_changed")
     1238                      .dwattr $C$DW$81, DW_AT_low_pc(_check_if_changed)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   25
@@ -1498,7 +1498,7 @@ steering_config.asm                                                  PAGE   25
     1290                      .dwattr $C$DW$83, DW_AT_TI_max_frame_size(-6)
     1291                      .dwpsn  file "../Source/App/steering_config.c",line 153,column 68,is_stmt,address _put_calibration_da
     1292              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   26
@@ -1558,7 +1558,7 @@ steering_config.asm                                                  PAGE   26
     1340 0000010d E2AF-         MOV32     R0H,@_steering_config ; [CPU_] |158| 
          0000010e 0000 
     1341 0000010f E68C          F32TOI16  R0H,R0H               ; [CPU_] |158| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   27
@@ -1618,7 +1618,7 @@ steering_config.asm                                                  PAGE   27
     1383 0000013e 020A          MOVB      ACC,#10               ; [CPU_] |164| 
     1384 0000013f 0742          ADDL      ACC,*-SP[2]           ; [CPU_] |164| 
     1385 00000140 8AA9          MOVL      XAR4,ACC              ; [CPU_] |164| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   28
@@ -1678,7 +1678,7 @@ steering_config.asm                                                  PAGE   28
     1438 0000016d 56BF          MOVB      *+XAR4[0],#69,UNC     ; [CPU_] |172| 
          0000016e 45C4 
     1439                      .dwpsn  file "../Source/App/steering_config.c",line 173,column 2,is_stmt,isa 0
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   29
@@ -1738,7 +1738,7 @@ steering_config.asm                                                  PAGE   29
     1488                      .dwattr $C$DW$90, DW_AT_TI_symbol_name("_string")
     1489                      .dwattr $C$DW$90, DW_AT_type(*$C$DW$T$171)
     1490                      .dwattr $C$DW$90, DW_AT_location[DW_OP_reg12]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   30
@@ -1798,7 +1798,7 @@ steering_config.asm                                                  PAGE   30
     1543 00000187 5603          MOV       ACC,*-SP[3] << #8     ; [CPU_] |189| 
          00000188 0843 
     1544 00000189 9643          MOV       *-SP[3],AL            ; [CPU_] |189| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   31
@@ -1858,7 +1858,7 @@ steering_config.asm                                                  PAGE   31
     1594 000001b3 1EA7          MOVL      XAR7,ACC              ; [CPU_] |204| 
     1595 000001b4 92C7          MOV       AL,*XAR7              ; [CPU_] |204| 
     1596 000001b5 9647          MOV       *-SP[7],AL            ; [CPU_] |204| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   32
@@ -1918,7 +1918,7 @@ steering_config.asm                                                  PAGE   32
     1645 000001dd 7640'         LCR       #_set_time_angle_middle_usec ; [CPU_] |216| 
          000001de 005D 
     1646                      ; call occurs [#_set_time_angle_middle_usec] ; [] |216| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   33
@@ -1978,7 +1978,7 @@ steering_config.asm                                                  PAGE   33
     1693 000001f0 7640'         LCR       #_set_axis_point      ; [CPU_] |222| 
          000001f1 02D3 
     1694                      ; call occurs [#_set_axis_point] ; [] |222| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   34
@@ -2038,7 +2038,7 @@ steering_config.asm                                                  PAGE   34
     1747                      .dwattr $C$DW$109, DW_AT_type(*$C$DW$T$16)
     1748                      .dwattr $C$DW$109, DW_AT_location[DW_OP_breg20 -6]
     1749              $C$DW$110       .dwtag  DW_TAG_variable, DW_AT_name("radius_wheel")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   35
@@ -2098,7 +2098,7 @@ steering_config.asm                                                  PAGE   35
     1788 00000219 E2AF          MOV32     R0H,*-SP[10]          ; [CPU_] |234| 
          0000021a 004A 
     1789 0000021b E694          CMPF32    R1H,R0H               ; [CPU_] |234| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   36
@@ -2158,7 +2158,7 @@ steering_config.asm                                                  PAGE   36
     1831                      .clink
     1832                      .global _get_left_wheel_factor
     1833              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   37
@@ -2218,7 +2218,7 @@ steering_config.asm                                                  PAGE   37
          00000242 0008 
     1883 00000243 7700          NOP       ; [CPU_] 
     1884 00000244 7700          NOP       ; [CPU_] 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   38
@@ -2278,7 +2278,7 @@ steering_config.asm                                                  PAGE   38
     1920                      .dwpsn  file "../Source/App/steering_config.c",line 252,column 3,is_stmt,isa 0
     1921 0000026f E801          MOVIZ     R0H,#16256            ; [CPU_] |252| 
          00000270 FC00 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   39
@@ -2338,7 +2338,7 @@ steering_config.asm                                                  PAGE   39
     1969              
     1970              ;***************************************************************
     1971              ;* FNAME: _generate_middle_radius       FR SIZE:   8           *
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   40
@@ -2398,7 +2398,7 @@ steering_config.asm                                                  PAGE   40
     2015 00000296 E694          CMPF32    R1H,R0H               ; [CPU_] |266| 
          00000297 0001 
     2016 00000298 AD14          MOVST0    ZF, NF                ; [CPU_] |266| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   41
@@ -2458,7 +2458,7 @@ steering_config.asm                                                  PAGE   41
     2056                      ; call occurs [#_tan] ; [] |275| 
     2057 000002ba 761F-         MOVW      DP,#_steering_config+12 ; [CPU_U] 
          000002bb 0000 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   42
@@ -2518,7 +2518,7 @@ steering_config.asm                                                  PAGE   42
     2105                      .dwattr $C$DW$129, DW_AT_external
     2106                      .dwattr $C$DW$129, DW_AT_TI_begin_file("../Source/App/steering_config.c")
     2107                      .dwattr $C$DW$129, DW_AT_TI_begin_line(0x11a)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   43
@@ -2578,7 +2578,7 @@ steering_config.asm                                                  PAGE   43
     2156 000002df 0006          LRETR     ; [CPU_] 
     2157                      ; return occurs ; [] 
     2158                      .dwattr $C$DW$129, DW_AT_TI_end_file("../Source/App/steering_config.c")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   44
@@ -2638,7 +2638,7 @@ steering_config.asm                                                  PAGE   44
     2210                      .dwattr $C$DW$137, DW_AT_name("_generate_distance_angle_factor")
     2211                      .dwattr $C$DW$137, DW_AT_TI_call
     2212 000002e5 7640'         LCR       #_generate_distance_angle_factor ; [CPU_] |290| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   45
@@ -2698,7 +2698,7 @@ steering_config.asm                                                  PAGE   45
     2262              $C$DW$140       .dwtag  DW_TAG_variable, DW_AT_name("steering_point_distance")
     2263                      .dwattr $C$DW$140, DW_AT_TI_symbol_name("_steering_point_distance")
     2264                      .dwattr $C$DW$140, DW_AT_type(*$C$DW$T$16)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   46
@@ -2758,7 +2758,7 @@ steering_config.asm                                                  PAGE   46
     2298 00000316 2845          MOV       *-SP[5],#15502        ; [CPU_] |302| 
          00000317 3C8E 
     2299                      .dwpsn  file "../Source/App/steering_config.c",line 304,column 2,is_stmt,isa 0
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   47
@@ -2818,7 +2818,7 @@ steering_config.asm                                                  PAGE   47
     2341 0000033e 1E0E-         MOVL      @_steering_config+14,ACC ; [CPU_] |315| 
     2342                      .dwpsn  file "../Source/App/steering_config.c",line 316,column 4,is_stmt,isa 0
     2343 0000033f 6F0A          B         $C$L26,UNC            ; [CPU_] |316| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   48
@@ -2878,7 +2878,7 @@ steering_config.asm                                                  PAGE   48
     2395              $C$DW$152       .dwtag  DW_TAG_enumerator, DW_AT_name("DECREMENT_SERVO"), DW_AT_const_value(0x08)
     2396              $C$DW$153       .dwtag  DW_TAG_enumerator, DW_AT_name("SET_STEERING_POINT_0"), DW_AT_const_value(0x09)
     2397              $C$DW$154       .dwtag  DW_TAG_enumerator, DW_AT_name("SET_STEERING_POINT_1"), DW_AT_const_value(0x0a)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   49
@@ -2938,7 +2938,7 @@ steering_config.asm                                                  PAGE   49
     2450                      .dwattr $C$DW$167, DW_AT_name("bit")
     2451                      .dwattr $C$DW$167, DW_AT_TI_symbol_name("_bit")
     2452                      .dwattr $C$DW$167, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   50
@@ -2998,7 +2998,7 @@ steering_config.asm                                                  PAGE   50
     2505                      .dwattr $C$DW$173, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2506                      .dwattr $C$DW$173, DW_AT_accessibility(DW_ACCESS_public)
     2507              $C$DW$174       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   51
@@ -3058,7 +3058,7 @@ steering_config.asm                                                  PAGE   51
     2560                      .dwattr $C$DW$180, DW_AT_accessibility(DW_ACCESS_public)
     2561              $C$DW$181       .dwtag  DW_TAG_member
     2562                      .dwattr $C$DW$181, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   52
@@ -3118,7 +3118,7 @@ steering_config.asm                                                  PAGE   52
     2615                      .dwattr $C$DW$187, DW_AT_name("T2D")
     2616                      .dwattr $C$DW$187, DW_AT_TI_symbol_name("_T2D")
     2617                      .dwattr $C$DW$187, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x02)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   53
@@ -3178,7 +3178,7 @@ steering_config.asm                                                  PAGE   53
     2670                      .dwattr $C$DW$193, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2671                      .dwattr $C$DW$193, DW_AT_accessibility(DW_ACCESS_public)
     2672              $C$DW$194       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   54
@@ -3238,7 +3238,7 @@ steering_config.asm                                                  PAGE   54
     2725                      .dwattr $C$DW$200, DW_AT_type(*$C$DW$T$19)
     2726                      .dwattr $C$DW$200, DW_AT_name("LDAQAMODE")
     2727                      .dwattr $C$DW$200, DW_AT_TI_symbol_name("_LDAQAMODE")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   55
@@ -3298,7 +3298,7 @@ steering_config.asm                                                  PAGE   55
     2780              $C$DW$208       .dwtag  DW_TAG_member
     2781                      .dwattr $C$DW$208, DW_AT_type(*$C$DW$T$19)
     2782                      .dwattr $C$DW$208, DW_AT_name("rsvd3")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   56
@@ -3358,7 +3358,7 @@ steering_config.asm                                                  PAGE   56
     2835                      .dwattr $C$DW$214, DW_AT_TI_symbol_name("_OTSFB")
     2836                      .dwattr $C$DW$214, DW_AT_bit_offset(0x0a), DW_AT_bit_size(0x01)
     2837                      .dwattr $C$DW$214, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   57
@@ -3418,7 +3418,7 @@ steering_config.asm                                                  PAGE   57
     2890                      .dwattr $C$DW$220, DW_AT_accessibility(DW_ACCESS_public)
     2891              $C$DW$221       .dwtag  DW_TAG_member
     2892                      .dwattr $C$DW$221, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   58
@@ -3478,7 +3478,7 @@ steering_config.asm                                                  PAGE   58
     2945                      .dwattr $C$DW$226, DW_AT_TI_symbol_name("_all")
     2946                      .dwattr $C$DW$226, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2947                      .dwattr $C$DW$226, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   59
@@ -3538,7 +3538,7 @@ steering_config.asm                                                  PAGE   59
     3000                      .dwattr $C$DW$232, DW_AT_name("LOADCMODE")
     3001                      .dwattr $C$DW$232, DW_AT_TI_symbol_name("_LOADCMODE")
     3002                      .dwattr $C$DW$232, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x02)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   60
@@ -3598,7 +3598,7 @@ steering_config.asm                                                  PAGE   60
     3055                      .dwattr $C$DW$240, DW_AT_type(*$C$DW$T$19)
     3056                      .dwattr $C$DW$240, DW_AT_name("rsvd3")
     3057                      .dwattr $C$DW$240, DW_AT_TI_symbol_name("_rsvd3")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   61
@@ -3658,7 +3658,7 @@ steering_config.asm                                                  PAGE   61
     3110                      .dwattr $C$DW$246, DW_AT_bit_offset(0x0a), DW_AT_bit_size(0x01)
     3111                      .dwattr $C$DW$246, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3112                      .dwattr $C$DW$246, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   62
@@ -3718,7 +3718,7 @@ steering_config.asm                                                  PAGE   62
     3165              $C$DW$T$44      .dwtag  DW_TAG_union_type
     3166                      .dwattr $C$DW$T$44, DW_AT_name("CMPCTL_REG")
     3167                      .dwattr $C$DW$T$44, DW_AT_byte_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   63
@@ -3778,7 +3778,7 @@ steering_config.asm                                                  PAGE   63
     3220                      .dwattr $C$DW$260, DW_AT_type(*$C$DW$T$45)
     3221                      .dwattr $C$DW$260, DW_AT_name("bit")
     3222                      .dwattr $C$DW$260, DW_AT_TI_symbol_name("_bit")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   64
@@ -3838,7 +3838,7 @@ steering_config.asm                                                  PAGE   64
     3275                      .dwattr $C$DW$267, DW_AT_name("SHDWDBFEDMODE")
     3276                      .dwattr $C$DW$267, DW_AT_TI_symbol_name("_SHDWDBFEDMODE")
     3277                      .dwattr $C$DW$267, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   65
@@ -3898,7 +3898,7 @@ steering_config.asm                                                  PAGE   65
     3330                      .dwattr $C$DW$273, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3331                      .dwattr $C$DW$273, DW_AT_accessibility(DW_ACCESS_public)
     3332              $C$DW$274       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   66
@@ -3958,7 +3958,7 @@ steering_config.asm                                                  PAGE   66
     3385                      .dwattr $C$DW$280, DW_AT_type(*$C$DW$T$19)
     3386                      .dwattr $C$DW$280, DW_AT_name("rsvd2")
     3387                      .dwattr $C$DW$280, DW_AT_TI_symbol_name("_rsvd2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   67
@@ -4018,7 +4018,7 @@ steering_config.asm                                                  PAGE   67
     3440                      .dwattr $C$DW$286, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x01)
     3441                      .dwattr $C$DW$286, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3442                      .dwattr $C$DW$286, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   68
@@ -4078,7 +4078,7 @@ steering_config.asm                                                  PAGE   68
     3495                      .dwattr $C$DW$293, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3496                      .dwattr $C$DW$293, DW_AT_accessibility(DW_ACCESS_public)
     3497              $C$DW$294       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   69
@@ -4138,7 +4138,7 @@ steering_config.asm                                                  PAGE   69
     3550                      .dwattr $C$DW$300, DW_AT_accessibility(DW_ACCESS_public)
     3551              $C$DW$301       .dwtag  DW_TAG_member
     3552                      .dwattr $C$DW$301, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   70
@@ -4198,7 +4198,7 @@ steering_config.asm                                                  PAGE   70
     3605                      .dwattr $C$DW$308, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3606                      .dwattr $C$DW$308, DW_AT_accessibility(DW_ACCESS_public)
     3607              $C$DW$309       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   71
@@ -4258,7 +4258,7 @@ steering_config.asm                                                  PAGE   71
     3660                      .dwattr $C$DW$315, DW_AT_type(*$C$DW$T$19)
     3661                      .dwattr $C$DW$315, DW_AT_name("TRIPINPUT3")
     3662                      .dwattr $C$DW$315, DW_AT_TI_symbol_name("_TRIPINPUT3")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   72
@@ -4318,7 +4318,7 @@ steering_config.asm                                                  PAGE   72
     3715              $C$DW$323       .dwtag  DW_TAG_member
     3716                      .dwattr $C$DW$323, DW_AT_type(*$C$DW$T$19)
     3717                      .dwattr $C$DW$323, DW_AT_name("TRIPINPUT11")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   73
@@ -4378,7 +4378,7 @@ steering_config.asm                                                  PAGE   73
     3770                      .dwattr $C$DW$330, DW_AT_type(*$C$DW$T$57)
     3771                      .dwattr $C$DW$330, DW_AT_name("bit")
     3772                      .dwattr $C$DW$330, DW_AT_TI_symbol_name("_bit")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   74
@@ -4438,7 +4438,7 @@ steering_config.asm                                                  PAGE   74
     3825                      .dwattr $C$DW$337, DW_AT_name("EVT2FRCSYNCSEL")
     3826                      .dwattr $C$DW$337, DW_AT_TI_symbol_name("_EVT2FRCSYNCSEL")
     3827                      .dwattr $C$DW$337, DW_AT_bit_offset(0x06), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   75
@@ -4498,7 +4498,7 @@ steering_config.asm                                                  PAGE   75
     3880                      .dwattr $C$DW$343, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3881                      .dwattr $C$DW$343, DW_AT_accessibility(DW_ACCESS_public)
     3882              $C$DW$344       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   76
@@ -4558,7 +4558,7 @@ steering_config.asm                                                  PAGE   76
     3935                      .dwattr $C$DW$351, DW_AT_bit_offset(0x05), DW_AT_bit_size(0x01)
     3936                      .dwattr $C$DW$351, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3937                      .dwattr $C$DW$351, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   77
@@ -4618,7 +4618,7 @@ steering_config.asm                                                  PAGE   77
     3990                      .dwattr $C$DW$358, DW_AT_accessibility(DW_ACCESS_public)
     3991                      .dwendtag $C$DW$T$62
     3992              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   78
@@ -4678,7 +4678,7 @@ steering_config.asm                                                  PAGE   78
     4045                      .dwattr $C$DW$365, DW_AT_accessibility(DW_ACCESS_public)
     4046              $C$DW$366       .dwtag  DW_TAG_member
     4047                      .dwattr $C$DW$366, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   79
@@ -4738,7 +4738,7 @@ steering_config.asm                                                  PAGE   79
     4100                      .dwattr $C$DW$373, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4101                      .dwattr $C$DW$373, DW_AT_accessibility(DW_ACCESS_public)
     4102              $C$DW$374       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   80
@@ -4798,7 +4798,7 @@ steering_config.asm                                                  PAGE   80
     4155                      .dwattr $C$DW$380, DW_AT_type(*$C$DW$T$19)
     4156                      .dwattr $C$DW$380, DW_AT_name("rsvd2")
     4157                      .dwattr $C$DW$380, DW_AT_TI_symbol_name("_rsvd2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   81
@@ -4858,7 +4858,7 @@ steering_config.asm                                                  PAGE   81
     4210                      .dwattr $C$DW$386, DW_AT_bit_offset(0x0d), DW_AT_bit_size(0x01)
     4211                      .dwattr $C$DW$386, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4212                      .dwattr $C$DW$386, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   82
@@ -4918,7 +4918,7 @@ steering_config.asm                                                  PAGE   82
     4265              $C$DW$T$68      .dwtag  DW_TAG_union_type
     4266                      .dwattr $C$DW$T$68, DW_AT_name("DCFCTL_REG")
     4267                      .dwattr $C$DW$T$68, DW_AT_byte_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   83
@@ -4978,7 +4978,7 @@ steering_config.asm                                                  PAGE   83
     4320              $C$DW$400       .dwtag  DW_TAG_member
     4321                      .dwattr $C$DW$400, DW_AT_type(*$C$DW$T$19)
     4322                      .dwattr $C$DW$400, DW_AT_name("all")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   84
@@ -5038,7 +5038,7 @@ steering_config.asm                                                  PAGE   84
     4375                      .dwattr $C$DW$407, DW_AT_name("rsvd1")
     4376                      .dwattr $C$DW$407, DW_AT_TI_symbol_name("_rsvd1")
     4377                      .dwattr $C$DW$407, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x08)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   85
@@ -5098,7 +5098,7 @@ steering_config.asm                                                  PAGE   85
     4430                      .dwattr $C$DW$414, DW_AT_type(*$C$DW$T$19)
     4431                      .dwattr $C$DW$414, DW_AT_name("TBCTR")
     4432                      .dwattr $C$DW$414, DW_AT_TI_symbol_name("_TBCTR")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   86
@@ -5158,7 +5158,7 @@ steering_config.asm                                                  PAGE   86
     4485                      .dwattr $C$DW$423, DW_AT_name("AQCTL")
     4486                      .dwattr $C$DW$423, DW_AT_TI_symbol_name("_AQCTL")
     4487                      .dwattr $C$DW$423, DW_AT_data_member_location[DW_OP_plus_uconst 0x10]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   87
@@ -5218,7 +5218,7 @@ steering_config.asm                                                  PAGE   87
     4540                      .dwattr $C$DW$432, DW_AT_TI_symbol_name("_HRCNFG2")
     4541                      .dwattr $C$DW$432, DW_AT_data_member_location[DW_OP_plus_uconst 0x27]
     4542                      .dwattr $C$DW$432, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   88
@@ -5278,7 +5278,7 @@ steering_config.asm                                                  PAGE   88
     4595                      .dwattr $C$DW$441, DW_AT_data_member_location[DW_OP_plus_uconst 0x40]
     4596                      .dwattr $C$DW$441, DW_AT_accessibility(DW_ACCESS_public)
     4597              $C$DW$442       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   89
@@ -5338,7 +5338,7 @@ steering_config.asm                                                  PAGE   89
     4650                      .dwattr $C$DW$450, DW_AT_accessibility(DW_ACCESS_public)
     4651              $C$DW$451       .dwtag  DW_TAG_member
     4652                      .dwattr $C$DW$451, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   90
@@ -5398,7 +5398,7 @@ steering_config.asm                                                  PAGE   90
     4705              $C$DW$460       .dwtag  DW_TAG_member
     4706                      .dwattr $C$DW$460, DW_AT_type(*$C$DW$T$40)
     4707                      .dwattr $C$DW$460, DW_AT_name("CMPB")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   91
@@ -5458,7 +5458,7 @@ steering_config.asm                                                  PAGE   91
     4760                      .dwattr $C$DW$469, DW_AT_type(*$C$DW$T$19)
     4761                      .dwattr $C$DW$469, DW_AT_name("rsvd21")
     4762                      .dwattr $C$DW$469, DW_AT_TI_symbol_name("_rsvd21")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   92
@@ -5518,7 +5518,7 @@ steering_config.asm                                                  PAGE   92
     4815                      .dwattr $C$DW$478, DW_AT_name("rsvd24")
     4816                      .dwattr $C$DW$478, DW_AT_TI_symbol_name("_rsvd24")
     4817                      .dwattr $C$DW$478, DW_AT_data_member_location[DW_OP_plus_uconst 0x8e]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   93
@@ -5578,7 +5578,7 @@ steering_config.asm                                                  PAGE   93
     4870                      .dwattr $C$DW$487, DW_AT_TI_symbol_name("_TZFRC")
     4871                      .dwattr $C$DW$487, DW_AT_data_member_location[DW_OP_plus_uconst 0x9b]
     4872                      .dwattr $C$DW$487, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   94
@@ -5638,7 +5638,7 @@ steering_config.asm                                                  PAGE   94
     4925                      .dwattr $C$DW$496, DW_AT_data_member_location[DW_OP_plus_uconst 0xab]
     4926                      .dwattr $C$DW$496, DW_AT_accessibility(DW_ACCESS_public)
     4927              $C$DW$497       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   95
@@ -5698,7 +5698,7 @@ steering_config.asm                                                  PAGE   95
     4980                      .dwattr $C$DW$505, DW_AT_accessibility(DW_ACCESS_public)
     4981              $C$DW$506       .dwtag  DW_TAG_member
     4982                      .dwattr $C$DW$506, DW_AT_type(*$C$DW$T$74)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   96
@@ -5758,7 +5758,7 @@ steering_config.asm                                                  PAGE   96
     5035              $C$DW$515       .dwtag  DW_TAG_member
     5036                      .dwattr $C$DW$515, DW_AT_type(*$C$DW$T$19)
     5037                      .dwattr $C$DW$515, DW_AT_name("DCFOFFSETCNT")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   97
@@ -5818,7 +5818,7 @@ steering_config.asm                                                  PAGE   97
     5090                      .dwattr $C$DW$524, DW_AT_type(*$C$DW$T$64)
     5091                      .dwattr $C$DW$524, DW_AT_name("DCBLTRIPSEL")
     5092                      .dwattr $C$DW$524, DW_AT_TI_symbol_name("_DCBLTRIPSEL")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   98
@@ -5878,7 +5878,7 @@ steering_config.asm                                                  PAGE   98
     5145                      .dwattr $C$DW$531, DW_AT_accessibility(DW_ACCESS_public)
     5146                      .dwendtag $C$DW$T$83
     5147              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE   99
@@ -5938,7 +5938,7 @@ steering_config.asm                                                  PAGE   99
     5200                      .dwattr $C$DW$538, DW_AT_name("INTINITEN")
     5201                      .dwattr $C$DW$538, DW_AT_TI_symbol_name("_INTINITEN")
     5202                      .dwattr $C$DW$538, DW_AT_bit_offset(0x02), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  100
@@ -5998,7 +5998,7 @@ steering_config.asm                                                  PAGE  100
     5255                      .dwattr $C$DW$544, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     5256                      .dwattr $C$DW$544, DW_AT_accessibility(DW_ACCESS_public)
     5257              $C$DW$545       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  101
@@ -6058,7 +6058,7 @@ steering_config.asm                                                  PAGE  101
     5310                      .dwattr $C$DW$551, DW_AT_type(*$C$DW$T$19)
     5311                      .dwattr $C$DW$551, DW_AT_name("SOCA")
     5312                      .dwattr $C$DW$551, DW_AT_TI_symbol_name("_SOCA")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  102
@@ -6118,7 +6118,7 @@ steering_config.asm                                                  PAGE  102
     5365                      .dwattr $C$DW$557, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x01)
     5366                      .dwattr $C$DW$557, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     5367                      .dwattr $C$DW$557, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  103
@@ -6178,7 +6178,7 @@ steering_config.asm                                                  PAGE  103
     5420              $C$DW$564       .dwtag  DW_TAG_member
     5421                      .dwattr $C$DW$564, DW_AT_type(*$C$DW$T$19)
     5422                      .dwattr $C$DW$564, DW_AT_name("INTCNT2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  104
@@ -6238,7 +6238,7 @@ steering_config.asm                                                  PAGE  104
     5475                      .dwattr $C$DW$570, DW_AT_TI_symbol_name("_INTPSSEL")
     5476                      .dwattr $C$DW$570, DW_AT_bit_offset(0x0b), DW_AT_bit_size(0x01)
     5477                      .dwattr $C$DW$570, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  105
@@ -6298,7 +6298,7 @@ steering_config.asm                                                  PAGE  105
     5530                      .dwattr $C$DW$577, DW_AT_TI_symbol_name("_all")
     5531                      .dwattr $C$DW$577, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     5532                      .dwattr $C$DW$577, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  106
@@ -6358,7 +6358,7 @@ steering_config.asm                                                  PAGE  106
     5585                      .dwattr $C$DW$584, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     5586                      .dwattr $C$DW$584, DW_AT_accessibility(DW_ACCESS_public)
     5587              $C$DW$585       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  107
@@ -6418,7 +6418,7 @@ steering_config.asm                                                  PAGE  107
     5640                      .dwattr $C$DW$591, DW_AT_type(*$C$DW$T$19)
     5641                      .dwattr $C$DW$591, DW_AT_name("SOCAPRD2")
     5642                      .dwattr $C$DW$591, DW_AT_TI_symbol_name("_SOCAPRD2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  108
@@ -6478,7 +6478,7 @@ steering_config.asm                                                  PAGE  108
     5695                      .dwattr $C$DW$597, DW_AT_bit_offset(0x0f), DW_AT_bit_size(0x01)
     5696                      .dwattr $C$DW$597, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     5697                      .dwattr $C$DW$597, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  109
@@ -6538,7 +6538,7 @@ steering_config.asm                                                  PAGE  109
     5750                      .dwattr $C$DW$605, DW_AT_TI_symbol_name("_AQCTLA_AQCTLA2")
     5751                      .dwattr $C$DW$605, DW_AT_bit_offset(0x07), DW_AT_bit_size(0x01)
     5752                      .dwattr $C$DW$605, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  110
@@ -6598,7 +6598,7 @@ steering_config.asm                                                  PAGE  110
     5805                      .dwattr $C$DW$611, DW_AT_accessibility(DW_ACCESS_public)
     5806              $C$DW$612       .dwtag  DW_TAG_member
     5807                      .dwattr $C$DW$612, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  111
@@ -6658,7 +6658,7 @@ steering_config.asm                                                  PAGE  111
     5860                      .dwattr $C$DW$618, DW_AT_name("OSHTMODE")
     5861                      .dwattr $C$DW$618, DW_AT_TI_symbol_name("_OSHTMODE")
     5862                      .dwattr $C$DW$618, DW_AT_bit_offset(0x0a), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  112
@@ -6718,7 +6718,7 @@ steering_config.asm                                                  PAGE  112
     5915                      .dwattr $C$DW$T$107, DW_AT_name("HRCNFG2_BITS")
     5916                      .dwattr $C$DW$T$107, DW_AT_byte_size(0x01)
     5917              $C$DW$625       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  113
@@ -6778,7 +6778,7 @@ steering_config.asm                                                  PAGE  113
     5970                      .dwattr $C$DW$631, DW_AT_accessibility(DW_ACCESS_public)
     5971              $C$DW$632       .dwtag  DW_TAG_member
     5972                      .dwattr $C$DW$632, DW_AT_type(*$C$DW$T$107)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  114
@@ -6838,7 +6838,7 @@ steering_config.asm                                                  PAGE  114
     6025              $C$DW$639       .dwtag  DW_TAG_member
     6026                      .dwattr $C$DW$639, DW_AT_type(*$C$DW$T$19)
     6027                      .dwattr $C$DW$639, DW_AT_name("EDGMODEB")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  115
@@ -6898,7 +6898,7 @@ steering_config.asm                                                  PAGE  115
     6080              
     6081              $C$DW$T$111     .dwtag  DW_TAG_structure_type
     6082                      .dwattr $C$DW$T$111, DW_AT_name("HRMSTEP_BITS")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  116
@@ -6958,7 +6958,7 @@ steering_config.asm                                                  PAGE  116
     6135                      .dwattr $C$DW$651, DW_AT_accessibility(DW_ACCESS_public)
     6136              $C$DW$652       .dwtag  DW_TAG_member
     6137                      .dwattr $C$DW$652, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  117
@@ -7018,7 +7018,7 @@ steering_config.asm                                                  PAGE  117
     6190                      .dwattr $C$DW$658, DW_AT_name("rsvd1")
     6191                      .dwattr $C$DW$658, DW_AT_TI_symbol_name("_rsvd1")
     6192                      .dwattr $C$DW$658, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x02)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  118
@@ -7078,7 +7078,7 @@ steering_config.asm                                                  PAGE  118
     6245              
     6246              
     6247              $C$DW$T$116     .dwtag  DW_TAG_union_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  119
@@ -7138,7 +7138,7 @@ steering_config.asm                                                  PAGE  119
     6300                      .dwattr $C$DW$672, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x05)
     6301                      .dwattr $C$DW$672, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     6302                      .dwattr $C$DW$672, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  120
@@ -7198,7 +7198,7 @@ steering_config.asm                                                  PAGE  120
     6355              $C$DW$679       .dwtag  DW_TAG_member
     6356                      .dwattr $C$DW$679, DW_AT_type(*$C$DW$T$19)
     6357                      .dwattr $C$DW$679, DW_AT_name("rsvd2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  121
@@ -7258,7 +7258,7 @@ steering_config.asm                                                  PAGE  121
     6410                      .dwattr $C$DW$685, DW_AT_TI_symbol_name("_PHSEN")
     6411                      .dwattr $C$DW$685, DW_AT_bit_offset(0x0d), DW_AT_bit_size(0x01)
     6412                      .dwattr $C$DW$685, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  122
@@ -7318,7 +7318,7 @@ steering_config.asm                                                  PAGE  122
     6465              
     6466              $C$DW$T$122     .dwtag  DW_TAG_union_type
     6467                      .dwattr $C$DW$T$122, DW_AT_name("TBCTL_REG")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  123
@@ -7378,7 +7378,7 @@ steering_config.asm                                                  PAGE  123
     6520              
     6521              
     6522              $C$DW$T$125     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  124
@@ -7438,7 +7438,7 @@ steering_config.asm                                                  PAGE  124
     6575                      .dwattr $C$DW$T$127, DW_AT_name("TZCBCCLR_BITS")
     6576                      .dwattr $C$DW$T$127, DW_AT_byte_size(0x01)
     6577              $C$DW$705       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  125
@@ -7498,7 +7498,7 @@ steering_config.asm                                                  PAGE  125
     6630                      .dwattr $C$DW$712, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x01)
     6631                      .dwattr $C$DW$712, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     6632                      .dwattr $C$DW$712, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  126
@@ -7558,7 +7558,7 @@ steering_config.asm                                                  PAGE  126
     6685              $C$DW$719       .dwtag  DW_TAG_member
     6686                      .dwattr $C$DW$719, DW_AT_type(*$C$DW$T$19)
     6687                      .dwattr $C$DW$719, DW_AT_name("CBC4")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  127
@@ -7618,7 +7618,7 @@ steering_config.asm                                                  PAGE  127
     6740                      .dwattr $C$DW$726, DW_AT_type(*$C$DW$T$129)
     6741                      .dwattr $C$DW$726, DW_AT_name("bit")
     6742                      .dwattr $C$DW$726, DW_AT_TI_symbol_name("_bit")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  128
@@ -7678,7 +7678,7 @@ steering_config.asm                                                  PAGE  128
     6795                      .dwattr $C$DW$733, DW_AT_name("DCBEVT2")
     6796                      .dwattr $C$DW$733, DW_AT_TI_symbol_name("_DCBEVT2")
     6797                      .dwattr $C$DW$733, DW_AT_bit_offset(0x09), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  129
@@ -7738,7 +7738,7 @@ steering_config.asm                                                  PAGE  129
     6850                      .dwattr $C$DW$739, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     6851                      .dwattr $C$DW$739, DW_AT_accessibility(DW_ACCESS_public)
     6852              $C$DW$740       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  130
@@ -7798,7 +7798,7 @@ steering_config.asm                                                  PAGE  130
     6905                      .dwattr $C$DW$746, DW_AT_type(*$C$DW$T$19)
     6906                      .dwattr $C$DW$746, DW_AT_name("DCAEVT1U")
     6907                      .dwattr $C$DW$746, DW_AT_TI_symbol_name("_DCAEVT1U")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  131
@@ -7858,7 +7858,7 @@ steering_config.asm                                                  PAGE  131
     6960              $C$DW$T$137     .dwtag  DW_TAG_structure_type
     6961                      .dwattr $C$DW$T$137, DW_AT_name("TZCTLDCB_BITS")
     6962                      .dwattr $C$DW$T$137, DW_AT_byte_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  132
@@ -7918,7 +7918,7 @@ steering_config.asm                                                  PAGE  132
     7015                      .dwattr $C$DW$759, DW_AT_accessibility(DW_ACCESS_public)
     7016                      .dwendtag $C$DW$T$138
     7017              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  133
@@ -7978,7 +7978,7 @@ steering_config.asm                                                  PAGE  133
     7070                      .dwattr $C$DW$766, DW_AT_accessibility(DW_ACCESS_public)
     7071                      .dwendtag $C$DW$T$139
     7072              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  134
@@ -8038,7 +8038,7 @@ steering_config.asm                                                  PAGE  134
     7125                      .dwattr $C$DW$773, DW_AT_name("rsvd1")
     7126                      .dwattr $C$DW$773, DW_AT_TI_symbol_name("_rsvd1")
     7127                      .dwattr $C$DW$773, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x04)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  135
@@ -8098,7 +8098,7 @@ steering_config.asm                                                  PAGE  135
     7180                      .dwattr $C$DW$779, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7181                      .dwattr $C$DW$779, DW_AT_accessibility(DW_ACCESS_public)
     7182              $C$DW$780       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  136
@@ -8158,7 +8158,7 @@ steering_config.asm                                                  PAGE  136
     7235                      .dwattr $C$DW$786, DW_AT_type(*$C$DW$T$19)
     7236                      .dwattr $C$DW$786, DW_AT_name("INT")
     7237                      .dwattr $C$DW$786, DW_AT_TI_symbol_name("_INT")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  137
@@ -8218,7 +8218,7 @@ steering_config.asm                                                  PAGE  137
     7290                      .dwendtag $C$DW$T$145
     7291              
     7292              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  138
@@ -8278,7 +8278,7 @@ steering_config.asm                                                  PAGE  138
     7345                      .dwattr $C$DW$800, DW_AT_TI_symbol_name("_DCAEVT2")
     7346                      .dwattr $C$DW$800, DW_AT_bit_offset(0x0b), DW_AT_bit_size(0x01)
     7347                      .dwattr $C$DW$800, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  139
@@ -8338,7 +8338,7 @@ steering_config.asm                                                  PAGE  139
     7400                      .dwattr $C$DW$806, DW_AT_accessibility(DW_ACCESS_public)
     7401              $C$DW$807       .dwtag  DW_TAG_member
     7402                      .dwattr $C$DW$807, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  140
@@ -8398,7 +8398,7 @@ steering_config.asm                                                  PAGE  140
     7455                      .dwattr $C$DW$814, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7456                      .dwattr $C$DW$814, DW_AT_accessibility(DW_ACCESS_public)
     7457                      .dwendtag $C$DW$T$149
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  141
@@ -8458,7 +8458,7 @@ steering_config.asm                                                  PAGE  141
     7510                      .dwattr $C$DW$821, DW_AT_type(*$C$DW$T$19)
     7511                      .dwattr $C$DW$821, DW_AT_name("OST5")
     7512                      .dwattr $C$DW$821, DW_AT_TI_symbol_name("_OST5")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  142
@@ -8518,7 +8518,7 @@ steering_config.asm                                                  PAGE  142
     7565              $C$DW$T$153     .dwtag  DW_TAG_structure_type
     7566                      .dwattr $C$DW$T$153, DW_AT_name("TZSEL_BITS")
     7567                      .dwattr $C$DW$T$153, DW_AT_byte_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  143
@@ -8578,7 +8578,7 @@ steering_config.asm                                                  PAGE  143
     7620                      .dwattr $C$DW$835, DW_AT_TI_symbol_name("_DCBEVT2")
     7621                      .dwattr $C$DW$835, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x01)
     7622                      .dwattr $C$DW$835, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  144
@@ -8638,7 +8638,7 @@ steering_config.asm                                                  PAGE  144
     7675                      .dwattr $C$DW$843, DW_AT_name("DCBEVT1")
     7676                      .dwattr $C$DW$843, DW_AT_TI_symbol_name("_DCBEVT1")
     7677                      .dwattr $C$DW$843, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  145
@@ -8698,7 +8698,7 @@ steering_config.asm                                                  PAGE  145
     7730              $C$DW$T$176     .dwtag  DW_TAG_typedef, DW_AT_name("int16_t")
     7731                      .dwattr $C$DW$T$176, DW_AT_type(*$C$DW$T$10)
     7732                      .dwattr $C$DW$T$176, DW_AT_language(DW_LANG_C)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  146
@@ -8758,7 +8758,7 @@ steering_config.asm                                                  PAGE  146
     7785              
     7786              $C$DW$T$78      .dwtag  DW_TAG_array_type
     7787                      .dwattr $C$DW$T$78, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  147
@@ -8818,7 +8818,7 @@ steering_config.asm                                                  PAGE  147
     7840                      .dwattr $C$DW$T$14, DW_AT_name("long long")
     7841                      .dwattr $C$DW$T$14, DW_AT_byte_size(0x04)
     7842              $C$DW$T$15      .dwtag  DW_TAG_base_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  148
@@ -8878,7 +8878,7 @@ steering_config.asm                                                  PAGE  148
     7895                      .dwattr $C$DW$859, DW_AT_accessibility(DW_ACCESS_public)
     7896              $C$DW$860       .dwtag  DW_TAG_member
     7897                      .dwattr $C$DW$860, DW_AT_type(*$C$DW$T$155)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  149
@@ -8938,7 +8938,7 @@ steering_config.asm                                                  PAGE  149
     7950                      .dwendtag $C$DW$T$158
     7951              
     7952                      .dwattr $C$DW$CU, DW_AT_language(DW_LANG_C)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  150
@@ -8998,7 +8998,7 @@ steering_config.asm                                                  PAGE  150
     8005                      .dwcfi  undefined, 48
     8006                      .dwcfi  undefined, 51
     8007                      .dwcfi  undefined, 52
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  151
@@ -9058,7 +9058,7 @@ steering_config.asm                                                  PAGE  151
     8060                      .dwattr $C$DW$884, DW_AT_location[DW_OP_regx 0x20]
     8061              $C$DW$885       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PAGE0")
     8062                      .dwattr $C$DW$885, DW_AT_location[DW_OP_regx 0x21]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  152
@@ -9118,7 +9118,7 @@ steering_config.asm                                                  PAGE  152
     8115              $C$DW$912       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R1H")
     8116                      .dwattr $C$DW$912, DW_AT_location[DW_OP_regx 0x30]
     8117              $C$DW$913       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R2HL")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:38:02 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:12 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 steering_config.asm                                                  PAGE  153

@@ -1,4 +1,4 @@
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:00 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:08 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 C:/ti/controlSUITE/device_support/F2837xS/v170/F2837xS_common/source/F2837xS_CodeStartBranch.asm PAGE    1
@@ -58,7 +58,7 @@ C:/ti/controlSUITE/device_support/F2837xS/v170/F2837xS_common/source/F2837xS_Cod
       52                  .else
       53                      LB _c_int00         ;Branch to start of boot._asm in RTS library
       54                  .endif
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:00 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:08 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 C:/ti/controlSUITE/device_support/F2837xS/v170/F2837xS_common/source/F2837xS_CodeStartBranch.asm PAGE    2

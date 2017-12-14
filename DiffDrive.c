@@ -838,24 +838,24 @@ void main(void) {
 	motor1.pi_id.Umax = _IQ(CURRENT_ID_CONTROLLER_SAT);
 	motor1.pi_id.Umin = _IQ(-CURRENT_ID_CONTROLLER_SAT);
 
-	// Init PI module for IQ loop
+	/*// Init PI module for IQ loop
 	motor1.pi_iq.Kp = _IQ(CURRENT_IQ_CONTROLLER_KP);          //_IQ(4.0);
 	motor1.pi_iq.Ki = _IQ(CURRENT_IQ_CONTROLLER_KI);          //_IQ(0.015);
 	motor1.pi_iq.Umax = _IQ(CURRENT_IQ_CONTROLLER_SAT);
 	motor1.pi_iq.Umin = _IQ(-CURRENT_IQ_CONTROLLER_SAT);
-
+*/
 	// Init PI module for ID loop
 	motor2.pi_id.Kp = _IQ(CURRENT_ID_CONTROLLER_KP);          //_IQ(3.0);
 	motor2.pi_id.Ki = _IQ(CURRENT_ID_CONTROLLER_KI);          //0.0075);
 	motor2.pi_id.Umax = _IQ(CURRENT_ID_CONTROLLER_SAT);
 	motor2.pi_id.Umin = _IQ(-CURRENT_ID_CONTROLLER_KP);
-
+/*
 	// Init PI module for IQ loop
 	motor2.pi_iq.Kp = _IQ(CURRENT_IQ_CONTROLLER_KP);          //_IQ(4.0);
 	motor2.pi_iq.Ki = _IQ(CURRENT_IQ_CONTROLLER_KI);          //_IQ(0.015);
 	motor2.pi_iq.Umax = _IQ(CURRENT_IQ_CONTROLLER_SAT);
 	motor2.pi_iq.Umin = _IQ(-CURRENT_IQ_CONTROLLER_SAT);
-
+*/
 	// Set mock REFERENCES for Speed and Iq loops
 	motor1.SpeedRef = 0.05;
 	motor1.IqRef = _IQ(0.1);
@@ -1372,14 +1372,16 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 //    Connect inputs of the PI module and call the PI IQ controller macro
 // ------------------------------------------------------------------------------
 	if (motor->lsw == 0) {
-		motor->pi_iq.Ref = 0;
-		motor->pi_iq.ui = 0;
-	} else if (motor->lsw == 1)
-	motor->pi_iq.Ref = motor->IqRef;
-	else
-	motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
-	motor->pi_iq.Fbk = motor->park.Qs;
-	PI_MACRO(motor->pi_iq)
+		motor->pi_iq.ref = 0;//motor->pi_iq.Ref = 0;
+		motor->pi_iq.u0 = 0;//motor->pi_iq.ui = 0;
+		motor->pi_iq.e0 = 0;
+	} else if (motor->lsw == 1){
+		motor->pi_iq.ref = motor->IqRef;//motor->pi_iq.Ref = motor->IqRef;
+	} else {
+		motor->pi_iq.ref = motor->pid_spd.term.Out;//motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
+	}
+	motor->pi_iq.fbk = motor->park.Qs;//motor->pi_iq.Fbk = motor->park.Qs;
+	piController(&motor->pi_iq);//PI_MACRO(motor->pi_iq)
 
 // ------------------------------------------------------------------------------
 //    Connect inputs of the PI module and call the PI ID controller macro
@@ -1392,7 +1394,7 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 //	Connect inputs of the INV_PARK module and call the inverse park trans. macro
 // ------------------------------------------------------------------------------
 	motor->ipark.Ds = motor->pi_id.Out;
-	motor->ipark.Qs = motor->pi_iq.Out;
+	motor->ipark.Qs = motor->pi_iq.u;//motor->ipark.Qs = motor->pi_iq.Out;
 	motor->ipark.Sine = motor->park.Sine;
 	motor->ipark.Cosine = motor->park.Cosine;
 	IPARK_MACRO(motor->ipark)
@@ -1413,18 +1415,6 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 	+ INV_PWM_HALF_TBPRD;
 	(motor->PwmCRegs)->CMPA.bit.CMPA = (INV_PWM_HALF_TBPRD * motor->svgen.Tc)
 	+ INV_PWM_HALF_TBPRD;
-
-// ------------------------------------------------------------------------------
-//    Connect inputs of the DATALOG module
-// ------------------------------------------------------------------------------
-	DlogCh1 = motor->ElecTheta;
-	DlogCh2 = motor->svgen.Ta;
-	DlogCh3 = motor->clarke.As;
-	DlogCh4 = motor->clarke.Bs;
-
-//------------------------------------------------------------------------------
-// Variable display on DAC - not available
-//------------------------------------------------------------------------------
 
 	return;
 

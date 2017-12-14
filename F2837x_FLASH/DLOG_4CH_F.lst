@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                         PC v6.4.2 *
-       3              ;* Date/Time created: Thu Dec 14 13:36:43 2017                 *
+       3              ;* Date/Time created: Thu Dec 14 15:25:49 2017                 *
        4              ;***************************************************************
        5                      .compiler_opts --cla_support=cla0 --float_support=fpu32 --hll_source=on --mem_model:code=flat --mem_m
        6        0002  FP      .set    XAR2
@@ -58,7 +58,7 @@ DLOG_4CH_F.asm                                                       PAGE    1
       53 00000001 A842          MOVL      *-SP[2],XAR4          ; [CPU_] |8| 
       54                      .dwpsn  file "../utility Src Files/DLOG_4CH_F.c",line 9,column 2,is_stmt,isa 0
       55 00000002 0200          MOVB      ACC,#0                ; [CPU_] |9| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE    2
@@ -118,7 +118,7 @@ DLOG_4CH_F.asm                                                       PAGE    2
      106 0000002c 8AA9          MOVL      XAR4,ACC              ; [CPU_] |20| 
      107 0000002d 2BC4          MOV       *+XAR4[0],#0          ; [CPU_] |20| 
      108                      .dwpsn  file "../utility Src Files/DLOG_4CH_F.c",line 21,column 2,is_stmt,isa 0
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE    3
@@ -178,7 +178,7 @@ DLOG_4CH_F.asm                                                       PAGE    3
      161              ;* FUNCTION ENVIRONMENT                                        *
      162              ;*                                                             *
      163              ;* FUNCTION PROPERTIES                                         *
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE    4
@@ -238,7 +238,7 @@ DLOG_4CH_F.asm                                                       PAGE    4
      207 0000005e 0744          ADDL      ACC,*-SP[4]           ; [CPU_] |35| 
      208 0000005f 8AA9          MOVL      XAR4,ACC              ; [CPU_] |35| 
      209 00000060 56BF          MOVB      *+XAR4[0],#2,UNC      ; [CPU_] |35| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE    5
@@ -298,7 +298,7 @@ DLOG_4CH_F.asm                                                       PAGE    5
      260 0000008c 83D5          MOVL      XAR5,*+XAR5[2]        ; [CPU_] |44| 
      261 0000008d 5603          MOV       ACC,*+XAR4[0] << 1    ; [CPU_] |44| 
          0000008e 01C4 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE    6
@@ -358,7 +358,7 @@ DLOG_4CH_F.asm                                                       PAGE    6
      312 000000bf ED14          BF        $C$L4,NEQ             ; [CPU_] |48| 
      313                      ; branchcc occurs ; [] |48| 
      314                      .dwpsn  file "../utility Src Files/DLOG_4CH_F.c",line 50,column 5,is_stmt,isa 0
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE    7
@@ -418,7 +418,7 @@ DLOG_4CH_F.asm                                                       PAGE    7
      365              ;***************************************************************
      366              
      367              $C$DW$T$22      .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE    8
@@ -478,7 +478,7 @@ DLOG_4CH_F.asm                                                       PAGE    8
      420                      .dwattr $C$DW$17, DW_AT_TI_symbol_name("_prev_value")
      421                      .dwattr $C$DW$17, DW_AT_data_member_location[DW_OP_plus_uconst 0x10]
      422                      .dwattr $C$DW$17, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE    9
@@ -538,7 +538,7 @@ DLOG_4CH_F.asm                                                       PAGE    9
      475                      .dwattr $C$DW$T$5, DW_AT_name("signed char")
      476                      .dwattr $C$DW$T$5, DW_AT_byte_size(0x01)
      477              $C$DW$T$6       .dwtag  DW_TAG_base_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE   10
@@ -598,7 +598,7 @@ DLOG_4CH_F.asm                                                       PAGE   10
      530              $C$DW$T$17      .dwtag  DW_TAG_base_type
      531                      .dwattr $C$DW$T$17, DW_AT_encoding(DW_ATE_float)
      532                      .dwattr $C$DW$T$17, DW_AT_name("double")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE   11
@@ -658,7 +658,7 @@ DLOG_4CH_F.asm                                                       PAGE   11
      585                      .dwcfi  undefined, 17
      586                      .dwcfi  undefined, 18
      587                      .dwcfi  undefined, 19
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE   12
@@ -718,7 +718,7 @@ DLOG_4CH_F.asm                                                       PAGE   12
      640                      .dwattr $C$DW$36, DW_AT_location[DW_OP_reg29]
      641              $C$DW$37        .dwtag  DW_TAG_TI_assign_register, DW_AT_name("SXM")
      642                      .dwattr $C$DW$37, DW_AT_location[DW_OP_reg30]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE   13
@@ -778,7 +778,7 @@ DLOG_4CH_F.asm                                                       PAGE   13
      695              $C$DW$64        .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R0HL")
      696                      .dwattr $C$DW$64, DW_AT_location[DW_OP_regx 0x2b]
      697              $C$DW$65        .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R0H")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:43 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:49 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DLOG_4CH_F.asm                                                       PAGE   14

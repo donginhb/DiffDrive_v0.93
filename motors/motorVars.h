@@ -37,6 +37,7 @@
 #include "speed_fr.h"			// Include header for the SPEED_MEAS_QEP object
 #include "pid_grando.h"			// Include header for the PID_GRANDO object
 #include "pid_reg3.h"			// Include header for the PID_REG3 object
+#include "Motor_ctrl.h"
 
 #include "F2837x_QEP_Module.h"
 
@@ -97,7 +98,7 @@ typedef struct {
 	PI_CONTROLLER   pi_pos;
 	PID_CONTROLLER	pid_spd;
 	PI_CONTROLLER   pi_id;
-	PI_CONTROLLER   pi_iq;
+	struct piCtrl_t pi_iq;
 
 	SVGEN svgen;               // SVPWM variable
 
@@ -164,7 +165,7 @@ typedef struct {
 		    PI_CONTROLLER_DEFAULTS,  /*   pi_pos   */     \
 		    {PID_TERM_DEFAULTS, PID_PARAM_DEFAULTS, PID_DATA_DEFAULTS},  /*  pid_spd  */   \
 		    PI_CONTROLLER_DEFAULTS,   /*  pi_id   */      \
-		    PI_CONTROLLER_DEFAULTS,   /*  pi_iq   */      \
+			CURRENT_CTRL_IQ_DEFAULTS,   /*  pi_iq   */    \
                                                           \
 		    SVGEN_DEFAULTS,           /* svgen    */      \
 		    RMPCNTL_DEFAULTS,         /* rc       */      \

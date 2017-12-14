@@ -196,7 +196,7 @@ void fsm_cyclic_run(void){
 		case DRIVE_CMD:
 			if (!extract_drive_command(commandbuffer, &received_speed, &received_angle)) {
 				steeringContr.speed_ref = received_speed;
-				set_servo_angle_ref(received_angle);
+				steeringContr.angle_ref = received_angle;//set_servo_angle_ref(received_angle);
 			}
 			break;
 		default:

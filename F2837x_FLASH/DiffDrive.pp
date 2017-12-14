@@ -78,6 +78,7 @@ DiffDrive.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/s
 DiffDrive.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_fr.h
 DiffDrive.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_grando.h
 DiffDrive.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_reg3.h
+DiffDrive.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/Motor_ctrl.h
 DiffDrive.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/F2837x_QEP_Module.h
 DiffDrive.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/f2837xbmsk.h
 DiffDrive.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/HAL/drv8301_defs.h
@@ -113,7 +114,6 @@ DiffDrive.obj: C:/ti/controlSUITE/device_support/F2837xS/v191/F2837xS_common/inc
 DiffDrive.obj: C:/ti/controlSUITE/device_support/F2837xS/v191/F2837xS_common/include/FlashAPI/Constants/F2837xS.h
 DiffDrive.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.2/include/string.h
 DiffDrive.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/Source/Header/steering_config.h
-DiffDrive.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/Motor_ctrl.h
 
 ../DiffDrive.c: 
 ../DiffDrive.h: 
@@ -193,6 +193,7 @@ C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_est.h:
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_fr.h: 
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_grando.h: 
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_reg3.h: 
+U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/Motor_ctrl.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/F2837x_QEP_Module.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/f2837xbmsk.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/HAL/drv8301_defs.h: 
@@ -228,4 +229,3 @@ C:/ti/controlSUITE/device_support/F2837xS/v191/F2837xS_common/include/FlashAPI/C
 C:/ti/controlSUITE/device_support/F2837xS/v191/F2837xS_common/include/FlashAPI/Constants/F2837xS.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.2/include/string.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/Source/Header/steering_config.h: 
-U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/Motor_ctrl.h: 

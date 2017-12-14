@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                         PC v6.4.2 *
-       3              ;* Date/Time created: Thu Dec 14 13:37:30 2017                 *
+       3              ;* Date/Time created: Thu Dec 14 15:26:39 2017                 *
        4              ;***************************************************************
        5                      .compiler_opts --cla_support=cla0 --float_support=fpu32 --hll_source=on --mem_model:code=flat --mem_m
        6        0002  FP      .set    XAR2
@@ -58,7 +58,7 @@ F2837xS_PieCtrl.asm                                                  PAGE    1
       52 00000003 1800!         AND       @_PieCtrlRegs,#0xfffe ; [CPU_] |28| 
          00000004 FFFE 
       53                      .dwpsn  file "C:/ti/controlSUITE/device_support/F2837xS/v170/F2837xS_common/source/F2837xS_PieCtrl.c"
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE    2
@@ -118,7 +118,7 @@ F2837xS_PieCtrl.asm                                                  PAGE    2
      106 0000001e 0006          LRETR     ; [CPU_] 
      107                      ; return occurs ; [] 
      108                      .dwattr $C$DW$2, DW_AT_TI_end_file("C:/ti/controlSUITE/device_support/F2837xS/v170/F2837xS_common/sou
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE    3
@@ -178,7 +178,7 @@ F2837xS_PieCtrl.asm                                                  PAGE    3
      158                      .dwattr $C$DW$4, DW_AT_TI_end_line(0x4d)
      159                      .dwattr $C$DW$4, DW_AT_TI_end_column(0x01)
      160                      .dwendentry
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE    4
@@ -238,7 +238,7 @@ F2837xS_PieCtrl.asm                                                  PAGE    4
      213                      .dwattr $C$DW$11, DW_AT_TI_symbol_name("_ACK6")
      214                      .dwattr $C$DW$11, DW_AT_bit_offset(0x0a), DW_AT_bit_size(0x01)
      215                      .dwattr $C$DW$11, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE    5
@@ -298,7 +298,7 @@ F2837xS_PieCtrl.asm                                                  PAGE    5
      268              
      269              $C$DW$T$21      .dwtag  DW_TAG_union_type
      270                      .dwattr $C$DW$T$21, DW_AT_name("PIEACK_REG")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE    6
@@ -358,7 +358,7 @@ F2837xS_PieCtrl.asm                                                  PAGE    6
      323              
      324              
      325              $C$DW$T$24      .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE    7
@@ -418,7 +418,7 @@ F2837xS_PieCtrl.asm                                                  PAGE    7
      378                      .dwattr $C$DW$32, DW_AT_type(*$C$DW$T$19)
      379                      .dwattr $C$DW$32, DW_AT_name("INTx8")
      380                      .dwattr $C$DW$32, DW_AT_TI_symbol_name("_INTx8")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE    8
@@ -478,7 +478,7 @@ F2837xS_PieCtrl.asm                                                  PAGE    8
      433              $C$DW$40        .dwtag  DW_TAG_member
      434                      .dwattr $C$DW$40, DW_AT_type(*$C$DW$T$19)
      435                      .dwattr $C$DW$40, DW_AT_name("INTx16")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE    9
@@ -538,7 +538,7 @@ F2837xS_PieCtrl.asm                                                  PAGE    9
      488                      .dwattr $C$DW$46, DW_AT_TI_symbol_name("_INTx4")
      489                      .dwattr $C$DW$46, DW_AT_bit_offset(0x0c), DW_AT_bit_size(0x01)
      490                      .dwattr $C$DW$46, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   10
@@ -598,7 +598,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   10
      543                      .dwattr $C$DW$54, DW_AT_name("INTx12")
      544                      .dwattr $C$DW$54, DW_AT_TI_symbol_name("_INTx12")
      545                      .dwattr $C$DW$54, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   11
@@ -658,7 +658,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   11
      598                      .dwattr $C$DW$T$28, DW_AT_name("PIEIER12_BITS")
      599                      .dwattr $C$DW$T$28, DW_AT_byte_size(0x01)
      600              $C$DW$61        .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   12
@@ -718,7 +718,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   12
      653                      .dwattr $C$DW$68, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x01)
      654                      .dwattr $C$DW$68, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
      655                      .dwattr $C$DW$68, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   13
@@ -778,7 +778,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   13
      708                      .dwattr $C$DW$76, DW_AT_TI_symbol_name("_INTx16")
      709                      .dwattr $C$DW$76, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x01)
      710                      .dwattr $C$DW$76, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   14
@@ -838,7 +838,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   14
      763                      .dwattr $C$DW$82, DW_AT_accessibility(DW_ACCESS_public)
      764              $C$DW$83        .dwtag  DW_TAG_member
      765                      .dwattr $C$DW$83, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   15
@@ -898,7 +898,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   15
      818                      .dwattr $C$DW$90, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
      819                      .dwattr $C$DW$90, DW_AT_accessibility(DW_ACCESS_public)
      820              $C$DW$91        .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   16
@@ -958,7 +958,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   16
      873                      .dwattr $C$DW$97, DW_AT_type(*$C$DW$T$19)
      874                      .dwattr $C$DW$97, DW_AT_name("INTx1")
      875                      .dwattr $C$DW$97, DW_AT_TI_symbol_name("_INTx1")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   17
@@ -1018,7 +1018,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   17
      928              $C$DW$105       .dwtag  DW_TAG_member
      929                      .dwattr $C$DW$105, DW_AT_type(*$C$DW$T$19)
      930                      .dwattr $C$DW$105, DW_AT_name("INTx9")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   18
@@ -1078,7 +1078,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   18
      983                      .dwattr $C$DW$112, DW_AT_accessibility(DW_ACCESS_public)
      984                      .dwendtag $C$DW$T$32
      985              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   19
@@ -1138,7 +1138,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   19
     1038                      .dwattr $C$DW$119, DW_AT_name("INTx5")
     1039                      .dwattr $C$DW$119, DW_AT_TI_symbol_name("_INTx5")
     1040                      .dwattr $C$DW$119, DW_AT_bit_offset(0x0b), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   20
@@ -1198,7 +1198,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   20
     1093                      .dwattr $C$DW$127, DW_AT_type(*$C$DW$T$19)
     1094                      .dwattr $C$DW$127, DW_AT_name("INTx13")
     1095                      .dwattr $C$DW$127, DW_AT_TI_symbol_name("_INTx13")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   21
@@ -1258,7 +1258,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   21
     1148                      .dwattr $C$DW$133, DW_AT_bit_offset(0x0f), DW_AT_bit_size(0x01)
     1149                      .dwattr $C$DW$133, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1150                      .dwattr $C$DW$133, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   22
@@ -1318,7 +1318,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   22
     1203                      .dwattr $C$DW$141, DW_AT_TI_symbol_name("_INTx9")
     1204                      .dwattr $C$DW$141, DW_AT_bit_offset(0x07), DW_AT_bit_size(0x01)
     1205                      .dwattr $C$DW$141, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   23
@@ -1378,7 +1378,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   23
     1258              
     1259              $C$DW$T$37      .dwtag  DW_TAG_union_type
     1260                      .dwattr $C$DW$T$37, DW_AT_name("PIEIER4_REG")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   24
@@ -1438,7 +1438,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   24
     1313                      .dwattr $C$DW$155, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1314                      .dwattr $C$DW$155, DW_AT_accessibility(DW_ACCESS_public)
     1315              $C$DW$156       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   25
@@ -1498,7 +1498,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   25
     1368                      .dwattr $C$DW$163, DW_AT_bit_offset(0x03), DW_AT_bit_size(0x01)
     1369                      .dwattr $C$DW$163, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1370                      .dwattr $C$DW$163, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   26
@@ -1558,7 +1558,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   26
     1423              $C$DW$170       .dwtag  DW_TAG_member
     1424                      .dwattr $C$DW$170, DW_AT_type(*$C$DW$T$19)
     1425                      .dwattr $C$DW$170, DW_AT_name("INTx2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   27
@@ -1618,7 +1618,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   27
     1478                      .dwattr $C$DW$177, DW_AT_accessibility(DW_ACCESS_public)
     1479              $C$DW$178       .dwtag  DW_TAG_member
     1480                      .dwattr $C$DW$178, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   28
@@ -1678,7 +1678,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   28
     1533                      .dwattr $C$DW$T$41, DW_AT_byte_size(0x01)
     1534              $C$DW$185       .dwtag  DW_TAG_member
     1535                      .dwattr $C$DW$185, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   29
@@ -1738,7 +1738,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   29
     1588                      .dwattr $C$DW$192, DW_AT_type(*$C$DW$T$19)
     1589                      .dwattr $C$DW$192, DW_AT_name("INTx6")
     1590                      .dwattr $C$DW$192, DW_AT_TI_symbol_name("_INTx6")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   30
@@ -1798,7 +1798,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   30
     1643              $C$DW$200       .dwtag  DW_TAG_member
     1644                      .dwattr $C$DW$200, DW_AT_type(*$C$DW$T$19)
     1645                      .dwattr $C$DW$200, DW_AT_name("INTx14")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   31
@@ -1858,7 +1858,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   31
     1698                      .dwattr $C$DW$206, DW_AT_TI_symbol_name("_INTx2")
     1699                      .dwattr $C$DW$206, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x01)
     1700                      .dwattr $C$DW$206, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   32
@@ -1918,7 +1918,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   32
     1753                      .dwattr $C$DW$214, DW_AT_name("INTx10")
     1754                      .dwattr $C$DW$214, DW_AT_TI_symbol_name("_INTx10")
     1755                      .dwattr $C$DW$214, DW_AT_bit_offset(0x06), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   33
@@ -1978,7 +1978,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   33
     1808                      .dwattr $C$DW$221, DW_AT_name("all")
     1809                      .dwattr $C$DW$221, DW_AT_TI_symbol_name("_all")
     1810                      .dwattr $C$DW$221, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   34
@@ -2038,7 +2038,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   34
     1863                      .dwattr $C$DW$228, DW_AT_bit_offset(0x0a), DW_AT_bit_size(0x01)
     1864                      .dwattr $C$DW$228, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1865                      .dwattr $C$DW$228, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   35
@@ -2098,7 +2098,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   35
     1918                      .dwattr $C$DW$236, DW_AT_TI_symbol_name("_INTx14")
     1919                      .dwattr $C$DW$236, DW_AT_bit_offset(0x02), DW_AT_bit_size(0x01)
     1920                      .dwattr $C$DW$236, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   36
@@ -2158,7 +2158,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   36
     1973                      .dwattr $C$DW$242, DW_AT_accessibility(DW_ACCESS_public)
     1974              $C$DW$243       .dwtag  DW_TAG_member
     1975                      .dwattr $C$DW$243, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   37
@@ -2218,7 +2218,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   37
     2028                      .dwattr $C$DW$250, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2029                      .dwattr $C$DW$250, DW_AT_accessibility(DW_ACCESS_public)
     2030              $C$DW$251       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   38
@@ -2278,7 +2278,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   38
     2083                      .dwattr $C$DW$257, DW_AT_accessibility(DW_ACCESS_public)
     2084              $C$DW$258       .dwtag  DW_TAG_member
     2085                      .dwattr $C$DW$258, DW_AT_type(*$C$DW$T$48)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   39
@@ -2338,7 +2338,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   39
     2138              $C$DW$265       .dwtag  DW_TAG_member
     2139                      .dwattr $C$DW$265, DW_AT_type(*$C$DW$T$19)
     2140                      .dwattr $C$DW$265, DW_AT_name("INTx7")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   40
@@ -2398,7 +2398,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   40
     2193                      .dwattr $C$DW$272, DW_AT_accessibility(DW_ACCESS_public)
     2194              $C$DW$273       .dwtag  DW_TAG_member
     2195                      .dwattr $C$DW$273, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   41
@@ -2458,7 +2458,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   41
     2248                      .dwattr $C$DW$279, DW_AT_name("INTx3")
     2249                      .dwattr $C$DW$279, DW_AT_TI_symbol_name("_INTx3")
     2250                      .dwattr $C$DW$279, DW_AT_bit_offset(0x0d), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   42
@@ -2518,7 +2518,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   42
     2303                      .dwattr $C$DW$287, DW_AT_type(*$C$DW$T$19)
     2304                      .dwattr $C$DW$287, DW_AT_name("INTx11")
     2305                      .dwattr $C$DW$287, DW_AT_TI_symbol_name("_INTx11")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   43
@@ -2578,7 +2578,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   43
     2358                      .dwattr $C$DW$294, DW_AT_name("bit")
     2359                      .dwattr $C$DW$294, DW_AT_TI_symbol_name("_bit")
     2360                      .dwattr $C$DW$294, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   44
@@ -2638,7 +2638,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   44
     2413                      .dwattr $C$DW$301, DW_AT_TI_symbol_name("_INTx7")
     2414                      .dwattr $C$DW$301, DW_AT_bit_offset(0x09), DW_AT_bit_size(0x01)
     2415                      .dwattr $C$DW$301, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   45
@@ -2698,7 +2698,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   45
     2468                      .dwattr $C$DW$309, DW_AT_name("INTx15")
     2469                      .dwattr $C$DW$309, DW_AT_TI_symbol_name("_INTx15")
     2470                      .dwattr $C$DW$309, DW_AT_bit_offset(0x01), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   46
@@ -2758,7 +2758,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   46
     2523                      .dwattr $C$DW$315, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2524                      .dwattr $C$DW$315, DW_AT_accessibility(DW_ACCESS_public)
     2525              $C$DW$316       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   47
@@ -2818,7 +2818,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   47
     2578                      .dwattr $C$DW$323, DW_AT_bit_offset(0x05), DW_AT_bit_size(0x01)
     2579                      .dwattr $C$DW$323, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2580                      .dwattr $C$DW$323, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   48
@@ -2878,7 +2878,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   48
     2633                      .dwattr $C$DW$330, DW_AT_accessibility(DW_ACCESS_public)
     2634                      .dwendtag $C$DW$T$57
     2635              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   49
@@ -2938,7 +2938,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   49
     2688                      .dwattr $C$DW$337, DW_AT_accessibility(DW_ACCESS_public)
     2689              $C$DW$338       .dwtag  DW_TAG_member
     2690                      .dwattr $C$DW$338, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   50
@@ -2998,7 +2998,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   50
     2743                      .dwattr $C$DW$345, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2744                      .dwattr $C$DW$345, DW_AT_accessibility(DW_ACCESS_public)
     2745              $C$DW$346       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   51
@@ -3058,7 +3058,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   51
     2798                      .dwattr $C$DW$352, DW_AT_type(*$C$DW$T$19)
     2799                      .dwattr $C$DW$352, DW_AT_name("INTx4")
     2800                      .dwattr $C$DW$352, DW_AT_TI_symbol_name("_INTx4")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   52
@@ -3118,7 +3118,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   52
     2853              $C$DW$360       .dwtag  DW_TAG_member
     2854                      .dwattr $C$DW$360, DW_AT_type(*$C$DW$T$19)
     2855                      .dwattr $C$DW$360, DW_AT_name("INTx12")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   53
@@ -3178,7 +3178,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   53
     2908              
     2909              $C$DW$T$62      .dwtag  DW_TAG_structure_type
     2910                      .dwattr $C$DW$T$62, DW_AT_name("PIEIFR5_BITS")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   54
@@ -3238,7 +3238,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   54
     2963                      .dwattr $C$DW$374, DW_AT_name("INTx8")
     2964                      .dwattr $C$DW$374, DW_AT_TI_symbol_name("_INTx8")
     2965                      .dwattr $C$DW$374, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   55
@@ -3298,7 +3298,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   55
     3018                      .dwattr $C$DW$382, DW_AT_type(*$C$DW$T$19)
     3019                      .dwattr $C$DW$382, DW_AT_name("INTx16")
     3020                      .dwattr $C$DW$382, DW_AT_TI_symbol_name("_INTx16")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   56
@@ -3358,7 +3358,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   56
     3073                      .dwattr $C$DW$388, DW_AT_bit_offset(0x0c), DW_AT_bit_size(0x01)
     3074                      .dwattr $C$DW$388, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3075                      .dwattr $C$DW$388, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   57
@@ -3418,7 +3418,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   57
     3128                      .dwattr $C$DW$396, DW_AT_TI_symbol_name("_INTx12")
     3129                      .dwattr $C$DW$396, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x01)
     3130                      .dwattr $C$DW$396, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   58
@@ -3478,7 +3478,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   58
     3183                      .dwattr $C$DW$T$66, DW_AT_byte_size(0x01)
     3184              $C$DW$403       .dwtag  DW_TAG_member
     3185                      .dwattr $C$DW$403, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   59
@@ -3538,7 +3538,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   59
     3238                      .dwattr $C$DW$410, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3239                      .dwattr $C$DW$410, DW_AT_accessibility(DW_ACCESS_public)
     3240              $C$DW$411       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   60
@@ -3598,7 +3598,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   60
     3293                      .dwattr $C$DW$418, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x01)
     3294                      .dwattr $C$DW$418, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3295                      .dwattr $C$DW$418, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   61
@@ -3658,7 +3658,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   61
     3348              $C$DW$425       .dwtag  DW_TAG_member
     3349                      .dwattr $C$DW$425, DW_AT_type(*$C$DW$T$19)
     3350                      .dwattr $C$DW$425, DW_AT_name("INTx5")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   62
@@ -3718,7 +3718,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   62
     3403                      .dwattr $C$DW$432, DW_AT_accessibility(DW_ACCESS_public)
     3404              $C$DW$433       .dwtag  DW_TAG_member
     3405                      .dwattr $C$DW$433, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   63
@@ -3778,7 +3778,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   63
     3458                      .dwattr $C$DW$439, DW_AT_name("INTx1")
     3459                      .dwattr $C$DW$439, DW_AT_TI_symbol_name("_INTx1")
     3460                      .dwattr $C$DW$439, DW_AT_bit_offset(0x0f), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   64
@@ -3838,7 +3838,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   64
     3513                      .dwattr $C$DW$447, DW_AT_type(*$C$DW$T$19)
     3514                      .dwattr $C$DW$447, DW_AT_name("INTx9")
     3515                      .dwattr $C$DW$447, DW_AT_TI_symbol_name("_INTx9")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   65
@@ -3898,7 +3898,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   65
     3568                      .dwendtag $C$DW$T$70
     3569              
     3570              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   66
@@ -3958,7 +3958,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   66
     3623                      .dwattr $C$DW$462, DW_AT_type(*$C$DW$T$57)
     3624                      .dwattr $C$DW$462, DW_AT_name("PIEIFR2")
     3625                      .dwattr $C$DW$462, DW_AT_TI_symbol_name("_PIEIFR2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   67
@@ -4018,7 +4018,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   67
     3678                      .dwattr $C$DW$471, DW_AT_name("PIEIER7")
     3679                      .dwattr $C$DW$471, DW_AT_TI_symbol_name("_PIEIER7")
     3680                      .dwattr $C$DW$471, DW_AT_data_member_location[DW_OP_plus_uconst 0xe]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   68
@@ -4078,7 +4078,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   68
     3733                      .dwattr $C$DW$480, DW_AT_TI_symbol_name("_PIEIFR11")
     3734                      .dwattr $C$DW$480, DW_AT_data_member_location[DW_OP_plus_uconst 0x17]
     3735                      .dwattr $C$DW$480, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   69
@@ -4138,7 +4138,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   69
     3788              $C$DW$T$19      .dwtag  DW_TAG_typedef, DW_AT_name("Uint16")
     3789                      .dwattr $C$DW$T$19, DW_AT_type(*$C$DW$T$11)
     3790                      .dwattr $C$DW$T$19, DW_AT_language(DW_LANG_C)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   70
@@ -4198,7 +4198,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   70
     3843                      .dwcfi  undefined, 32
     3844                      .dwcfi  undefined, 33
     3845                      .dwcfi  undefined, 34
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   71
@@ -4258,7 +4258,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   71
     3898              $C$DW$485       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AH")
     3899                      .dwattr $C$DW$485, DW_AT_location[DW_OP_reg1]
     3900              $C$DW$486       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PL")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   72
@@ -4318,7 +4318,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   72
     3953                      .dwattr $C$DW$512, DW_AT_location[DW_OP_reg8]
     3954              $C$DW$513       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR2")
     3955                      .dwattr $C$DW$513, DW_AT_location[DW_OP_reg9]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   73
@@ -4378,7 +4378,7 @@ F2837xS_PieCtrl.asm                                                  PAGE   73
     4008              $C$DW$540       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("RBL")
     4009                      .dwattr $C$DW$540, DW_AT_location[DW_OP_regx 0x49]
     4010              $C$DW$541       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("RB")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:31 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:40 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 F2837xS_PieCtrl.asm                                                  PAGE   74

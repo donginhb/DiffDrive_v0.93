@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:57 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:07 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 hal_button.asm                                                       PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                         PC v6.4.2 *
-       3              ;* Date/Time created: Thu Dec 14 13:37:57 2017                 *
+       3              ;* Date/Time created: Thu Dec 14 15:27:07 2017                 *
        4              ;***************************************************************
        5                      .compiler_opts --cla_support=cla0 --float_support=fpu32 --hll_source=on --mem_model:code=flat --mem_m
        6        0002  FP      .set    XAR2
@@ -58,7 +58,7 @@ hal_button.asm                                                       PAGE    1
       53              
       54              $C$DW$11        .dwtag  DW_TAG_subprogram, DW_AT_name("hal_button_init")
       55                      .dwattr $C$DW$11, DW_AT_low_pc(_hal_button_init)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:57 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:07 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 hal_button.asm                                                       PAGE    2
@@ -118,7 +118,7 @@ hal_button.asm                                                       PAGE    2
      106                      .dwattr $C$DW$11, DW_AT_TI_end_line(0x16)
      107                      .dwattr $C$DW$11, DW_AT_TI_end_column(0x01)
      108                      .dwendentry
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:57 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:07 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 hal_button.asm                                                       PAGE    3
@@ -178,7 +178,7 @@ hal_button.asm                                                       PAGE    3
      160 00000010 EC03          BF        $C$L1,EQ              ; [CPU_] |27| 
      161                      ; branchcc occurs ; [] |27| 
      162                      .dwpsn  file "../Source/App/hal_button.c",line 28,column 3,is_stmt,isa 0
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:57 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:07 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 hal_button.asm                                                       PAGE    4
@@ -238,7 +238,7 @@ hal_button.asm                                                       PAGE    4
      215                      .dwattr $C$DW$T$8, DW_AT_byte_size(0x01)
      216              $C$DW$T$9       .dwtag  DW_TAG_base_type
      217                      .dwattr $C$DW$T$9, DW_AT_encoding(DW_ATE_unsigned)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:57 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:07 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 hal_button.asm                                                       PAGE    5
@@ -298,7 +298,7 @@ hal_button.asm                                                       PAGE    5
      270                      .dwcfi  undefined, 2
      271                      .dwcfi  undefined, 3
      272                      .dwcfi  undefined, 20
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:57 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:07 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 hal_button.asm                                                       PAGE    6
@@ -358,7 +358,7 @@ hal_button.asm                                                       PAGE    6
      325                      .dwcfi  undefined, 73
      326                      .dwcfi  undefined, 74
      327                      .dwcfi  undefined, 39
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:57 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:07 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 hal_button.asm                                                       PAGE    7
@@ -418,7 +418,7 @@ hal_button.asm                                                       PAGE    7
      380              $C$DW$42        .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PSEUDOH")
      381                      .dwattr $C$DW$42, DW_AT_location[DW_OP_regx 0x4c]
      382              $C$DW$43        .dwtag  DW_TAG_TI_assign_register, DW_AT_name("VOL")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:57 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:07 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 hal_button.asm                                                       PAGE    8
@@ -478,7 +478,7 @@ hal_button.asm                                                       PAGE    8
      435                      .dwattr $C$DW$69, DW_AT_location[DW_OP_regx 0x3c]
      436              $C$DW$70        .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R5HL")
      437                      .dwattr $C$DW$70, DW_AT_location[DW_OP_regx 0x3f]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:57 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:07 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 hal_button.asm                                                       PAGE    9

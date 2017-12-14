@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:48 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:55 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 power_limits.asm                                                     PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                         PC v6.4.2 *
-       3              ;* Date/Time created: Thu Dec 14 13:36:48 2017                 *
+       3              ;* Date/Time created: Thu Dec 14 15:25:55 2017                 *
        4              ;***************************************************************
        5                      .compiler_opts --cla_support=cla0 --float_support=fpu32 --hll_source=on --mem_model:code=flat --mem_m
        6        0002  FP      .set    XAR2
@@ -58,7 +58,7 @@ power_limits.asm                                                     PAGE    1
          00000002 0000 
       53 00000003 E801          MOVIZ     R0H,#15296            ; [CPU_] |16| 
          00000004 DE00 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:48 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:55 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 power_limits.asm                                                     PAGE    2
@@ -118,7 +118,7 @@ power_limits.asm                                                     PAGE    2
      101                      .dwattr $C$DW$5, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x10)
      102                      .dwattr $C$DW$5, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
      103                      .dwattr $C$DW$5, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:48 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:55 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 power_limits.asm                                                     PAGE    3
@@ -178,7 +178,7 @@ power_limits.asm                                                     PAGE    3
      156                      .dwattr $C$DW$11, DW_AT_name("bit")
      157                      .dwattr $C$DW$11, DW_AT_TI_symbol_name("_bit")
      158                      .dwattr $C$DW$11, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:48 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:55 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 power_limits.asm                                                     PAGE    4
@@ -238,7 +238,7 @@ power_limits.asm                                                     PAGE    4
      211              $C$DW$17        .dwtag  DW_TAG_member
      212                      .dwattr $C$DW$17, DW_AT_type(*$C$DW$T$19)
      213                      .dwattr $C$DW$17, DW_AT_name("SIGN")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:48 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:55 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 power_limits.asm                                                     PAGE    5
@@ -298,7 +298,7 @@ power_limits.asm                                                     PAGE    5
      266              $C$DW$24        .dwtag  DW_TAG_member
      267                      .dwattr $C$DW$24, DW_AT_type(*$C$DW$T$19)
      268                      .dwattr $C$DW$24, DW_AT_name("ADCRESULT4")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:48 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:55 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 power_limits.asm                                                     PAGE    6
@@ -358,7 +358,7 @@ power_limits.asm                                                     PAGE    6
      321                      .dwattr $C$DW$33, DW_AT_type(*$C$DW$T$19)
      322                      .dwattr $C$DW$33, DW_AT_name("ADCRESULT13")
      323                      .dwattr $C$DW$33, DW_AT_TI_symbol_name("_ADCRESULT13")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:48 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:55 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 power_limits.asm                                                     PAGE    7
@@ -418,7 +418,7 @@ power_limits.asm                                                     PAGE    7
      376                      .dwattr $C$DW$T$5, DW_AT_name("signed char")
      377                      .dwattr $C$DW$T$5, DW_AT_byte_size(0x01)
      378              $C$DW$T$6       .dwtag  DW_TAG_base_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:48 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:55 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 power_limits.asm                                                     PAGE    8
@@ -478,7 +478,7 @@ power_limits.asm                                                     PAGE    8
      431                      .dwattr $C$DW$T$17, DW_AT_byte_size(0x02)
      432              $C$DW$T$18      .dwtag  DW_TAG_base_type
      433                      .dwattr $C$DW$T$18, DW_AT_encoding(DW_ATE_float)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:48 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:55 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 power_limits.asm                                                     PAGE    9
@@ -538,7 +538,7 @@ power_limits.asm                                                     PAGE    9
      486                      .dwcfi  undefined, 43
      487                      .dwcfi  undefined, 44
      488                      .dwcfi  undefined, 47
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:48 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:55 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 power_limits.asm                                                     PAGE   10
@@ -598,7 +598,7 @@ power_limits.asm                                                     PAGE   10
      541              $C$DW$55        .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PM")
      542                      .dwattr $C$DW$55, DW_AT_location[DW_OP_reg31]
      543              $C$DW$56        .dwtag  DW_TAG_TI_assign_register, DW_AT_name("OVM")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:48 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:55 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 power_limits.asm                                                     PAGE   11
@@ -658,7 +658,7 @@ power_limits.asm                                                     PAGE   11
      596                      .dwattr $C$DW$82, DW_AT_location[DW_OP_regx 0x2c]
      597              $C$DW$83        .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R1HL")
      598                      .dwattr $C$DW$83, DW_AT_location[DW_OP_regx 0x2f]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:48 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:55 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 power_limits.asm                                                     PAGE   12

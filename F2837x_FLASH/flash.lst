@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                         PC v6.4.2 *
-       3              ;* Date/Time created: Thu Dec 14 13:37:51 2017                 *
+       3              ;* Date/Time created: Thu Dec 14 15:27:01 2017                 *
        4              ;***************************************************************
        5                      .compiler_opts --cla_support=cla0 --float_support=fpu32 --hll_source=on --mem_model:code=flat --mem_m
        6        0002  FP      .set    XAR2
@@ -58,7 +58,7 @@ flash.asm                                                            PAGE    1
       51                      .dwattr $C$DW$10, DW_AT_type(*$C$DW$T$65)
       52              $C$DW$11        .dwtag  DW_TAG_formal_parameter
       53                      .dwattr $C$DW$11, DW_AT_type(*$C$DW$T$368)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE    2
@@ -118,7 +118,7 @@ flash.asm                                                            PAGE    2
      106              $C$DW$24        .dwtag  DW_TAG_formal_parameter
      107                      .dwattr $C$DW$24, DW_AT_type(*$C$DW$T$373)
      108              $C$DW$25        .dwtag  DW_TAG_formal_parameter
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE    3
@@ -178,7 +178,7 @@ flash.asm                                                            PAGE    3
      161                      .dwattr $C$DW$29, DW_AT_location[DW_OP_breg20 -1]
      162              $C$DW$30        .dwtag  DW_TAG_variable, DW_AT_name("oFlashStatusWord")
      163                      .dwattr $C$DW$30, DW_AT_TI_symbol_name("_oFlashStatusWord")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE    4
@@ -238,7 +238,7 @@ flash.asm                                                            PAGE    4
          00000014 1000 
      212 00000015 A8A9          MOVL      ACC,XAR4              ; [CPU_] |47| 
      213 00000016 DD8A          SUBB      XAR5,#10              ; [CPU_U] |47| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE    5
@@ -298,7 +298,7 @@ flash.asm                                                            PAGE    5
      263                      .dwattr $C$DW$38, DW_AT_TI_symbol_name("_write_Flash")
      264                      .dwattr $C$DW$38, DW_AT_external
      265                      .dwattr $C$DW$38, DW_AT_type(*$C$DW$T$396)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE    6
@@ -358,7 +358,7 @@ flash.asm                                                            PAGE    6
      318                      .dwattr $C$DW$46, DW_AT_type(*$C$DW$T$406)
      319                      .dwattr $C$DW$46, DW_AT_location[DW_OP_breg20 -12]
      320              $C$DW$47        .dwtag  DW_TAG_variable, DW_AT_name("oFlashStatusWord")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE    7
@@ -418,7 +418,7 @@ flash.asm                                                            PAGE    7
      370 00000041 56BF          MOVB      *+XAR4[AR0],#13,UNC   ; [CPU_] |97| 
          00000042 0D94 
      371                      .dwpsn  file "../Source/App/flash.c",line 99,column 2,is_stmt,isa 0
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE    8
@@ -478,7 +478,7 @@ flash.asm                                                            PAGE    8
      420              $C$DW$52        .dwtag  DW_TAG_TI_branch
      421                      .dwattr $C$DW$52, DW_AT_low_pc(0x00)
      422                      .dwattr $C$DW$52, DW_AT_name("_Fapi_getFsmStatus")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE    9
@@ -538,7 +538,7 @@ flash.asm                                                            PAGE    9
      468                      ; branchcc occurs ; [] |101| 
      469 00000083 924A          MOV       AL,*-SP[10]           ; [CPU_] |101| 
      470 00000084 ECC5          BF        $C$L7,EQ              ; [CPU_] |101| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   10
@@ -598,7 +598,7 @@ flash.asm                                                            PAGE   10
      522              
      523              ;***************************************************************
      524              ;* FNAME: _read_Flash                   FR SIZE:  24           *
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   11
@@ -658,7 +658,7 @@ flash.asm                                                            PAGE   11
      577 00000004 1E48          MOVL      *-SP[8],ACC           ; [CPU_] |144| 
      578                      .dwpsn  file "../Source/App/flash.c",line 145,column 19,is_stmt,isa 0
      579 00000005 2B49          MOV       *-SP[9],#0            ; [CPU_] |145| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   12
@@ -718,7 +718,7 @@ flash.asm                                                            PAGE   12
          00000023 0000 
      627                      ; call occurs [#_Fapi_doVerify] ; [] |169| 
      628 00000024 964D          MOV       *-SP[13],AL           ; [CPU_] |169| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   13
@@ -778,7 +778,7 @@ flash.asm                                                            PAGE   13
      676                      .dwattr $C$DW$56, DW_AT_TI_end_file("../Source/App/flash.c")
      677                      .dwattr $C$DW$56, DW_AT_TI_end_line(0xb6)
      678                      .dwattr $C$DW$56, DW_AT_TI_end_column(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   14
@@ -838,7 +838,7 @@ flash.asm                                                            PAGE   14
      728                      .dwattr $C$DW$74, DW_AT_low_pc(0x00)
      729                      .dwattr $C$DW$74, DW_AT_name("_Fapi_initializeAPI")
      730                      .dwattr $C$DW$74, DW_AT_TI_call
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   15
@@ -898,7 +898,7 @@ flash.asm                                                            PAGE   15
      781              $C$DW$77        .dwtag  DW_TAG_subprogram, DW_AT_name("exitFlashCommand")
      782                      .dwattr $C$DW$77, DW_AT_low_pc(_exitFlashCommand)
      783                      .dwattr $C$DW$77, DW_AT_high_pc(0x00)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   16
@@ -958,7 +958,7 @@ flash.asm                                                            PAGE   16
      832              ;**************************************************************
      833                      .global _Fapi_issueProgrammingCommand
      834                      .global _Fapi_doVerify
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   17
@@ -1018,7 +1018,7 @@ flash.asm                                                            PAGE   17
      887                      .dwattr $C$DW$T$363, DW_AT_language(DW_LANG_C)
      888              
      889              $C$DW$T$366     .dwtag  DW_TAG_enumeration_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   18
@@ -1078,7 +1078,7 @@ flash.asm                                                            PAGE   18
      942                      .dwattr $C$DW$120, DW_AT_name("_FRDCNTL_Reserved_07_05")
      943                      .dwattr $C$DW$120, DW_AT_TI_symbol_name("__FRDCNTL_Reserved_07_05")
      944                      .dwattr $C$DW$120, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x03)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   19
@@ -1138,7 +1138,7 @@ flash.asm                                                            PAGE   19
      997                      .dwattr $C$DW$127, DW_AT_TI_symbol_name("_RM0")
      998                      .dwattr $C$DW$127, DW_AT_bit_offset(0x0f), DW_AT_bit_size(0x01)
      999                      .dwattr $C$DW$127, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   20
@@ -1198,7 +1198,7 @@ flash.asm                                                            PAGE   20
     1052                      .dwattr $C$DW$134, DW_AT_bit_offset(0x0b), DW_AT_bit_size(0x01)
     1053                      .dwattr $C$DW$134, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1054                      .dwattr $C$DW$134, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   21
@@ -1258,7 +1258,7 @@ flash.asm                                                            PAGE   21
     1107                      .dwattr $C$DW$142, DW_AT_TI_symbol_name("__FEDACCTRL1_Reserved_23_20")
     1108                      .dwattr $C$DW$142, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x04)
     1109                      .dwattr $C$DW$142, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   22
@@ -1318,7 +1318,7 @@ flash.asm                                                            PAGE   22
     1162                      .dwattr $C$DW$148, DW_AT_accessibility(DW_ACCESS_public)
     1163                      .dwendtag $C$DW$T$24
     1164              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   23
@@ -1378,7 +1378,7 @@ flash.asm                                                            PAGE   23
     1217                      .dwattr $C$DW$155, DW_AT_name("ERR_ZERO_FLG")
     1218                      .dwattr $C$DW$155, DW_AT_TI_symbol_name("_ERR_ZERO_FLG")
     1219                      .dwattr $C$DW$155, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   24
@@ -1438,7 +1438,7 @@ flash.asm                                                            PAGE   24
     1272                      .dwattr $C$DW$163, DW_AT_type(*$C$DW$T$19)
     1273                      .dwattr $C$DW$163, DW_AT_name("BUF_PAR_ERR")
     1274                      .dwattr $C$DW$163, DW_AT_TI_symbol_name("_BUF_PAR_ERR")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   25
@@ -1498,7 +1498,7 @@ flash.asm                                                            PAGE   25
     1327              $C$DW$171       .dwtag  DW_TAG_member
     1328                      .dwattr $C$DW$171, DW_AT_type(*$C$DW$T$19)
     1329                      .dwattr $C$DW$171, DW_AT_name("ECCB2_MAL_ERR")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   26
@@ -1558,7 +1558,7 @@ flash.asm                                                            PAGE   26
     1382                      .dwattr $C$DW$178, DW_AT_accessibility(DW_ACCESS_public)
     1383              $C$DW$179       .dwtag  DW_TAG_member
     1384                      .dwattr $C$DW$179, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   27
@@ -1618,7 +1618,7 @@ flash.asm                                                            PAGE   27
     1437              $C$DW$186       .dwtag  DW_TAG_member
     1438                      .dwattr $C$DW$186, DW_AT_type(*$C$DW$T$19)
     1439                      .dwattr $C$DW$186, DW_AT_name("SectorID1")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   28
@@ -1678,7 +1678,7 @@ flash.asm                                                            PAGE   28
     1492                      .dwattr $C$DW$193, DW_AT_type(*$C$DW$T$19)
     1493                      .dwattr $C$DW$193, DW_AT_name("PRIM_ADD_TAG_16_22")
     1494                      .dwattr $C$DW$193, DW_AT_TI_symbol_name("_PRIM_ADD_TAG_16_22")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   29
@@ -1738,7 +1738,7 @@ flash.asm                                                            PAGE   29
     1547                      .dwattr $C$DW$199, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x0f)
     1548                      .dwattr $C$DW$199, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1549                      .dwattr $C$DW$199, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   30
@@ -1798,7 +1798,7 @@ flash.asm                                                            PAGE   30
     1602                      .dwendtag $C$DW$T$32
     1603              
     1604              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   31
@@ -1858,7 +1858,7 @@ flash.asm                                                            PAGE   31
     1657                      .dwattr $C$DW$212, DW_AT_TI_symbol_name("_BANKPWR2")
     1658                      .dwattr $C$DW$212, DW_AT_bit_offset(0x0a), DW_AT_bit_size(0x02)
     1659                      .dwattr $C$DW$212, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   32
@@ -1918,7 +1918,7 @@ flash.asm                                                            PAGE   32
     1712                      .dwattr $C$DW$220, DW_AT_name("FSM_PWRSAV")
     1713                      .dwattr $C$DW$220, DW_AT_TI_symbol_name("_FSM_PWRSAV")
     1714                      .dwattr $C$DW$220, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x04)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   33
@@ -1978,7 +1978,7 @@ flash.asm                                                            PAGE   33
     1767              $C$DW$T$36      .dwtag  DW_TAG_structure_type
     1768                      .dwattr $C$DW$T$36, DW_AT_byte_size(0x02)
     1769              $C$DW$227       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   34
@@ -2038,7 +2038,7 @@ flash.asm                                                            PAGE   34
     1822                      .dwattr $C$DW$233, DW_AT_type(*$C$DW$T$19)
     1823                      .dwattr $C$DW$233, DW_AT_name("BANK")
     1824                      .dwattr $C$DW$233, DW_AT_TI_symbol_name("_BANK")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   35
@@ -2098,7 +2098,7 @@ flash.asm                                                            PAGE   35
     1877                      .dwattr $C$DW$240, DW_AT_name("CSTAT")
     1878                      .dwattr $C$DW$240, DW_AT_TI_symbol_name("_CSTAT")
     1879                      .dwattr $C$DW$240, DW_AT_bit_offset(0x0b), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   36
@@ -2158,7 +2158,7 @@ flash.asm                                                            PAGE   36
     1932                      .dwattr $C$DW$248, DW_AT_type(*$C$DW$T$19)
     1933                      .dwattr $C$DW$248, DW_AT_name("PGV")
     1934                      .dwattr $C$DW$248, DW_AT_TI_symbol_name("_PGV")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   37
@@ -2218,7 +2218,7 @@ flash.asm                                                            PAGE   37
     1987                      .dwattr $C$DW$255, DW_AT_name("EMU_ECC")
     1988                      .dwattr $C$DW$255, DW_AT_TI_symbol_name("_EMU_ECC")
     1989                      .dwattr $C$DW$255, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x08)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   38
@@ -2278,7 +2278,7 @@ flash.asm                                                            PAGE   38
     2042                      .dwattr $C$DW$261, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     2043                      .dwattr $C$DW$261, DW_AT_accessibility(DW_ACCESS_public)
     2044              $C$DW$262       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   39
@@ -2338,7 +2338,7 @@ flash.asm                                                            PAGE   39
     2097                      .dwattr $C$DW$268, DW_AT_accessibility(DW_ACCESS_public)
     2098              $C$DW$269       .dwtag  DW_TAG_member
     2099                      .dwattr $C$DW$269, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   40
@@ -2398,7 +2398,7 @@ flash.asm                                                            PAGE   40
     2152                      .dwendtag $C$DW$T$44
     2153              
     2154              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   41
@@ -2458,7 +2458,7 @@ flash.asm                                                            PAGE   41
     2207                      .dwattr $C$DW$282, DW_AT_TI_symbol_name("_VREADCT")
     2208                      .dwattr $C$DW$282, DW_AT_bit_offset(0x0c), DW_AT_bit_size(0x04)
     2209                      .dwattr $C$DW$282, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   42
@@ -2518,7 +2518,7 @@ flash.asm                                                            PAGE   42
     2262                      .dwattr $C$DW$T$48, DW_AT_byte_size(0x02)
     2263              $C$DW$289       .dwtag  DW_TAG_member
     2264                      .dwattr $C$DW$289, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   43
@@ -2578,7 +2578,7 @@ flash.asm                                                            PAGE   43
     2317              $C$DW$296       .dwtag  DW_TAG_member
     2318                      .dwattr $C$DW$296, DW_AT_type(*$C$DW$T$19)
     2319                      .dwattr $C$DW$296, DW_AT_name("_FVHVCT3_Reserved_31_20")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   44
@@ -2638,7 +2638,7 @@ flash.asm                                                            PAGE   44
     2372                      .dwattr $C$DW$302, DW_AT_TI_symbol_name("__FVLSP_Reserved_11_00")
     2373                      .dwattr $C$DW$302, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x0c)
     2374                      .dwattr $C$DW$302, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   45
@@ -2698,7 +2698,7 @@ flash.asm                                                            PAGE   45
     2427                      .dwattr $C$DW$308, DW_AT_accessibility(DW_ACCESS_public)
     2428              $C$DW$309       .dwtag  DW_TAG_member
     2429                      .dwattr $C$DW$309, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   46
@@ -2758,7 +2758,7 @@ flash.asm                                                            PAGE   46
     2482                      .dwattr $C$DW$316, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     2483                      .dwattr $C$DW$316, DW_AT_accessibility(DW_ACCESS_public)
     2484              $C$DW$317       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   47
@@ -2818,7 +2818,7 @@ flash.asm                                                            PAGE   47
     2537                      .dwattr $C$DW$323, DW_AT_type(*$C$DW$T$19)
     2538                      .dwattr $C$DW$323, DW_AT_name("_FSEQPMP_Reserved_31_15")
     2539                      .dwattr $C$DW$323, DW_AT_TI_symbol_name("__FSEQPMP_Reserved_31_15")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   48
@@ -2878,7 +2878,7 @@ flash.asm                                                            PAGE   48
     2592                      .dwattr $C$DW$329, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x03)
     2593                      .dwattr $C$DW$329, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2594                      .dwattr $C$DW$329, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   49
@@ -2938,7 +2938,7 @@ flash.asm                                                            PAGE   49
     2647                      .dwattr $C$DW$337, DW_AT_TI_symbol_name("__FEDACSDIS2_Reserved_28")
     2648                      .dwattr $C$DW$337, DW_AT_bit_offset(0x03), DW_AT_bit_size(0x01)
     2649                      .dwattr $C$DW$337, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   50
@@ -2998,7 +2998,7 @@ flash.asm                                                            PAGE   50
     2702                      .dwattr $C$DW$344, DW_AT_bit_offset(0x09), DW_AT_bit_size(0x01)
     2703                      .dwattr $C$DW$344, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2704                      .dwattr $C$DW$344, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   51
@@ -3058,7 +3058,7 @@ flash.asm                                                            PAGE   51
     2757              $C$DW$T$59      .dwtag  DW_TAG_structure_type
     2758                      .dwattr $C$DW$T$59, DW_AT_byte_size(0x02)
     2759              $C$DW$352       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   52
@@ -3118,7 +3118,7 @@ flash.asm                                                            PAGE   52
     2812                      .dwattr $C$DW$358, DW_AT_accessibility(DW_ACCESS_public)
     2813              $C$DW$359       .dwtag  DW_TAG_member
     2814                      .dwattr $C$DW$359, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   53
@@ -3178,7 +3178,7 @@ flash.asm                                                            PAGE   53
     2867                      .dwattr $C$DW$365, DW_AT_name("TP_BUSY_SEL")
     2868                      .dwattr $C$DW$365, DW_AT_TI_symbol_name("_TP_BUSY_SEL")
     2869                      .dwattr $C$DW$365, DW_AT_bit_offset(0x02), DW_AT_bit_size(0x03)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   54
@@ -3238,7 +3238,7 @@ flash.asm                                                            PAGE   54
     2922                      .dwattr $C$DW$372, DW_AT_TI_symbol_name("_GRP1_EN")
     2923                      .dwattr $C$DW$372, DW_AT_bit_offset(0x0b), DW_AT_bit_size(0x01)
     2924                      .dwattr $C$DW$372, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   55
@@ -3298,7 +3298,7 @@ flash.asm                                                            PAGE   55
     2977                      .dwattr $C$DW$379, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x07)
     2978                      .dwattr $C$DW$379, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     2979                      .dwattr $C$DW$379, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   56
@@ -3358,7 +3358,7 @@ flash.asm                                                            PAGE   56
     3032                      .dwattr $C$DW$386, DW_AT_type(*$C$DW$T$19)
     3033                      .dwattr $C$DW$386, DW_AT_name("u8Bytes07_00")
     3034                      .dwattr $C$DW$386, DW_AT_TI_symbol_name("_u8Bytes07_00")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   57
@@ -3418,7 +3418,7 @@ flash.asm                                                            PAGE   57
     3087                      .dwattr $C$DW$392, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x10)
     3088                      .dwattr $C$DW$392, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     3089                      .dwattr $C$DW$392, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   58
@@ -3478,7 +3478,7 @@ flash.asm                                                            PAGE   58
     3142                      .dwattr $C$DW$399, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3143                      .dwattr $C$DW$399, DW_AT_accessibility(DW_ACCESS_public)
     3144              $C$DW$400       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   59
@@ -3538,7 +3538,7 @@ flash.asm                                                            PAGE   59
     3197                      .dwattr $C$DW$406, DW_AT_accessibility(DW_ACCESS_public)
     3198                      .dwendtag $C$DW$T$71
     3199              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   60
@@ -3598,7 +3598,7 @@ flash.asm                                                            PAGE   60
     3252              
     3253              $C$DW$T$74      .dwtag  DW_TAG_structure_type
     3254                      .dwattr $C$DW$T$74, DW_AT_byte_size(0x02)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   61
@@ -3658,7 +3658,7 @@ flash.asm                                                            PAGE   61
     3307              $C$DW$419       .dwtag  DW_TAG_member
     3308                      .dwattr $C$DW$419, DW_AT_type(*$C$DW$T$19)
     3309                      .dwattr $C$DW$419, DW_AT_name("CMP_VSU")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   62
@@ -3718,7 +3718,7 @@ flash.asm                                                            PAGE   62
     3362                      .dwattr $C$DW$425, DW_AT_TI_symbol_name("_RD_H")
     3363                      .dwattr $C$DW$425, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x08)
     3364                      .dwattr $C$DW$425, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   63
@@ -3778,7 +3778,7 @@ flash.asm                                                            PAGE   63
     3417                      .dwattr $C$DW$431, DW_AT_accessibility(DW_ACCESS_public)
     3418              $C$DW$432       .dwtag  DW_TAG_member
     3419                      .dwattr $C$DW$432, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   64
@@ -3838,7 +3838,7 @@ flash.asm                                                            PAGE   64
     3472                      .dwattr $C$DW$438, DW_AT_name("_FSM_PE_VH_Reserved_31_16")
     3473                      .dwattr $C$DW$438, DW_AT_TI_symbol_name("__FSM_PE_VH_Reserved_31_16")
     3474                      .dwattr $C$DW$438, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x10)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   65
@@ -3898,7 +3898,7 @@ flash.asm                                                            PAGE   65
     3527              $C$DW$444       .dwtag  DW_TAG_member
     3528                      .dwattr $C$DW$444, DW_AT_type(*$C$DW$T$19)
     3529                      .dwattr $C$DW$444, DW_AT_name("CMD")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   66
@@ -3958,7 +3958,7 @@ flash.asm                                                            PAGE   66
     3582                      .dwattr $C$DW$451, DW_AT_accessibility(DW_ACCESS_public)
     3583              $C$DW$452       .dwtag  DW_TAG_member
     3584                      .dwattr $C$DW$452, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   67
@@ -4018,7 +4018,7 @@ flash.asm                                                            PAGE   67
     3637                      .dwattr $C$DW$458, DW_AT_name("ERA_ADDR_15_0")
     3638                      .dwattr $C$DW$458, DW_AT_TI_symbol_name("_ERA_ADDR_15_0")
     3639                      .dwattr $C$DW$458, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x10)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   68
@@ -4078,7 +4078,7 @@ flash.asm                                                            PAGE   68
     3692                      .dwattr $C$DW$465, DW_AT_TI_symbol_name("__FSM_PRG_PUL_Reserved_31_25")
     3693                      .dwattr $C$DW$465, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x07)
     3694                      .dwattr $C$DW$465, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   69
@@ -4138,7 +4138,7 @@ flash.asm                                                            PAGE   69
     3747                      .dwattr $C$DW$471, DW_AT_accessibility(DW_ACCESS_public)
     3748              $C$DW$472       .dwtag  DW_TAG_member
     3749                      .dwattr $C$DW$472, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   70
@@ -4198,7 +4198,7 @@ flash.asm                                                            PAGE   70
     3802                      .dwattr $C$DW$478, DW_AT_name("_FSM_EC_STEP_HEIGHT_Reserved_15_7")
     3803                      .dwattr $C$DW$478, DW_AT_TI_symbol_name("__FSM_EC_STEP_HEIGHT_Reserved_15_7")
     3804                      .dwattr $C$DW$478, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x09)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   71
@@ -4258,7 +4258,7 @@ flash.asm                                                            PAGE   71
     3857                      .dwattr $C$DW$485, DW_AT_TI_symbol_name("_PGM_SEC_COF_EN")
     3858                      .dwattr $C$DW$485, DW_AT_bit_offset(0x0a), DW_AT_bit_size(0x01)
     3859                      .dwattr $C$DW$485, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   72
@@ -4318,7 +4318,7 @@ flash.asm                                                            PAGE   72
     3912                      .dwattr $C$DW$493, DW_AT_name("RV_INT_EN")
     3913                      .dwattr $C$DW$493, DW_AT_TI_symbol_name("_RV_INT_EN")
     3914                      .dwattr $C$DW$493, DW_AT_bit_offset(0x0f), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   73
@@ -4378,7 +4378,7 @@ flash.asm                                                            PAGE   73
     3967                      .dwattr $C$DW$501, DW_AT_type(*$C$DW$T$19)
     3968                      .dwattr $C$DW$501, DW_AT_name("_FSM_ST_MACHINE_Reserved_31_24")
     3969                      .dwattr $C$DW$501, DW_AT_TI_symbol_name("__FSM_ST_MACHINE_Reserved_31_24")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   74
@@ -4438,7 +4438,7 @@ flash.asm                                                            PAGE   74
     4022                      .dwattr $C$DW$T$96, DW_AT_byte_size(0x02)
     4023              $C$DW$507       .dwtag  DW_TAG_member
     4024                      .dwattr $C$DW$507, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   75
@@ -4498,7 +4498,7 @@ flash.asm                                                            PAGE   75
     4077                      .dwendtag $C$DW$T$97
     4078              
     4079              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   76
@@ -4558,7 +4558,7 @@ flash.asm                                                            PAGE   76
     4132                      .dwattr $C$DW$520, DW_AT_TI_symbol_name("__EEPROM_CONFIG_Reserved_15_09")
     4133                      .dwattr $C$DW$520, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x07)
     4134                      .dwattr $C$DW$520, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   77
@@ -4618,7 +4618,7 @@ flash.asm                                                            PAGE   77
     4187                      .dwattr $C$DW$T$101, DW_AT_byte_size(0x02)
     4188              $C$DW$527       .dwtag  DW_TAG_member
     4189                      .dwattr $C$DW$527, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   78
@@ -4678,7 +4678,7 @@ flash.asm                                                            PAGE   78
     4242              $C$DW$534       .dwtag  DW_TAG_member
     4243                      .dwattr $C$DW$534, DW_AT_type(*$C$DW$T$19)
     4244                      .dwattr $C$DW$534, DW_AT_name("ECCA")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   79
@@ -4738,7 +4738,7 @@ flash.asm                                                            PAGE   79
     4297                      .dwattr $C$DW$541, DW_AT_accessibility(DW_ACCESS_public)
     4298              $C$DW$542       .dwtag  DW_TAG_member
     4299                      .dwattr $C$DW$542, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   80
@@ -4798,7 +4798,7 @@ flash.asm                                                            PAGE   80
     4352              $C$DW$549       .dwtag  DW_TAG_member
     4353                      .dwattr $C$DW$549, DW_AT_type(*$C$DW$T$19)
     4354                      .dwattr $C$DW$549, DW_AT_name("B5_TYPE")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   81
@@ -4858,7 +4858,7 @@ flash.asm                                                            PAGE   81
     4407              
     4408              
     4409              $C$DW$T$105     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   82
@@ -4918,7 +4918,7 @@ flash.asm                                                            PAGE   82
     4462                      .dwattr $C$DW$562, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x04)
     4463                      .dwattr $C$DW$562, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     4464                      .dwattr $C$DW$562, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   83
@@ -4978,7 +4978,7 @@ flash.asm                                                            PAGE   83
     4517              $C$DW$569       .dwtag  DW_TAG_member
     4518                      .dwattr $C$DW$569, DW_AT_type(*$C$DW$T$19)
     4519                      .dwattr $C$DW$569, DW_AT_name("B4_START_ADDR_16_23")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   84
@@ -5038,7 +5038,7 @@ flash.asm                                                            PAGE   84
     4572              
     4573              
     4574              $C$DW$T$110     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   85
@@ -5098,7 +5098,7 @@ flash.asm                                                            PAGE   85
     4627                      .dwattr $C$DW$582, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x04)
     4628                      .dwattr $C$DW$582, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     4629                      .dwattr $C$DW$582, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   86
@@ -5158,7 +5158,7 @@ flash.asm                                                            PAGE   86
     4682              $C$DW$589       .dwtag  DW_TAG_member
     4683                      .dwattr $C$DW$589, DW_AT_type(*$C$DW$T$19)
     4684                      .dwattr $C$DW$589, DW_AT_name("_FCFG_B0_SSIZE0_Reserved_15_4")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   87
@@ -5218,7 +5218,7 @@ flash.asm                                                            PAGE   87
     4737              
     4738              
     4739              $C$DW$T$115     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   88
@@ -5278,7 +5278,7 @@ flash.asm                                                            PAGE   88
     4792              
     4793              
     4794              $C$DW$T$118     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   89
@@ -5338,7 +5338,7 @@ flash.asm                                                            PAGE   89
     4847              $C$DW$608       .dwtag  DW_TAG_member
     4848                      .dwattr $C$DW$608, DW_AT_type(*$C$DW$T$19)
     4849                      .dwattr $C$DW$608, DW_AT_name("B1_SECT_SIZE_1")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   90
@@ -5398,7 +5398,7 @@ flash.asm                                                            PAGE   90
     4902              
     4903              
     4904              $C$DW$T$122     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   91
@@ -5458,7 +5458,7 @@ flash.asm                                                            PAGE   91
     4957              $C$DW$621       .dwtag  DW_TAG_member
     4958                      .dwattr $C$DW$621, DW_AT_type(*$C$DW$T$19)
     4959                      .dwattr $C$DW$621, DW_AT_name("B1_SECT_SIZE_9")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   92
@@ -5518,7 +5518,7 @@ flash.asm                                                            PAGE   92
     5012                      .dwattr $C$DW$627, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x08)
     5013                      .dwattr $C$DW$627, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     5014                      .dwattr $C$DW$627, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   93
@@ -5578,7 +5578,7 @@ flash.asm                                                            PAGE   93
     5067              
     5068              
     5069              $C$DW$T$129     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   94
@@ -5638,7 +5638,7 @@ flash.asm                                                            PAGE   94
     5122                      .dwattr $C$DW$640, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x08)
     5123                      .dwattr $C$DW$640, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     5124                      .dwattr $C$DW$640, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   95
@@ -5698,7 +5698,7 @@ flash.asm                                                            PAGE   95
     5177              
     5178              
     5179              $C$DW$T$133     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   96
@@ -5758,7 +5758,7 @@ flash.asm                                                            PAGE   96
     5232              
     5233              
     5234              $C$DW$T$136     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   97
@@ -5818,7 +5818,7 @@ flash.asm                                                            PAGE   97
     5287                      .dwattr $C$DW$659, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x0c)
     5288                      .dwattr $C$DW$659, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     5289                      .dwattr $C$DW$659, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   98
@@ -5878,7 +5878,7 @@ flash.asm                                                            PAGE   98
     5342              
     5343              
     5344              $C$DW$T$140     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE   99
@@ -5938,7 +5938,7 @@ flash.asm                                                            PAGE   99
     5397              $C$DW$672       .dwtag  DW_TAG_member
     5398                      .dwattr $C$DW$672, DW_AT_type(*$C$DW$T$19)
     5399                      .dwattr $C$DW$672, DW_AT_name("B3_SECT_SIZE_13")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  100
@@ -5998,7 +5998,7 @@ flash.asm                                                            PAGE  100
     5452                      .dwattr $C$DW$678, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x08)
     5453                      .dwattr $C$DW$678, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     5454                      .dwattr $C$DW$678, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  101
@@ -6058,7 +6058,7 @@ flash.asm                                                            PAGE  101
     5507              $C$DW$685       .dwtag  DW_TAG_member
     5508                      .dwattr $C$DW$685, DW_AT_type(*$C$DW$T$19)
     5509                      .dwattr $C$DW$685, DW_AT_name("B4_SECT_SIZE_5")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  102
@@ -6118,7 +6118,7 @@ flash.asm                                                            PAGE  102
     5562                      .dwattr $C$DW$691, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x08)
     5563                      .dwattr $C$DW$691, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     5564                      .dwattr $C$DW$691, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  103
@@ -6178,7 +6178,7 @@ flash.asm                                                            PAGE  103
     5617              
     5618              
     5619              $C$DW$T$151     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  104
@@ -6238,7 +6238,7 @@ flash.asm                                                            PAGE  104
     5672              $C$DW$704       .dwtag  DW_TAG_member
     5673                      .dwattr $C$DW$704, DW_AT_type(*$C$DW$T$19)
     5674                      .dwattr $C$DW$704, DW_AT_name("_FCFG_B5_SSIZE0_Reserved_15_4")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  105
@@ -6298,7 +6298,7 @@ flash.asm                                                            PAGE  105
     5727              
     5728              
     5729              $C$DW$T$155     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  106
@@ -6358,7 +6358,7 @@ flash.asm                                                            PAGE  106
     5782              
     5783              
     5784              $C$DW$T$158     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  107
@@ -6418,7 +6418,7 @@ flash.asm                                                            PAGE  107
     5837              $C$DW$723       .dwtag  DW_TAG_member
     5838                      .dwattr $C$DW$723, DW_AT_type(*$C$DW$T$19)
     5839                      .dwattr $C$DW$723, DW_AT_name("B6_SECT_SIZE_1")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  108
@@ -6478,7 +6478,7 @@ flash.asm                                                            PAGE  108
     5892              
     5893              
     5894              $C$DW$T$162     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  109
@@ -6538,7 +6538,7 @@ flash.asm                                                            PAGE  109
     5947              $C$DW$736       .dwtag  DW_TAG_member
     5948                      .dwattr $C$DW$736, DW_AT_type(*$C$DW$T$19)
     5949                      .dwattr $C$DW$736, DW_AT_name("B6_SECT_SIZE_9")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  110
@@ -6598,7 +6598,7 @@ flash.asm                                                            PAGE  110
     6002                      .dwattr $C$DW$742, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x08)
     6003                      .dwattr $C$DW$742, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     6004                      .dwattr $C$DW$742, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  111
@@ -6658,7 +6658,7 @@ flash.asm                                                            PAGE  111
     6057              
     6058              
     6059              $C$DW$T$169     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  112
@@ -6718,7 +6718,7 @@ flash.asm                                                            PAGE  112
     6112                      .dwattr $C$DW$755, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x08)
     6113                      .dwattr $C$DW$755, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     6114                      .dwattr $C$DW$755, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  113
@@ -6778,7 +6778,7 @@ flash.asm                                                            PAGE  113
     6167              
     6168              
     6169              $C$DW$T$173     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  114
@@ -6838,7 +6838,7 @@ flash.asm                                                            PAGE  114
     6222              
     6223              
     6224              $C$DW$T$177     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  115
@@ -6898,7 +6898,7 @@ flash.asm                                                            PAGE  115
     6277              $C$DW$773       .dwtag  DW_TAG_member
     6278                      .dwattr $C$DW$773, DW_AT_type(*$C$DW$T$179)
     6279                      .dwattr $C$DW$773, DW_AT_name("bit")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  116
@@ -6958,7 +6958,7 @@ flash.asm                                                            PAGE  116
     6332                      .dwattr $C$DW$778, DW_AT_accessibility(DW_ACCESS_public)
     6333              $C$DW$779       .dwtag  DW_TAG_member
     6334                      .dwattr $C$DW$779, DW_AT_type(*$C$DW$T$183)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  117
@@ -7018,7 +7018,7 @@ flash.asm                                                            PAGE  117
     6387                      .dwattr $C$DW$785, DW_AT_name("bit")
     6388                      .dwattr $C$DW$785, DW_AT_TI_symbol_name("_bit")
     6389                      .dwattr $C$DW$785, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  118
@@ -7078,7 +7078,7 @@ flash.asm                                                            PAGE  118
     6442                      .dwattr $C$DW$791, DW_AT_accessibility(DW_ACCESS_public)
     6443                      .dwendtag $C$DW$T$188
     6444              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  119
@@ -7138,7 +7138,7 @@ flash.asm                                                            PAGE  119
     6497                      .dwattr $C$DW$798, DW_AT_accessibility(DW_ACCESS_public)
     6498              $C$DW$799       .dwtag  DW_TAG_member
     6499                      .dwattr $C$DW$799, DW_AT_type(*$C$DW$T$178)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  120
@@ -7198,7 +7198,7 @@ flash.asm                                                            PAGE  120
     6552                      .dwattr $C$DW$805, DW_AT_name("rsvd1")
     6553                      .dwattr $C$DW$805, DW_AT_TI_symbol_name("_rsvd1")
     6554                      .dwattr $C$DW$805, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x0d)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  121
@@ -7258,7 +7258,7 @@ flash.asm                                                            PAGE  121
     6607                      .dwattr $C$DW$812, DW_AT_name("UNC_ERR_L_CLR")
     6608                      .dwattr $C$DW$812, DW_AT_TI_symbol_name("_UNC_ERR_L_CLR")
     6609                      .dwattr $C$DW$812, DW_AT_bit_offset(0x0d), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  122
@@ -7318,7 +7318,7 @@ flash.asm                                                            PAGE  122
     6662                      .dwattr $C$DW$819, DW_AT_TI_symbol_name("_bit")
     6663                      .dwattr $C$DW$819, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     6664                      .dwattr $C$DW$819, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  123
@@ -7378,7 +7378,7 @@ flash.asm                                                            PAGE  123
     6717                      .dwattr $C$DW$825, DW_AT_name("bit")
     6718                      .dwattr $C$DW$825, DW_AT_TI_symbol_name("_bit")
     6719                      .dwattr $C$DW$825, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  124
@@ -7438,7 +7438,7 @@ flash.asm                                                            PAGE  124
     6772                      .dwattr $C$DW$T$199, DW_AT_byte_size(0x02)
     6773              $C$DW$831       .dwtag  DW_TAG_member
     6774                      .dwattr $C$DW$831, DW_AT_type(*$C$DW$T$180)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  125
@@ -7498,7 +7498,7 @@ flash.asm                                                            PAGE  125
     6827              $C$DW$837       .dwtag  DW_TAG_member
     6828                      .dwattr $C$DW$837, DW_AT_type(*$C$DW$T$65)
     6829                      .dwattr $C$DW$837, DW_AT_name("u32Register")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  126
@@ -7558,7 +7558,7 @@ flash.asm                                                            PAGE  126
     6882                      .dwattr $C$DW$843, DW_AT_type(*$C$DW$T$65)
     6883                      .dwattr $C$DW$843, DW_AT_name("u32Register")
     6884                      .dwattr $C$DW$843, DW_AT_TI_symbol_name("_u32Register")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  127
@@ -7618,7 +7618,7 @@ flash.asm                                                            PAGE  127
     6937                      .dwattr $C$DW$849, DW_AT_name("u32Register")
     6938                      .dwattr $C$DW$849, DW_AT_TI_symbol_name("_u32Register")
     6939                      .dwattr $C$DW$849, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  128
@@ -7678,7 +7678,7 @@ flash.asm                                                            PAGE  128
     6992              $C$DW$T$211     .dwtag  DW_TAG_union_type
     6993                      .dwattr $C$DW$T$211, DW_AT_name("FCFG_B0_SSIZE1")
     6994                      .dwattr $C$DW$T$211, DW_AT_byte_size(0x02)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  129
@@ -7738,7 +7738,7 @@ flash.asm                                                            PAGE  129
     7047                      .dwattr $C$DW$862, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7048                      .dwattr $C$DW$862, DW_AT_accessibility(DW_ACCESS_public)
     7049              $C$DW$863       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  130
@@ -7798,7 +7798,7 @@ flash.asm                                                            PAGE  130
     7102                      .dwattr $C$DW$869, DW_AT_accessibility(DW_ACCESS_public)
     7103                      .dwendtag $C$DW$T$215
     7104              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  131
@@ -7858,7 +7858,7 @@ flash.asm                                                            PAGE  131
     7157              $C$DW$876       .dwtag  DW_TAG_member
     7158                      .dwattr $C$DW$876, DW_AT_type(*$C$DW$T$65)
     7159                      .dwattr $C$DW$876, DW_AT_name("u32Register")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  132
@@ -7918,7 +7918,7 @@ flash.asm                                                            PAGE  132
     7212                      .dwattr $C$DW$883, DW_AT_type(*$C$DW$T$129)
     7213                      .dwattr $C$DW$883, DW_AT_name("FCFG_B2_SSIZE0_FLEE_BITS")
     7214                      .dwattr $C$DW$883, DW_AT_TI_symbol_name("_FCFG_B2_SSIZE0_FLEE_BITS")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  133
@@ -7978,7 +7978,7 @@ flash.asm                                                            PAGE  133
     7267              
     7268              $C$DW$T$223     .dwtag  DW_TAG_union_type
     7269                      .dwattr $C$DW$T$223, DW_AT_name("FCFG_B2_SSIZE3")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  134
@@ -8038,7 +8038,7 @@ flash.asm                                                            PAGE  134
     7322                      .dwattr $C$DW$896, DW_AT_TI_symbol_name("_FCFG_B3_SSIZE0_STD_BITS")
     7323                      .dwattr $C$DW$896, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7324                      .dwattr $C$DW$896, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  135
@@ -8098,7 +8098,7 @@ flash.asm                                                            PAGE  135
     7377                      .dwattr $C$DW$903, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7378                      .dwattr $C$DW$903, DW_AT_accessibility(DW_ACCESS_public)
     7379                      .dwendtag $C$DW$T$227
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  136
@@ -8158,7 +8158,7 @@ flash.asm                                                            PAGE  136
     7432                      .dwattr $C$DW$909, DW_AT_accessibility(DW_ACCESS_public)
     7433              $C$DW$910       .dwtag  DW_TAG_member
     7434                      .dwattr $C$DW$910, DW_AT_type(*$C$DW$T$144)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  137
@@ -8218,7 +8218,7 @@ flash.asm                                                            PAGE  137
     7487              $C$DW$917       .dwtag  DW_TAG_member
     7488                      .dwattr $C$DW$917, DW_AT_type(*$C$DW$T$149)
     7489                      .dwattr $C$DW$917, DW_AT_name("FCFG_B4_SSIZE2_FLEE_BITS")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  138
@@ -8278,7 +8278,7 @@ flash.asm                                                            PAGE  138
     7542                      .dwattr $C$DW$923, DW_AT_type(*$C$DW$T$65)
     7543                      .dwattr $C$DW$923, DW_AT_name("u32Register")
     7544                      .dwattr $C$DW$923, DW_AT_TI_symbol_name("_u32Register")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  139
@@ -8338,7 +8338,7 @@ flash.asm                                                            PAGE  139
     7597                      .dwattr $C$DW$930, DW_AT_name("FCFG_B5_SSIZE2_STD_BITS")
     7598                      .dwattr $C$DW$930, DW_AT_TI_symbol_name("_FCFG_B5_SSIZE2_STD_BITS")
     7599                      .dwattr $C$DW$930, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  140
@@ -8398,7 +8398,7 @@ flash.asm                                                            PAGE  140
     7652              $C$DW$T$240     .dwtag  DW_TAG_union_type
     7653                      .dwattr $C$DW$T$240, DW_AT_name("FCFG_B6_SSIZE0")
     7654                      .dwattr $C$DW$T$240, DW_AT_byte_size(0x02)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  141
@@ -8458,7 +8458,7 @@ flash.asm                                                            PAGE  141
     7707                      .dwattr $C$DW$943, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7708                      .dwattr $C$DW$943, DW_AT_accessibility(DW_ACCESS_public)
     7709              $C$DW$944       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  142
@@ -8518,7 +8518,7 @@ flash.asm                                                            PAGE  142
     7762                      .dwattr $C$DW$950, DW_AT_accessibility(DW_ACCESS_public)
     7763                      .dwendtag $C$DW$T$244
     7764              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  143
@@ -8578,7 +8578,7 @@ flash.asm                                                            PAGE  143
     7817              $C$DW$957       .dwtag  DW_TAG_member
     7818                      .dwattr $C$DW$957, DW_AT_type(*$C$DW$T$65)
     7819                      .dwattr $C$DW$957, DW_AT_name("u32Register")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  144
@@ -8638,7 +8638,7 @@ flash.asm                                                            PAGE  144
     7872                      .dwattr $C$DW$964, DW_AT_type(*$C$DW$T$111)
     7873                      .dwattr $C$DW$964, DW_AT_name("FCFG_B7_START_BITS")
     7874                      .dwattr $C$DW$964, DW_AT_TI_symbol_name("_FCFG_B7_START_BITS")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  145
@@ -8698,7 +8698,7 @@ flash.asm                                                            PAGE  145
     7927                      .dwattr $C$DW$970, DW_AT_name("FCFG_WRAPPER_BITS")
     7928                      .dwattr $C$DW$970, DW_AT_TI_symbol_name("_FCFG_WRAPPER_BITS")
     7929                      .dwattr $C$DW$970, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  146
@@ -8758,7 +8758,7 @@ flash.asm                                                            PAGE  146
     7982              $C$DW$T$256     .dwtag  DW_TAG_union_type
     7983                      .dwattr $C$DW$T$256, DW_AT_name("FCOR_ERR_POS")
     7984                      .dwattr $C$DW$T$256, DW_AT_byte_size(0x02)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  147
@@ -8818,7 +8818,7 @@ flash.asm                                                            PAGE  147
     8037                      .dwattr $C$DW$982, DW_AT_name("DO_ECC_CALC")
     8038                      .dwattr $C$DW$982, DW_AT_TI_symbol_name("_DO_ECC_CALC")
     8039                      .dwattr $C$DW$982, DW_AT_bit_offset(0x0d), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  148
@@ -8878,7 +8878,7 @@ flash.asm                                                            PAGE  148
     8092                      .dwattr $C$DW$988, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     8093                      .dwattr $C$DW$988, DW_AT_accessibility(DW_ACCESS_public)
     8094              $C$DW$989       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  149
@@ -8938,7 +8938,7 @@ flash.asm                                                            PAGE  149
     8147                      .dwattr $C$DW$995, DW_AT_type(*$C$DW$T$178)
     8148                      .dwattr $C$DW$995, DW_AT_name("ECC")
     8149                      .dwattr $C$DW$995, DW_AT_TI_symbol_name("_ECC")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  150
@@ -8998,7 +8998,7 @@ flash.asm                                                            PAGE  150
     8202                      .dwattr $C$DW$1001, DW_AT_accessibility(DW_ACCESS_public)
     8203                      .dwendtag $C$DW$T$264
     8204              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  151
@@ -9058,7 +9058,7 @@ flash.asm                                                            PAGE  151
     8257                      .dwendtag $C$DW$T$267
     8258              
     8259              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  152
@@ -9118,7 +9118,7 @@ flash.asm                                                            PAGE  152
     8312                      .dwattr $C$DW$1013, DW_AT_type(*$C$DW$T$65)
     8313                      .dwattr $C$DW$1013, DW_AT_name("u32Register")
     8314                      .dwattr $C$DW$1013, DW_AT_TI_symbol_name("_u32Register")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  153
@@ -9178,7 +9178,7 @@ flash.asm                                                            PAGE  153
     8367              
     8368              $C$DW$T$275     .dwtag  DW_TAG_union_type
     8369                      .dwattr $C$DW$T$275, DW_AT_name("FEMU_ECC")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  154
@@ -9238,7 +9238,7 @@ flash.asm                                                            PAGE  154
     8422                      .dwattr $C$DW$1026, DW_AT_TI_symbol_name("_ERR_STATUS")
     8423                      .dwattr $C$DW$1026, DW_AT_data_member_location[DW_OP_plus_uconst 0xa]
     8424                      .dwattr $C$DW$1026, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  155
@@ -9298,7 +9298,7 @@ flash.asm                                                            PAGE  155
     8477                      .dwattr $C$DW$1035, DW_AT_data_member_location[DW_OP_plus_uconst 0x1c]
     8478                      .dwattr $C$DW$1035, DW_AT_accessibility(DW_ACCESS_public)
     8479              $C$DW$1036      .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  156
@@ -9358,7 +9358,7 @@ flash.asm                                                            PAGE  156
     8532              
     8533              
     8534              $C$DW$T$278     .dwtag  DW_TAG_union_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  157
@@ -9418,7 +9418,7 @@ flash.asm                                                            PAGE  157
     8587                      .dwattr $C$DW$1051, DW_AT_name("FcorErrAdd")
     8588                      .dwattr $C$DW$1051, DW_AT_TI_symbol_name("_FcorErrAdd")
     8589                      .dwattr $C$DW$1051, DW_AT_data_member_location[DW_OP_plus_uconst 0xa]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  158
@@ -9478,7 +9478,7 @@ flash.asm                                                            PAGE  158
     8642                      .dwattr $C$DW$1060, DW_AT_TI_symbol_name("_Fbbusy")
     8643                      .dwattr $C$DW$1060, DW_AT_data_member_location[DW_OP_plus_uconst 0x1c]
     8644                      .dwattr $C$DW$1060, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  159
@@ -9538,7 +9538,7 @@ flash.asm                                                            PAGE  159
     8697                      .dwattr $C$DW$1069, DW_AT_data_member_location[DW_OP_plus_uconst 0x2e]
     8698                      .dwattr $C$DW$1069, DW_AT_accessibility(DW_ACCESS_public)
     8699              $C$DW$1070      .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  160
@@ -9598,7 +9598,7 @@ flash.asm                                                            PAGE  160
     8752                      .dwattr $C$DW$1078, DW_AT_accessibility(DW_ACCESS_public)
     8753              $C$DW$1079      .dwtag  DW_TAG_member
     8754                      .dwattr $C$DW$1079, DW_AT_type(*$C$DW$T$341)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  161
@@ -9658,7 +9658,7 @@ flash.asm                                                            PAGE  161
     8807              $C$DW$1088      .dwtag  DW_TAG_member
     8808                      .dwattr $C$DW$1088, DW_AT_type(*$C$DW$T$298)
     8809                      .dwattr $C$DW$1088, DW_AT_name("FseqPmp")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  162
@@ -9718,7 +9718,7 @@ flash.asm                                                            PAGE  162
     8862                      .dwattr $C$DW$1097, DW_AT_type(*$C$DW$T$338)
     8863                      .dwattr $C$DW$1097, DW_AT_name("Ftcr")
     8864                      .dwattr $C$DW$1097, DW_AT_TI_symbol_name("_Ftcr")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  163
@@ -9778,7 +9778,7 @@ flash.asm                                                            PAGE  163
     8917                      .dwattr $C$DW$1106, DW_AT_name("Fwpwrite4")
     8918                      .dwattr $C$DW$1106, DW_AT_TI_symbol_name("_Fwpwrite4")
     8919                      .dwattr $C$DW$1106, DW_AT_data_member_location[DW_OP_plus_uconst 0x98]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  164
@@ -9838,7 +9838,7 @@ flash.asm                                                            PAGE  164
     8972                      .dwattr $C$DW$1115, DW_AT_TI_symbol_name("_FsmStatus")
     8973                      .dwattr $C$DW$1115, DW_AT_data_member_location[DW_OP_plus_uconst 0x104]
     8974                      .dwattr $C$DW$1115, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  165
@@ -9898,7 +9898,7 @@ flash.asm                                                            PAGE  165
     9027                      .dwattr $C$DW$1124, DW_AT_data_member_location[DW_OP_plus_uconst 0x116]
     9028                      .dwattr $C$DW$1124, DW_AT_accessibility(DW_ACCESS_public)
     9029              $C$DW$1125      .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  166
@@ -9958,7 +9958,7 @@ flash.asm                                                            PAGE  166
     9082                      .dwattr $C$DW$1133, DW_AT_accessibility(DW_ACCESS_public)
     9083              $C$DW$1134      .dwtag  DW_TAG_member
     9084                      .dwattr $C$DW$1134, DW_AT_type(*$C$DW$T$317)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  167
@@ -10018,7 +10018,7 @@ flash.asm                                                            PAGE  167
     9137              $C$DW$1143      .dwtag  DW_TAG_member
     9138                      .dwattr $C$DW$1143, DW_AT_type(*$C$DW$T$335)
     9139                      .dwattr $C$DW$1143, DW_AT_name("FsmWrEna")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  168
@@ -10078,7 +10078,7 @@ flash.asm                                                            PAGE  168
     9192                      .dwattr $C$DW$1152, DW_AT_type(*$C$DW$T$310)
     9193                      .dwattr $C$DW$1152, DW_AT_name("FsmExecute")
     9194                      .dwattr $C$DW$1152, DW_AT_TI_symbol_name("_FsmExecute")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  169
@@ -10138,7 +10138,7 @@ flash.asm                                                            PAGE  169
     9247                      .dwattr $C$DW$1161, DW_AT_name("FcfgWrapper")
     9248                      .dwattr $C$DW$1161, DW_AT_TI_symbol_name("_FcfgWrapper")
     9249                      .dwattr $C$DW$1161, DW_AT_data_member_location[DW_OP_plus_uconst 0x202]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  170
@@ -10198,7 +10198,7 @@ flash.asm                                                            PAGE  170
     9302                      .dwattr $C$DW$1170, DW_AT_TI_symbol_name("_FcfgB6Start")
     9303                      .dwattr $C$DW$1170, DW_AT_data_member_location[DW_OP_plus_uconst 0x214]
     9304                      .dwattr $C$DW$1170, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  171
@@ -10258,7 +10258,7 @@ flash.asm                                                            PAGE  171
     9357                      .dwattr $C$DW$1179, DW_AT_data_member_location[DW_OP_plus_uconst 0x226]
     9358                      .dwattr $C$DW$1179, DW_AT_accessibility(DW_ACCESS_public)
     9359              $C$DW$1180      .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  172
@@ -10318,7 +10318,7 @@ flash.asm                                                            PAGE  172
     9412                      .dwattr $C$DW$1188, DW_AT_accessibility(DW_ACCESS_public)
     9413              $C$DW$1189      .dwtag  DW_TAG_member
     9414                      .dwattr $C$DW$1189, DW_AT_type(*$C$DW$T$231)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  173
@@ -10378,7 +10378,7 @@ flash.asm                                                            PAGE  173
     9467              $C$DW$1198      .dwtag  DW_TAG_member
     9468                      .dwattr $C$DW$1198, DW_AT_type(*$C$DW$T$242)
     9469                      .dwattr $C$DW$1198, DW_AT_name("FcfgB6Ssize2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  174
@@ -10438,7 +10438,7 @@ flash.asm                                                            PAGE  174
     9522                      .dwattr $C$DW$1205, DW_AT_TI_symbol_name("_u32Register")
     9523                      .dwattr $C$DW$1205, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     9524                      .dwattr $C$DW$1205, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  175
@@ -10498,7 +10498,7 @@ flash.asm                                                            PAGE  175
     9577                      .dwattr $C$DW$1211, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     9578                      .dwattr $C$DW$1211, DW_AT_accessibility(DW_ACCESS_public)
     9579              $C$DW$1212      .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  176
@@ -10558,7 +10558,7 @@ flash.asm                                                            PAGE  176
     9632                      .dwattr $C$DW$1217, DW_AT_accessibility(DW_ACCESS_public)
     9633                      .dwendtag $C$DW$T$292
     9634              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  177
@@ -10618,7 +10618,7 @@ flash.asm                                                            PAGE  177
     9687              $C$DW$1223      .dwtag  DW_TAG_member
     9688                      .dwattr $C$DW$1223, DW_AT_type(*$C$DW$T$65)
     9689                      .dwattr $C$DW$1223, DW_AT_name("u32Register")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  178
@@ -10678,7 +10678,7 @@ flash.asm                                                            PAGE  178
     9742                      .dwattr $C$DW$1229, DW_AT_type(*$C$DW$T$65)
     9743                      .dwattr $C$DW$1229, DW_AT_name("u32Register")
     9744                      .dwattr $C$DW$1229, DW_AT_TI_symbol_name("_u32Register")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  179
@@ -10738,7 +10738,7 @@ flash.asm                                                            PAGE  179
     9797              
     9798              $C$DW$T$303     .dwtag  DW_TAG_union_type
     9799                      .dwattr $C$DW$T$303, DW_AT_name("FSM_COMMAND")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  180
@@ -10798,7 +10798,7 @@ flash.asm                                                            PAGE  180
     9852              $C$DW$T$306     .dwtag  DW_TAG_union_type
     9853                      .dwattr $C$DW$T$306, DW_AT_name("FSM_ERA_OH")
     9854                      .dwattr $C$DW$T$306, DW_AT_byte_size(0x02)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  181
@@ -10858,7 +10858,7 @@ flash.asm                                                            PAGE  181
     9907                      .dwattr $C$DW$1246, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     9908                      .dwattr $C$DW$1246, DW_AT_accessibility(DW_ACCESS_public)
     9909                      .dwendtag $C$DW$T$309
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  182
@@ -10918,7 +10918,7 @@ flash.asm                                                            PAGE  182
     9962                      .dwattr $C$DW$1252, DW_AT_accessibility(DW_ACCESS_public)
     9963                      .dwendtag $C$DW$T$312
     9964              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  183
@@ -10978,7 +10978,7 @@ flash.asm                                                            PAGE  183
    10017                      .dwendtag $C$DW$T$315
    10018              
    10019              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  184
@@ -11038,7 +11038,7 @@ flash.asm                                                            PAGE  184
    10072                      .dwattr $C$DW$1264, DW_AT_type(*$C$DW$T$65)
    10073                      .dwattr $C$DW$1264, DW_AT_name("u32Register")
    10074                      .dwattr $C$DW$1264, DW_AT_TI_symbol_name("_u32Register")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  185
@@ -11098,7 +11098,7 @@ flash.asm                                                            PAGE  185
    10127                      .dwattr $C$DW$1270, DW_AT_name("u32Register")
    10128                      .dwattr $C$DW$1270, DW_AT_TI_symbol_name("_u32Register")
    10129                      .dwattr $C$DW$1270, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  186
@@ -11158,7 +11158,7 @@ flash.asm                                                            PAGE  186
    10182                      .dwattr $C$DW$1276, DW_AT_TI_symbol_name("_u32Register")
    10183                      .dwattr $C$DW$1276, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
    10184                      .dwattr $C$DW$1276, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  187
@@ -11218,7 +11218,7 @@ flash.asm                                                            PAGE  187
    10237                      .dwattr $C$DW$T$329, DW_AT_name("FSM_STATE")
    10238                      .dwattr $C$DW$T$329, DW_AT_byte_size(0x02)
    10239              $C$DW$1282      .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  188
@@ -11278,7 +11278,7 @@ flash.asm                                                            PAGE  188
    10292                      .dwattr $C$DW$T$332, DW_AT_byte_size(0x02)
    10293              $C$DW$1288      .dwtag  DW_TAG_member
    10294                      .dwattr $C$DW$1288, DW_AT_type(*$C$DW$T$65)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  189
@@ -11338,7 +11338,7 @@ flash.asm                                                            PAGE  189
    10347              $C$DW$1294      .dwtag  DW_TAG_member
    10348                      .dwattr $C$DW$1294, DW_AT_type(*$C$DW$T$94)
    10349                      .dwattr $C$DW$1294, DW_AT_name("FSM_WR_ENA_BITS")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  190
@@ -11398,7 +11398,7 @@ flash.asm                                                            PAGE  190
    10402                      .dwattr $C$DW$1300, DW_AT_type(*$C$DW$T$61)
    10403                      .dwattr $C$DW$1300, DW_AT_name("FTCR_BITS")
    10404                      .dwattr $C$DW$1300, DW_AT_TI_symbol_name("_FTCR_BITS")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  191
@@ -11458,7 +11458,7 @@ flash.asm                                                            PAGE  191
    10457              
    10458              $C$DW$T$342     .dwtag  DW_TAG_union_type
    10459                      .dwattr $C$DW$T$342, DW_AT_name("FVHVCT2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  192
@@ -11518,7 +11518,7 @@ flash.asm                                                            PAGE  192
    10512              $C$DW$T$345     .dwtag  DW_TAG_union_type
    10513                      .dwattr $C$DW$T$345, DW_AT_name("FVREADCT")
    10514                      .dwattr $C$DW$T$345, DW_AT_byte_size(0x02)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  193
@@ -11578,7 +11578,7 @@ flash.asm                                                            PAGE  193
    10567                      .dwattr $C$DW$T$348, DW_AT_name("FWPWRITE0")
    10568                      .dwattr $C$DW$T$348, DW_AT_byte_size(0x02)
    10569              $C$DW$1318      .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  194
@@ -11638,7 +11638,7 @@ flash.asm                                                            PAGE  194
    10622                      .dwattr $C$DW$1322, DW_AT_accessibility(DW_ACCESS_public)
    10623                      .dwendtag $C$DW$T$352
    10624              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  195
@@ -11698,7 +11698,7 @@ flash.asm                                                            PAGE  195
    10677              $C$DW$1328      .dwtag  DW_TAG_member
    10678                      .dwattr $C$DW$1328, DW_AT_type(*$C$DW$T$67)
    10679                      .dwattr $C$DW$1328, DW_AT_name("FWPWRITE_ECC_BYTES")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  196
@@ -11758,7 +11758,7 @@ flash.asm                                                            PAGE  196
    10732                      .dwattr $C$DW$T$10, DW_AT_byte_size(0x01)
    10733              $C$DW$T$11      .dwtag  DW_TAG_base_type
    10734                      .dwattr $C$DW$T$11, DW_AT_encoding(DW_ATE_unsigned)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  197
@@ -11818,7 +11818,7 @@ flash.asm                                                            PAGE  197
    10787              $C$DW$1333      .dwtag  DW_TAG_TI_far_type
    10788                      .dwattr $C$DW$1333, DW_AT_type(*$C$DW$T$405)
    10789              $C$DW$T$406     .dwtag  DW_TAG_volatile_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  198
@@ -11878,7 +11878,7 @@ flash.asm                                                            PAGE  198
    10842                      .dwattr $C$DW$1339, DW_AT_upper_bound(0x0d)
    10843                      .dwendtag $C$DW$T$283
    10844              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  199
@@ -11938,7 +11938,7 @@ flash.asm                                                            PAGE  199
    10897                      .dwcfi  undefined, 21
    10898                      .dwcfi  undefined, 22
    10899                      .dwcfi  undefined, 23
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  200
@@ -11998,7 +11998,7 @@ flash.asm                                                            PAGE  200
    10952                      .dwcfi  undefined, 40
    10953                      .dwcfi  undefined, 27
    10954                      .dwendentry
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  201
@@ -12058,7 +12058,7 @@ flash.asm                                                            PAGE  201
    11007                      .dwattr $C$DW$1364, DW_AT_location[DW_OP_regx 0x4d]
    11008              $C$DW$1365      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR0")
    11009                      .dwattr $C$DW$1365, DW_AT_location[DW_OP_reg4]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  202
@@ -12118,7 +12118,7 @@ flash.asm                                                            PAGE  202
    11062              $C$DW$1392      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R5H")
    11063                      .dwattr $C$DW$1392, DW_AT_location[DW_OP_regx 0x40]
    11064              $C$DW$1393      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R6HL")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:52 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:27:02 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 flash.asm                                                            PAGE  203

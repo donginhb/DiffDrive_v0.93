@@ -81,6 +81,7 @@ WiFly_Commands.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v
 WiFly_Commands.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_fr.h
 WiFly_Commands.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_grando.h
 WiFly_Commands.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_reg3.h
+WiFly_Commands.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/Motor_ctrl.h
 WiFly_Commands.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/F2837x_QEP_Module.h
 WiFly_Commands.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/f2837xbmsk.h
 WiFly_Commands.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/HAL/drv8301_defs.h
@@ -170,6 +171,7 @@ C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_est.h:
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_fr.h: 
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_grando.h: 
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_reg3.h: 
+U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/Motor_ctrl.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/F2837x_QEP_Module.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/f2837xbmsk.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/HAL/drv8301_defs.h: 

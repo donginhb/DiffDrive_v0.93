@@ -78,6 +78,7 @@ power_limits.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.
 power_limits.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_fr.h
 power_limits.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_grando.h
 power_limits.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_reg3.h
+power_limits.obj: ../motors/Motor_ctrl.h
 power_limits.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/F2837x_QEP_Module.h
 power_limits.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/f2837xbmsk.h
 power_limits.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/HAL/drv8301_defs.h
@@ -161,6 +162,7 @@ C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_est.h:
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_fr.h: 
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_grando.h: 
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_reg3.h: 
+../motors/Motor_ctrl.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/F2837x_QEP_Module.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/f2837xbmsk.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/HAL/drv8301_defs.h: 

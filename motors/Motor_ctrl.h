@@ -26,8 +26,8 @@
 #define SPEED_CTRL_C0			1
 #define SPEED_CTRL_C1			1
 
-#define CURRENT_CTRL_C0			-1.772//-3.056//-6.112 // C0 = Kp(Ts/2-Tn)
-#define CURRENT_CTRL_C1			1.528//3.544//7.087 // C1 = Kp(Tn +Ts/2)
+#define CURRENT_CTRL_C0			-0.764//-1.772//-3.056//-6.112 // C0 = Kp(Ts/2-Tn)
+#define CURRENT_CTRL_C1			0.8859//1.528//3.544//7.087 // C1 = Kp(Tn +Ts/2)
 
 ///Struct for a PI Controller
 struct piCtrl_t {

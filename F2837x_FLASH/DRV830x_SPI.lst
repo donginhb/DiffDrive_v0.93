@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                         PC v6.4.2 *
-       3              ;* Date/Time created: Thu Dec 14 13:36:49 2017                 *
+       3              ;* Date/Time created: Thu Dec 14 15:25:55 2017                 *
        4              ;***************************************************************
        5                      .compiler_opts --cla_support=cla0 --float_support=fpu32 --hll_source=on --mem_model:code=flat --mem_m
        6        0002  FP      .set    XAR2
@@ -58,7 +58,7 @@ DRV830x_SPI.asm                                                      PAGE    1
       53                      .dwattr $C$DW$7, DW_AT_type(*$C$DW$T$64)
       54                      .dwattr $C$DW$7, DW_AT_location[DW_OP_reg12]
       55              $C$DW$8 .dwtag  DW_TAG_formal_parameter, DW_AT_name("data")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE    2
@@ -118,7 +118,7 @@ DRV830x_SPI.asm                                                      PAGE    2
      107 0000000c 7EC4          MOV       *+XAR4[0],AR6         ; [CPU_] |30| 
      108                      .dwpsn  file "../motors/HAL/DRV830x_SPI.c",line 31,column 2,is_stmt,isa 0
      109 0000000d       $C$L1:    
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE    3
@@ -176,9 +176,9 @@ DRV830x_SPI.asm                                                      PAGE    3
      159                      .dwfde $C$DW$CIE, _DRV8305_SPI_Read
      160              $C$DW$17        .dwtag  DW_TAG_formal_parameter, DW_AT_name("motor")
      161                      .dwattr $C$DW$17, DW_AT_TI_symbol_name("_motor")
-     162                      .dwattr $C$DW$17, DW_AT_type(*$C$DW$T$282)
+     162                      .dwattr $C$DW$17, DW_AT_type(*$C$DW$T$283)
      163                      .dwattr $C$DW$17, DW_AT_location[DW_OP_reg12]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE    4
@@ -204,7 +204,7 @@ DRV830x_SPI.asm                                                      PAGE    4
      182                      .dwcfi  cfa_offset, -6
      183              $C$DW$19        .dwtag  DW_TAG_variable, DW_AT_name("motor")
      184                      .dwattr $C$DW$19, DW_AT_TI_symbol_name("_motor")
-     185                      .dwattr $C$DW$19, DW_AT_type(*$C$DW$T$282)
+     185                      .dwattr $C$DW$19, DW_AT_type(*$C$DW$T$283)
      186                      .dwattr $C$DW$19, DW_AT_location[DW_OP_breg20 -2]
      187              $C$DW$20        .dwtag  DW_TAG_variable, DW_AT_name("address")
      188                      .dwattr $C$DW$20, DW_AT_TI_symbol_name("_address")
@@ -238,7 +238,7 @@ DRV830x_SPI.asm                                                      PAGE    4
      213 0000002b 83A9          MOVL      XAR5,ACC              ; [CPU_] |83| 
      214 0000002c 9244          MOV       AL,*-SP[4]            ; [CPU_] |83| 
      215 0000002d 8AC4          MOVL      XAR4,*+XAR4[0]        ; [CPU_] |83| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE    5
@@ -284,7 +284,7 @@ DRV830x_SPI.asm                                                      PAGE    5
      253                      .dwfde $C$DW$CIE, _DRV8305_SPI_Write
      254              $C$DW$25        .dwtag  DW_TAG_formal_parameter, DW_AT_name("motor")
      255                      .dwattr $C$DW$25, DW_AT_TI_symbol_name("_motor")
-     256                      .dwattr $C$DW$25, DW_AT_type(*$C$DW$T$282)
+     256                      .dwattr $C$DW$25, DW_AT_type(*$C$DW$T$283)
      257                      .dwattr $C$DW$25, DW_AT_location[DW_OP_reg12]
      258              $C$DW$26        .dwtag  DW_TAG_formal_parameter, DW_AT_name("address")
      259                      .dwattr $C$DW$26, DW_AT_TI_symbol_name("_address")
@@ -298,7 +298,7 @@ DRV830x_SPI.asm                                                      PAGE    5
      267              ;*                                                             *
      268              ;* FUNCTION PROPERTIES                                         *
      269              ;*                            0 Parameter,  6 Auto,  0 SOE     *
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE    6
@@ -312,7 +312,7 @@ DRV830x_SPI.asm                                                      PAGE    6
      276                      .dwcfi  cfa_offset, -8
      277              $C$DW$27        .dwtag  DW_TAG_variable, DW_AT_name("motor")
      278                      .dwattr $C$DW$27, DW_AT_TI_symbol_name("_motor")
-     279                      .dwattr $C$DW$27, DW_AT_type(*$C$DW$T$282)
+     279                      .dwattr $C$DW$27, DW_AT_type(*$C$DW$T$283)
      280                      .dwattr $C$DW$27, DW_AT_location[DW_OP_breg20 -2]
      281              $C$DW$28        .dwtag  DW_TAG_variable, DW_AT_name("address")
      282                      .dwattr $C$DW$28, DW_AT_TI_symbol_name("_address")
@@ -324,13 +324,13 @@ DRV830x_SPI.asm                                                      PAGE    6
      288                      .dwattr $C$DW$29, DW_AT_location[DW_OP_breg20 -4]
      289              $C$DW$30        .dwtag  DW_TAG_variable, DW_AT_name("cntrlReg")
      290                      .dwattr $C$DW$30, DW_AT_TI_symbol_name("_cntrlReg")
-     291                      .dwattr $C$DW$30, DW_AT_type(*$C$DW$T$294)
+     291                      .dwattr $C$DW$30, DW_AT_type(*$C$DW$T$295)
      292                      .dwattr $C$DW$30, DW_AT_location[DW_OP_breg20 -6]
      293 00000034 9643          MOV       *-SP[3],AL            ; [CPU_] |90| 
      294 00000035 A842          MOVL      *-SP[2],XAR4          ; [CPU_] |90| 
      295                      .dwpsn  file "../motors/HAL/DRV830x_SPI.c",line 94,column 5,is_stmt,isa 0
-     296 00000036 8F00          MOVL      XAR4,#315             ; [CPU_U] |94| 
-         00000037 013B 
+     296 00000036 8F00          MOVL      XAR4,#311             ; [CPU_U] |94| 
+         00000037 0137 
      297 00000038 A8A9          MOVL      ACC,XAR4              ; [CPU_] |94| 
      298 00000039 0742          ADDL      ACC,*-SP[2]           ; [CPU_] |94| 
      299 0000003a 1E46          MOVL      *-SP[6],ACC           ; [CPU_] |94| 
@@ -358,7 +358,7 @@ DRV830x_SPI.asm                                                      PAGE    6
      317 0000004c 0208          MOVB      ACC,#8                ; [CPU_] |100| 
      318 0000004d 0742          ADDL      ACC,*-SP[2]           ; [CPU_] |100| 
      319 0000004e 8AA9          MOVL      XAR4,ACC              ; [CPU_] |100| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE    7
@@ -409,7 +409,7 @@ DRV830x_SPI.asm                                                      PAGE    7
      362                      .dwfde $C$DW$CIE, _DRV8301_SPI_Read
      363              $C$DW$34        .dwtag  DW_TAG_formal_parameter, DW_AT_name("motor")
      364                      .dwattr $C$DW$34, DW_AT_TI_symbol_name("_motor")
-     365                      .dwattr $C$DW$34, DW_AT_type(*$C$DW$T$282)
+     365                      .dwattr $C$DW$34, DW_AT_type(*$C$DW$T$283)
      366                      .dwattr $C$DW$34, DW_AT_location[DW_OP_reg12]
      367              $C$DW$35        .dwtag  DW_TAG_formal_parameter, DW_AT_name("address")
      368                      .dwattr $C$DW$35, DW_AT_TI_symbol_name("_address")
@@ -418,7 +418,7 @@ DRV830x_SPI.asm                                                      PAGE    7
      371              
      372              ;***************************************************************
      373              ;* FNAME: _DRV8301_SPI_Read             FR SIZE:   6           *
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE    8
@@ -437,7 +437,7 @@ DRV830x_SPI.asm                                                      PAGE    8
      385                      .dwcfi  cfa_offset, -8
      386              $C$DW$36        .dwtag  DW_TAG_variable, DW_AT_name("motor")
      387                      .dwattr $C$DW$36, DW_AT_TI_symbol_name("_motor")
-     388                      .dwattr $C$DW$36, DW_AT_type(*$C$DW$T$282)
+     388                      .dwattr $C$DW$36, DW_AT_type(*$C$DW$T$283)
      389                      .dwattr $C$DW$36, DW_AT_location[DW_OP_breg20 -2]
      390              $C$DW$37        .dwtag  DW_TAG_variable, DW_AT_name("address")
      391                      .dwattr $C$DW$37, DW_AT_TI_symbol_name("_address")
@@ -449,7 +449,7 @@ DRV830x_SPI.asm                                                      PAGE    8
      397                      .dwattr $C$DW$38, DW_AT_location[DW_OP_breg20 -4]
      398              $C$DW$39        .dwtag  DW_TAG_variable, DW_AT_name("dummy")
      399                      .dwattr $C$DW$39, DW_AT_TI_symbol_name("_dummy")
-     400                      .dwattr $C$DW$39, DW_AT_type(*$C$DW$T$290)
+     400                      .dwattr $C$DW$39, DW_AT_type(*$C$DW$T$291)
      401                      .dwattr $C$DW$39, DW_AT_location[DW_OP_breg20 -5]
      402 0000005a 9643          MOV       *-SP[3],AL            ; [CPU_] |107| 
      403 0000005b A842          MOVL      *-SP[2],XAR4          ; [CPU_] |107| 
@@ -478,7 +478,7 @@ DRV830x_SPI.asm                                                      PAGE    8
      423 0000006e 93C5          MOV       AH,*+XAR5[0]          ; [CPU_] |115| 
      424              $C$DW$40        .dwtag  DW_TAG_TI_branch
      425                      .dwattr $C$DW$40, DW_AT_low_pc(0x00)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE    9
@@ -538,7 +538,7 @@ DRV830x_SPI.asm                                                      PAGE    9
      475                      .dwattr $C$DW$44, DW_AT_high_pc(0x00)
      476                      .dwattr $C$DW$44, DW_AT_TI_symbol_name("_DRV8301_SPI_Write")
      477                      .dwattr $C$DW$44, DW_AT_external
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   10
@@ -553,7 +553,7 @@ DRV830x_SPI.asm                                                      PAGE   10
      485                      .dwfde $C$DW$CIE, _DRV8301_SPI_Write
      486              $C$DW$45        .dwtag  DW_TAG_formal_parameter, DW_AT_name("motor")
      487                      .dwattr $C$DW$45, DW_AT_TI_symbol_name("_motor")
-     488                      .dwattr $C$DW$45, DW_AT_type(*$C$DW$T$282)
+     488                      .dwattr $C$DW$45, DW_AT_type(*$C$DW$T$283)
      489                      .dwattr $C$DW$45, DW_AT_location[DW_OP_reg12]
      490              $C$DW$46        .dwtag  DW_TAG_formal_parameter, DW_AT_name("address")
      491                      .dwattr $C$DW$46, DW_AT_TI_symbol_name("_address")
@@ -576,7 +576,7 @@ DRV830x_SPI.asm                                                      PAGE   10
      508                      .dwcfi  cfa_offset, -8
      509              $C$DW$47        .dwtag  DW_TAG_variable, DW_AT_name("motor")
      510                      .dwattr $C$DW$47, DW_AT_TI_symbol_name("_motor")
-     511                      .dwattr $C$DW$47, DW_AT_type(*$C$DW$T$282)
+     511                      .dwattr $C$DW$47, DW_AT_type(*$C$DW$T$283)
      512                      .dwattr $C$DW$47, DW_AT_location[DW_OP_breg20 -2]
      513              $C$DW$48        .dwtag  DW_TAG_variable, DW_AT_name("address")
      514                      .dwattr $C$DW$48, DW_AT_TI_symbol_name("_address")
@@ -588,17 +588,17 @@ DRV830x_SPI.asm                                                      PAGE   10
      520                      .dwattr $C$DW$49, DW_AT_location[DW_OP_breg20 -4]
      521              $C$DW$50        .dwtag  DW_TAG_variable, DW_AT_name("cntrlReg")
      522                      .dwattr $C$DW$50, DW_AT_TI_symbol_name("_cntrlReg")
-     523                      .dwattr $C$DW$50, DW_AT_type(*$C$DW$T$294)
+     523                      .dwattr $C$DW$50, DW_AT_type(*$C$DW$T$295)
      524                      .dwattr $C$DW$50, DW_AT_location[DW_OP_breg20 -6]
      525 00000083 9643          MOV       *-SP[3],AL            ; [CPU_] |124| 
      526 00000084 A842          MOVL      *-SP[2],XAR4          ; [CPU_] |124| 
      527                      .dwpsn  file "../motors/HAL/DRV830x_SPI.c",line 128,column 5,is_stmt,isa 0
-     528 00000085 8F00          MOVL      XAR4,#308             ; [CPU_U] |128| 
-         00000086 0134 
+     528 00000085 8F00          MOVL      XAR4,#304             ; [CPU_U] |128| 
+         00000086 0130 
      529 00000087 A8A9          MOVL      ACC,XAR4              ; [CPU_] |128| 
      530 00000088 0742          ADDL      ACC,*-SP[2]           ; [CPU_] |128| 
      531 00000089 1E46          MOVL      *-SP[6],ACC           ; [CPU_] |128| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   11
@@ -658,7 +658,7 @@ DRV830x_SPI.asm                                                      PAGE   11
      579              ;* UNDEFINED EXTERNAL REFERENCES                              *
      580              ;**************************************************************
      581                      .global _F28x_usDelay
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   12
@@ -718,7 +718,7 @@ DRV830x_SPI.asm                                                      PAGE   12
      634              $C$DW$59        .dwtag  DW_TAG_member
      635                      .dwattr $C$DW$59, DW_AT_type(*$C$DW$T$19)
      636                      .dwattr $C$DW$59, DW_AT_name("Beta")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   13
@@ -778,7 +778,7 @@ DRV830x_SPI.asm                                                      PAGE   13
      689                      .dwattr $C$DW$66, DW_AT_accessibility(DW_ACCESS_public)
      690              $C$DW$67        .dwtag  DW_TAG_member
      691                      .dwattr $C$DW$67, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   14
@@ -838,7 +838,7 @@ DRV830x_SPI.asm                                                      PAGE   14
      744                      .dwattr $C$DW$74, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
      745                      .dwattr $C$DW$74, DW_AT_accessibility(DW_ACCESS_public)
      746              $C$DW$75        .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   15
@@ -898,7 +898,7 @@ DRV830x_SPI.asm                                                      PAGE   15
      799                      .dwattr $C$DW$83, DW_AT_accessibility(DW_ACCESS_public)
      800                      .dwendtag $C$DW$T$23
      801              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   16
@@ -958,7 +958,7 @@ DRV830x_SPI.asm                                                      PAGE   16
      854                      .dwattr $C$DW$90, DW_AT_name("Kp")
      855                      .dwattr $C$DW$90, DW_AT_TI_symbol_name("_Kp")
      856                      .dwattr $C$DW$90, DW_AT_data_member_location[DW_OP_plus_uconst 0x2]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   17
@@ -1018,7 +1018,7 @@ DRV830x_SPI.asm                                                      PAGE   17
      909                      .dwattr $C$DW$98, DW_AT_type(*$C$DW$T$19)
      910                      .dwattr $C$DW$98, DW_AT_name("ud")
      911                      .dwattr $C$DW$98, DW_AT_TI_symbol_name("_ud")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   18
@@ -1078,7 +1078,7 @@ DRV830x_SPI.asm                                                      PAGE   18
      964              $C$DW$106       .dwtag  DW_TAG_member
      965                      .dwattr $C$DW$106, DW_AT_type(*$C$DW$T$29)
      966                      .dwattr $C$DW$106, DW_AT_name("data")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   19
@@ -1138,7 +1138,7 @@ DRV830x_SPI.asm                                                      PAGE   19
     1019                      .dwattr $C$DW$113, DW_AT_accessibility(DW_ACCESS_public)
     1020              $C$DW$114       .dwtag  DW_TAG_member
     1021                      .dwattr $C$DW$114, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   20
@@ -1198,7 +1198,7 @@ DRV830x_SPI.asm                                                      PAGE   20
     1074                      .dwattr $C$DW$121, DW_AT_data_member_location[DW_OP_plus_uconst 0xa]
     1075                      .dwattr $C$DW$121, DW_AT_accessibility(DW_ACCESS_public)
     1076              $C$DW$122       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   21
@@ -1258,7 +1258,7 @@ DRV830x_SPI.asm                                                      PAGE   21
     1129                      .dwattr $C$DW$129, DW_AT_TI_symbol_name("_Offset")
     1130                      .dwattr $C$DW$129, DW_AT_data_member_location[DW_OP_plus_uconst 0xa]
     1131                      .dwattr $C$DW$129, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   22
@@ -1318,7 +1318,7 @@ DRV830x_SPI.asm                                                      PAGE   22
     1184                      .dwattr $C$DW$137, DW_AT_name("VphaseC")
     1185                      .dwattr $C$DW$137, DW_AT_TI_symbol_name("_VphaseC")
     1186                      .dwattr $C$DW$137, DW_AT_data_member_location[DW_OP_plus_uconst 0xe]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   23
@@ -1378,7 +1378,7 @@ DRV830x_SPI.asm                                                      PAGE   23
     1239                      .dwattr $C$DW$145, DW_AT_type(*$C$DW$T$33)
     1240                      .dwattr $C$DW$145, DW_AT_name("BaseRpm")
     1241                      .dwattr $C$DW$145, DW_AT_TI_symbol_name("_BaseRpm")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   24
@@ -1438,7 +1438,7 @@ DRV830x_SPI.asm                                                      PAGE   24
     1294              $C$DW$153       .dwtag  DW_TAG_member
     1295                      .dwattr $C$DW$153, DW_AT_type(*$C$DW$T$31)
     1296                      .dwattr $C$DW$153, DW_AT_name("DirectionQep")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   25
@@ -1498,7 +1498,7 @@ DRV830x_SPI.asm                                                      PAGE   25
     1349              
     1350              $C$DW$T$75      .dwtag  DW_TAG_typedef, DW_AT_name("QEP")
     1351                      .dwattr $C$DW$T$75, DW_AT_type(*$C$DW$T$41)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   26
@@ -1558,7 +1558,7 @@ DRV830x_SPI.asm                                                      PAGE   26
     1404              $C$DW$T$58      .dwtag  DW_TAG_structure_type
     1405                      .dwattr $C$DW$T$58, DW_AT_byte_size(0x15)
     1406              $C$DW$169       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   27
@@ -1618,7 +1618,7 @@ DRV830x_SPI.asm                                                      PAGE   27
     1459                      .dwattr $C$DW$177, DW_AT_accessibility(DW_ACCESS_public)
     1460              $C$DW$178       .dwtag  DW_TAG_member
     1461                      .dwattr $C$DW$178, DW_AT_type(*$C$DW$T$54)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   28
@@ -1678,7 +1678,7 @@ DRV830x_SPI.asm                                                      PAGE   28
     1514              $C$DW$187       .dwtag  DW_TAG_member
     1515                      .dwattr $C$DW$187, DW_AT_type(*$C$DW$T$31)
     1516                      .dwattr $C$DW$187, DW_AT_name("readCntrlB")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   29
@@ -1705,7 +1705,7 @@ DRV830x_SPI.asm                                                      PAGE   29
     1536                      .dwattr $C$DW$T$77, DW_AT_language(DW_LANG_C)
     1537              
     1538              $C$DW$T$78      .dwtag  DW_TAG_structure_type
-    1539                      .dwattr $C$DW$T$78, DW_AT_byte_size(0x150)
+    1539                      .dwattr $C$DW$T$78, DW_AT_byte_size(0x14c)
     1540              $C$DW$190       .dwtag  DW_TAG_member
     1541                      .dwattr $C$DW$190, DW_AT_type(*$C$DW$T$60)
     1542                      .dwattr $C$DW$190, DW_AT_name("PwmARegs")
@@ -1738,7 +1738,7 @@ DRV830x_SPI.asm                                                      PAGE   29
     1569                      .dwattr $C$DW$194, DW_AT_accessibility(DW_ACCESS_public)
     1570              $C$DW$195       .dwtag  DW_TAG_member
     1571                      .dwattr $C$DW$195, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   30
@@ -1798,7 +1798,7 @@ DRV830x_SPI.asm                                                      PAGE   30
     1624              $C$DW$204       .dwtag  DW_TAG_member
     1625                      .dwattr $C$DW$204, DW_AT_type(*$C$DW$T$19)
     1626                      .dwattr $C$DW$204, DW_AT_name("ElecTheta")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   31
@@ -1858,7 +1858,7 @@ DRV830x_SPI.asm                                                      PAGE   31
     1679                      .dwattr $C$DW$213, DW_AT_type(*$C$DW$T$31)
     1680                      .dwattr $C$DW$213, DW_AT_name("clearTripFlagDMC")
     1681                      .dwattr $C$DW$213, DW_AT_TI_symbol_name("_clearTripFlagDMC")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   32
@@ -1918,7 +1918,7 @@ DRV830x_SPI.asm                                                      PAGE   32
     1734                      .dwattr $C$DW$222, DW_AT_name("ipark")
     1735                      .dwattr $C$DW$222, DW_AT_TI_symbol_name("_ipark")
     1736                      .dwattr $C$DW$222, DW_AT_data_member_location[DW_OP_plus_uconst 0x4c]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   33
@@ -1943,7 +1943,7 @@ DRV830x_SPI.asm                                                      PAGE   33
     1754                      .dwattr $C$DW$225, DW_AT_data_member_location[DW_OP_plus_uconst 0x9a]
     1755                      .dwattr $C$DW$225, DW_AT_accessibility(DW_ACCESS_public)
     1756              $C$DW$226       .dwtag  DW_TAG_member
-    1757                      .dwattr $C$DW$226, DW_AT_type(*$C$DW$T$68)
+    1757                      .dwattr $C$DW$226, DW_AT_type(*$C$DW$T$281)
     1758                      .dwattr $C$DW$226, DW_AT_name("pi_iq")
     1759                      .dwattr $C$DW$226, DW_AT_TI_symbol_name("_pi_iq")
     1760                      .dwattr $C$DW$226, DW_AT_data_member_location[DW_OP_plus_uconst 0xb2]
@@ -1952,33 +1952,33 @@ DRV830x_SPI.asm                                                      PAGE   33
     1763                      .dwattr $C$DW$227, DW_AT_type(*$C$DW$T$70)
     1764                      .dwattr $C$DW$227, DW_AT_name("svgen")
     1765                      .dwattr $C$DW$227, DW_AT_TI_symbol_name("_svgen")
-    1766                      .dwattr $C$DW$227, DW_AT_data_member_location[DW_OP_plus_uconst 0xca]
+    1766                      .dwattr $C$DW$227, DW_AT_data_member_location[DW_OP_plus_uconst 0xc6]
     1767                      .dwattr $C$DW$227, DW_AT_accessibility(DW_ACCESS_public)
     1768              $C$DW$228       .dwtag  DW_TAG_member
     1769                      .dwattr $C$DW$228, DW_AT_type(*$C$DW$T$71)
     1770                      .dwattr $C$DW$228, DW_AT_name("rc")
     1771                      .dwattr $C$DW$228, DW_AT_TI_symbol_name("_rc")
-    1772                      .dwattr $C$DW$228, DW_AT_data_member_location[DW_OP_plus_uconst 0xdc]
+    1772                      .dwattr $C$DW$228, DW_AT_data_member_location[DW_OP_plus_uconst 0xd8]
     1773                      .dwattr $C$DW$228, DW_AT_accessibility(DW_ACCESS_public)
     1774              $C$DW$229       .dwtag  DW_TAG_member
     1775                      .dwattr $C$DW$229, DW_AT_type(*$C$DW$T$72)
     1776                      .dwattr $C$DW$229, DW_AT_name("rg")
     1777                      .dwattr $C$DW$229, DW_AT_TI_symbol_name("_rg")
-    1778                      .dwattr $C$DW$229, DW_AT_data_member_location[DW_OP_plus_uconst 0xec]
+    1778                      .dwattr $C$DW$229, DW_AT_data_member_location[DW_OP_plus_uconst 0xe8]
     1779                      .dwattr $C$DW$229, DW_AT_accessibility(DW_ACCESS_public)
     1780              $C$DW$230       .dwtag  DW_TAG_member
     1781                      .dwattr $C$DW$230, DW_AT_type(*$C$DW$T$73)
     1782                      .dwattr $C$DW$230, DW_AT_name("volt")
     1783                      .dwattr $C$DW$230, DW_AT_TI_symbol_name("_volt")
-    1784                      .dwattr $C$DW$230, DW_AT_data_member_location[DW_OP_plus_uconst 0xf8]
+    1784                      .dwattr $C$DW$230, DW_AT_data_member_location[DW_OP_plus_uconst 0xf4]
     1785                      .dwattr $C$DW$230, DW_AT_accessibility(DW_ACCESS_public)
     1786              $C$DW$231       .dwtag  DW_TAG_member
     1787                      .dwattr $C$DW$231, DW_AT_type(*$C$DW$T$74)
     1788                      .dwattr $C$DW$231, DW_AT_name("speed")
     1789                      .dwattr $C$DW$231, DW_AT_TI_symbol_name("_speed")
-    1790                      .dwattr $C$DW$231, DW_AT_data_member_location[DW_OP_plus_uconst 0x10e]
+    1790                      .dwattr $C$DW$231, DW_AT_data_member_location[DW_OP_plus_uconst 0x10a]
     1791                      .dwattr $C$DW$231, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   34
@@ -1987,28 +1987,28 @@ DRV830x_SPI.asm                                                      PAGE   34
     1793                      .dwattr $C$DW$232, DW_AT_type(*$C$DW$T$75)
     1794                      .dwattr $C$DW$232, DW_AT_name("qep")
     1795                      .dwattr $C$DW$232, DW_AT_TI_symbol_name("_qep")
-    1796                      .dwattr $C$DW$232, DW_AT_data_member_location[DW_OP_plus_uconst 0x122]
+    1796                      .dwattr $C$DW$232, DW_AT_data_member_location[DW_OP_plus_uconst 0x11e]
     1797                      .dwattr $C$DW$232, DW_AT_accessibility(DW_ACCESS_public)
     1798              $C$DW$233       .dwtag  DW_TAG_member
     1799                      .dwattr $C$DW$233, DW_AT_type(*$C$DW$T$76)
     1800                      .dwattr $C$DW$233, DW_AT_name("drv8301")
     1801                      .dwattr $C$DW$233, DW_AT_TI_symbol_name("_drv8301")
-    1802                      .dwattr $C$DW$233, DW_AT_data_member_location[DW_OP_plus_uconst 0x134]
+    1802                      .dwattr $C$DW$233, DW_AT_data_member_location[DW_OP_plus_uconst 0x130]
     1803                      .dwattr $C$DW$233, DW_AT_accessibility(DW_ACCESS_public)
     1804              $C$DW$234       .dwtag  DW_TAG_member
     1805                      .dwattr $C$DW$234, DW_AT_type(*$C$DW$T$77)
     1806                      .dwattr $C$DW$234, DW_AT_name("drv8305")
     1807                      .dwattr $C$DW$234, DW_AT_TI_symbol_name("_drv8305")
-    1808                      .dwattr $C$DW$234, DW_AT_data_member_location[DW_OP_plus_uconst 0x13b]
+    1808                      .dwattr $C$DW$234, DW_AT_data_member_location[DW_OP_plus_uconst 0x137]
     1809                      .dwattr $C$DW$234, DW_AT_accessibility(DW_ACCESS_public)
     1810                      .dwendtag $C$DW$T$78
     1811              
-    1812              $C$DW$T$281     .dwtag  DW_TAG_typedef, DW_AT_name("MOTOR_VARS")
-    1813                      .dwattr $C$DW$T$281, DW_AT_type(*$C$DW$T$78)
-    1814                      .dwattr $C$DW$T$281, DW_AT_language(DW_LANG_C)
-    1815              $C$DW$T$282     .dwtag  DW_TAG_pointer_type
-    1816                      .dwattr $C$DW$T$282, DW_AT_type(*$C$DW$T$281)
-    1817                      .dwattr $C$DW$T$282, DW_AT_address_class(0x20)
+    1812              $C$DW$T$282     .dwtag  DW_TAG_typedef, DW_AT_name("MOTOR_VARS")
+    1813                      .dwattr $C$DW$T$282, DW_AT_type(*$C$DW$T$78)
+    1814                      .dwattr $C$DW$T$282, DW_AT_language(DW_LANG_C)
+    1815              $C$DW$T$283     .dwtag  DW_TAG_pointer_type
+    1816                      .dwattr $C$DW$T$283, DW_AT_type(*$C$DW$T$282)
+    1817                      .dwattr $C$DW$T$283, DW_AT_address_class(0x20)
     1818              
     1819              $C$DW$T$79      .dwtag  DW_TAG_union_type
     1820                      .dwattr $C$DW$T$79, DW_AT_byte_size(0x01)
@@ -2038,7 +2038,7 @@ DRV830x_SPI.asm                                                      PAGE   34
     1844                      .dwattr $C$DW$237, DW_AT_TI_symbol_name("_all")
     1845                      .dwattr $C$DW$237, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1846                      .dwattr $C$DW$237, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   35
@@ -2098,7 +2098,7 @@ DRV830x_SPI.asm                                                      PAGE   35
     1899              $C$DW$T$83      .dwtag  DW_TAG_union_type
     1900                      .dwattr $C$DW$T$83, DW_AT_byte_size(0x01)
     1901              $C$DW$243       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   36
@@ -2158,7 +2158,7 @@ DRV830x_SPI.asm                                                      PAGE   36
     1954              
     1955              $C$DW$T$49      .dwtag  DW_TAG_typedef, DW_AT_name("DRV8305_IC_FAULTS_REG")
     1956                      .dwattr $C$DW$T$49, DW_AT_type(*$C$DW$T$85)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   37
@@ -2218,7 +2218,7 @@ DRV830x_SPI.asm                                                      PAGE   37
     2009                      .dwattr $C$DW$254, DW_AT_name("bit")
     2010                      .dwattr $C$DW$254, DW_AT_TI_symbol_name("_bit")
     2011                      .dwattr $C$DW$254, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   38
@@ -2278,7 +2278,7 @@ DRV830x_SPI.asm                                                      PAGE   38
     2064                      .dwattr $C$DW$259, DW_AT_TI_symbol_name("_all")
     2065                      .dwattr $C$DW$259, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2066                      .dwattr $C$DW$259, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   39
@@ -2338,7 +2338,7 @@ DRV830x_SPI.asm                                                      PAGE   39
     2119              $C$DW$T$94      .dwtag  DW_TAG_structure_type
     2120                      .dwattr $C$DW$T$94, DW_AT_name("AQCSFRC_BITS")
     2121                      .dwattr $C$DW$T$94, DW_AT_byte_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   40
@@ -2398,7 +2398,7 @@ DRV830x_SPI.asm                                                      PAGE   40
     2174              $C$DW$271       .dwtag  DW_TAG_member
     2175                      .dwattr $C$DW$271, DW_AT_type(*$C$DW$T$31)
     2176                      .dwattr $C$DW$271, DW_AT_name("T1D")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   41
@@ -2458,7 +2458,7 @@ DRV830x_SPI.asm                                                      PAGE   41
     2229                      .dwattr $C$DW$277, DW_AT_TI_symbol_name("_ZRO")
     2230                      .dwattr $C$DW$277, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x02)
     2231                      .dwattr $C$DW$277, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   42
@@ -2518,7 +2518,7 @@ DRV830x_SPI.asm                                                      PAGE   42
     2284                      .dwattr $C$DW$284, DW_AT_TI_symbol_name("_all")
     2285                      .dwattr $C$DW$284, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2286                      .dwattr $C$DW$284, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   43
@@ -2578,7 +2578,7 @@ DRV830x_SPI.asm                                                      PAGE   43
     2339                      .dwattr $C$DW$T$101, DW_AT_byte_size(0x01)
     2340              $C$DW$291       .dwtag  DW_TAG_member
     2341                      .dwattr $C$DW$291, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   44
@@ -2638,7 +2638,7 @@ DRV830x_SPI.asm                                                      PAGE   44
     2394                      .dwattr $C$DW$298, DW_AT_type(*$C$DW$T$31)
     2395                      .dwattr $C$DW$298, DW_AT_name("CBD")
     2396                      .dwattr $C$DW$298, DW_AT_TI_symbol_name("_CBD")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   45
@@ -2698,7 +2698,7 @@ DRV830x_SPI.asm                                                      PAGE   45
     2449                      .dwattr $C$DW$304, DW_AT_bit_offset(0x0b), DW_AT_bit_size(0x01)
     2450                      .dwattr $C$DW$304, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2451                      .dwattr $C$DW$304, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   46
@@ -2758,7 +2758,7 @@ DRV830x_SPI.asm                                                      PAGE   46
     2504                      .dwattr $C$DW$311, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2505                      .dwattr $C$DW$311, DW_AT_accessibility(DW_ACCESS_public)
     2506              $C$DW$312       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   47
@@ -2818,7 +2818,7 @@ DRV830x_SPI.asm                                                      PAGE   47
     2559                      .dwattr $C$DW$318, DW_AT_accessibility(DW_ACCESS_public)
     2560                      .dwendtag $C$DW$T$106
     2561              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   48
@@ -2878,7 +2878,7 @@ DRV830x_SPI.asm                                                      PAGE   48
     2614                      .dwattr $C$DW$324, DW_AT_TI_symbol_name("_all")
     2615                      .dwattr $C$DW$324, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2616                      .dwattr $C$DW$324, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   49
@@ -2938,7 +2938,7 @@ DRV830x_SPI.asm                                                      PAGE   49
     2669                      .dwattr $C$DW$330, DW_AT_name("CMPBHR")
     2670                      .dwattr $C$DW$330, DW_AT_TI_symbol_name("_CMPBHR")
     2671                      .dwattr $C$DW$330, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x10)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   50
@@ -2998,7 +2998,7 @@ DRV830x_SPI.asm                                                      PAGE   50
     2724                      .dwattr $C$DW$336, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2725                      .dwattr $C$DW$336, DW_AT_accessibility(DW_ACCESS_public)
     2726              $C$DW$337       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   51
@@ -3058,7 +3058,7 @@ DRV830x_SPI.asm                                                      PAGE   51
     2779                      .dwattr $C$DW$343, DW_AT_accessibility(DW_ACCESS_public)
     2780              $C$DW$344       .dwtag  DW_TAG_member
     2781                      .dwattr $C$DW$344, DW_AT_type(*$C$DW$T$114)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   52
@@ -3118,7 +3118,7 @@ DRV830x_SPI.asm                                                      PAGE   52
     2834              $C$DW$351       .dwtag  DW_TAG_member
     2835                      .dwattr $C$DW$351, DW_AT_type(*$C$DW$T$31)
     2836                      .dwattr $C$DW$351, DW_AT_name("SHDWAFULL")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   53
@@ -3178,7 +3178,7 @@ DRV830x_SPI.asm                                                      PAGE   53
     2889              
     2890              $C$DW$T$118     .dwtag  DW_TAG_structure_type
     2891                      .dwattr $C$DW$T$118, DW_AT_name("DBCTL2_BITS")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   54
@@ -3238,7 +3238,7 @@ DRV830x_SPI.asm                                                      PAGE   54
     2944                      .dwattr $C$DW$363, DW_AT_accessibility(DW_ACCESS_public)
     2945              $C$DW$364       .dwtag  DW_TAG_member
     2946                      .dwattr $C$DW$364, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   55
@@ -3298,7 +3298,7 @@ DRV830x_SPI.asm                                                      PAGE   55
     2999                      .dwattr $C$DW$371, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3000                      .dwattr $C$DW$371, DW_AT_accessibility(DW_ACCESS_public)
     3001              $C$DW$372       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   56
@@ -3358,7 +3358,7 @@ DRV830x_SPI.asm                                                      PAGE   56
     3054                      .dwattr $C$DW$378, DW_AT_type(*$C$DW$T$31)
     3055                      .dwattr $C$DW$378, DW_AT_name("DBFEDHR")
     3056                      .dwattr $C$DW$378, DW_AT_TI_symbol_name("_DBFEDHR")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   57
@@ -3418,7 +3418,7 @@ DRV830x_SPI.asm                                                      PAGE   57
     3109                      .dwattr $C$DW$384, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x07)
     3110                      .dwattr $C$DW$384, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3111                      .dwattr $C$DW$384, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   58
@@ -3478,7 +3478,7 @@ DRV830x_SPI.asm                                                      PAGE   58
     3164              $C$DW$391       .dwtag  DW_TAG_member
     3165                      .dwattr $C$DW$391, DW_AT_type(*$C$DW$T$31)
     3166                      .dwattr $C$DW$391, DW_AT_name("rsvd1")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   59
@@ -3538,7 +3538,7 @@ DRV830x_SPI.asm                                                      PAGE   59
     3219                      .dwattr $C$DW$397, DW_AT_TI_symbol_name("_TRIPINPUT1")
     3220                      .dwattr $C$DW$397, DW_AT_bit_offset(0x0f), DW_AT_bit_size(0x01)
     3221                      .dwattr $C$DW$397, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   60
@@ -3598,7 +3598,7 @@ DRV830x_SPI.asm                                                      PAGE   60
     3274                      .dwattr $C$DW$405, DW_AT_name("TRIPINPUT9")
     3275                      .dwattr $C$DW$405, DW_AT_TI_symbol_name("_TRIPINPUT9")
     3276                      .dwattr $C$DW$405, DW_AT_bit_offset(0x07), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   61
@@ -3658,7 +3658,7 @@ DRV830x_SPI.asm                                                      PAGE   61
     3329              
     3330              
     3331              $C$DW$T$129     .dwtag  DW_TAG_union_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   62
@@ -3718,7 +3718,7 @@ DRV830x_SPI.asm                                                      PAGE   62
     3384                      .dwattr $C$DW$419, DW_AT_bit_offset(0x0b), DW_AT_bit_size(0x01)
     3385                      .dwattr $C$DW$419, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3386                      .dwattr $C$DW$419, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   63
@@ -3778,7 +3778,7 @@ DRV830x_SPI.asm                                                      PAGE   63
     3439                      .dwattr $C$DW$427, DW_AT_TI_symbol_name("_rsvd1")
     3440                      .dwattr $C$DW$427, DW_AT_bit_offset(0x03), DW_AT_bit_size(0x01)
     3441                      .dwattr $C$DW$427, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   64
@@ -3838,7 +3838,7 @@ DRV830x_SPI.asm                                                      PAGE   64
     3494                      .dwattr $C$DW$433, DW_AT_accessibility(DW_ACCESS_public)
     3495              $C$DW$434       .dwtag  DW_TAG_member
     3496                      .dwattr $C$DW$434, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   65
@@ -3898,7 +3898,7 @@ DRV830x_SPI.asm                                                      PAGE   65
     3549                      .dwattr $C$DW$T$133, DW_AT_byte_size(0x01)
     3550              $C$DW$441       .dwtag  DW_TAG_member
     3551                      .dwattr $C$DW$441, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   66
@@ -3958,7 +3958,7 @@ DRV830x_SPI.asm                                                      PAGE   66
     3604                      .dwattr $C$DW$448, DW_AT_type(*$C$DW$T$31)
     3605                      .dwattr $C$DW$448, DW_AT_name("TRIPINPUT6")
     3606                      .dwattr $C$DW$448, DW_AT_TI_symbol_name("_TRIPINPUT6")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   67
@@ -4018,7 +4018,7 @@ DRV830x_SPI.asm                                                      PAGE   67
     3659              $C$DW$456       .dwtag  DW_TAG_member
     3660                      .dwattr $C$DW$456, DW_AT_type(*$C$DW$T$31)
     3661                      .dwattr $C$DW$456, DW_AT_name("TRIPINPUT14")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   68
@@ -4078,7 +4078,7 @@ DRV830x_SPI.asm                                                      PAGE   68
     3714                      .dwattr $C$DW$462, DW_AT_TI_symbol_name("_TRIPINPUT2")
     3715                      .dwattr $C$DW$462, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x01)
     3716                      .dwattr $C$DW$462, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   69
@@ -4138,7 +4138,7 @@ DRV830x_SPI.asm                                                      PAGE   69
     3769                      .dwattr $C$DW$470, DW_AT_name("TRIPINPUT10")
     3770                      .dwattr $C$DW$470, DW_AT_TI_symbol_name("_TRIPINPUT10")
     3771                      .dwattr $C$DW$470, DW_AT_bit_offset(0x06), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   70
@@ -4198,7 +4198,7 @@ DRV830x_SPI.asm                                                      PAGE   70
     3824                      .dwattr $C$DW$477, DW_AT_name("all")
     3825                      .dwattr $C$DW$477, DW_AT_TI_symbol_name("_all")
     3826                      .dwattr $C$DW$477, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   71
@@ -4258,7 +4258,7 @@ DRV830x_SPI.asm                                                      PAGE   71
     3879                      .dwattr $C$DW$484, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x01)
     3880                      .dwattr $C$DW$484, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3881                      .dwattr $C$DW$484, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   72
@@ -4318,7 +4318,7 @@ DRV830x_SPI.asm                                                      PAGE   72
     3934              $C$DW$491       .dwtag  DW_TAG_member
     3935                      .dwattr $C$DW$491, DW_AT_type(*$C$DW$T$31)
     3936                      .dwattr $C$DW$491, DW_AT_name("rsvd1")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   73
@@ -4378,7 +4378,7 @@ DRV830x_SPI.asm                                                      PAGE   73
     3989              
     3990              $C$DW$T$142     .dwtag  DW_TAG_structure_type
     3991                      .dwattr $C$DW$T$142, DW_AT_name("DCTRIPSEL_BITS")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   74
@@ -4438,7 +4438,7 @@ DRV830x_SPI.asm                                                      PAGE   74
     4044                      .dwattr $C$DW$T$144, DW_AT_byte_size(0x01)
     4045              $C$DW$504       .dwtag  DW_TAG_member
     4046                      .dwattr $C$DW$504, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   75
@@ -4498,7 +4498,7 @@ DRV830x_SPI.asm                                                      PAGE   75
     4099                      .dwattr $C$DW$510, DW_AT_accessibility(DW_ACCESS_public)
     4100              $C$DW$511       .dwtag  DW_TAG_member
     4101                      .dwattr $C$DW$511, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   76
@@ -4558,7 +4558,7 @@ DRV830x_SPI.asm                                                      PAGE   76
     4154                      .dwattr $C$DW$517, DW_AT_accessibility(DW_ACCESS_public)
     4155              $C$DW$518       .dwtag  DW_TAG_member
     4156                      .dwattr $C$DW$518, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   77
@@ -4618,7 +4618,7 @@ DRV830x_SPI.asm                                                      PAGE   77
     4209                      .dwattr $C$DW$525, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4210                      .dwattr $C$DW$525, DW_AT_accessibility(DW_ACCESS_public)
     4211              $C$DW$526       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   78
@@ -4678,7 +4678,7 @@ DRV830x_SPI.asm                                                      PAGE   78
     4264                      .dwattr $C$DW$T$148, DW_AT_byte_size(0x01)
     4265              $C$DW$532       .dwtag  DW_TAG_member
     4266                      .dwattr $C$DW$532, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   79
@@ -4738,7 +4738,7 @@ DRV830x_SPI.asm                                                      PAGE   79
     4319                      .dwattr $C$DW$T$149, DW_AT_byte_size(0x01)
     4320              $C$DW$539       .dwtag  DW_TAG_member
     4321                      .dwattr $C$DW$539, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   80
@@ -4798,7 +4798,7 @@ DRV830x_SPI.asm                                                      PAGE   80
     4374                      .dwattr $C$DW$546, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4375                      .dwattr $C$DW$546, DW_AT_accessibility(DW_ACCESS_public)
     4376                      .dwendtag $C$DW$T$149
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   81
@@ -4858,7 +4858,7 @@ DRV830x_SPI.asm                                                      PAGE   81
     4429                      .dwattr $C$DW$552, DW_AT_accessibility(DW_ACCESS_public)
     4430              $C$DW$553       .dwtag  DW_TAG_member
     4431                      .dwattr $C$DW$553, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   82
@@ -4918,7 +4918,7 @@ DRV830x_SPI.asm                                                      PAGE   82
     4484                      .dwattr $C$DW$560, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4485                      .dwattr $C$DW$560, DW_AT_accessibility(DW_ACCESS_public)
     4486              $C$DW$561       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   83
@@ -4978,7 +4978,7 @@ DRV830x_SPI.asm                                                      PAGE   83
     4539                      .dwattr $C$DW$567, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4540                      .dwattr $C$DW$567, DW_AT_accessibility(DW_ACCESS_public)
     4541              $C$DW$568       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   84
@@ -5038,7 +5038,7 @@ DRV830x_SPI.asm                                                      PAGE   84
     4594                      .dwattr $C$DW$T$153, DW_AT_name("DRV8305_LS_GATE_DRIVER_CNTRL_REG_BITS")
     4595                      .dwattr $C$DW$T$153, DW_AT_byte_size(0x01)
     4596              $C$DW$575       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   85
@@ -5098,7 +5098,7 @@ DRV830x_SPI.asm                                                      PAGE   85
     4649                      .dwattr $C$DW$581, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4650                      .dwattr $C$DW$581, DW_AT_accessibility(DW_ACCESS_public)
     4651              $C$DW$582       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   86
@@ -5158,7 +5158,7 @@ DRV830x_SPI.asm                                                      PAGE   86
     4704                      .dwattr $C$DW$589, DW_AT_bit_offset(0x05), DW_AT_bit_size(0x01)
     4705                      .dwattr $C$DW$589, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4706                      .dwattr $C$DW$589, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   87
@@ -5218,7 +5218,7 @@ DRV830x_SPI.asm                                                      PAGE   87
     4759                      .dwattr $C$DW$596, DW_AT_bit_offset(0x06), DW_AT_bit_size(0x01)
     4760                      .dwattr $C$DW$596, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4761                      .dwattr $C$DW$596, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   88
@@ -5278,7 +5278,7 @@ DRV830x_SPI.asm                                                      PAGE   88
     4814                      .dwattr $C$DW$T$157, DW_AT_name("DRV8305_VREG_CNTRL_REG_BITS")
     4815                      .dwattr $C$DW$T$157, DW_AT_byte_size(0x01)
     4816              $C$DW$603       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   89
@@ -5338,7 +5338,7 @@ DRV830x_SPI.asm                                                      PAGE   89
     4869                      .dwattr $C$DW$T$158, DW_AT_name("DRV8305_WWD_REG_BITS")
     4870                      .dwattr $C$DW$T$158, DW_AT_byte_size(0x01)
     4871              $C$DW$610       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   90
@@ -5398,7 +5398,7 @@ DRV830x_SPI.asm                                                      PAGE   90
     4924                      .dwattr $C$DW$617, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x01)
     4925                      .dwattr $C$DW$617, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4926                      .dwattr $C$DW$617, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   91
@@ -5458,7 +5458,7 @@ DRV830x_SPI.asm                                                      PAGE   91
     4979                      .dwattr $C$DW$624, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x01)
     4980                      .dwattr $C$DW$624, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4981                      .dwattr $C$DW$624, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   92
@@ -5518,7 +5518,7 @@ DRV830x_SPI.asm                                                      PAGE   92
     5034              $C$DW$631       .dwtag  DW_TAG_member
     5035                      .dwattr $C$DW$631, DW_AT_type(*$C$DW$T$31)
     5036                      .dwattr $C$DW$631, DW_AT_name("CMPDLINK")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   93
@@ -5578,7 +5578,7 @@ DRV830x_SPI.asm                                                      PAGE   93
     5089                      .dwattr $C$DW$637, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     5090                      .dwattr $C$DW$637, DW_AT_accessibility(DW_ACCESS_public)
     5091              $C$DW$638       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   94
@@ -5638,7 +5638,7 @@ DRV830x_SPI.asm                                                      PAGE   94
     5144                      .dwattr $C$DW$646, DW_AT_accessibility(DW_ACCESS_public)
     5145              $C$DW$647       .dwtag  DW_TAG_member
     5146                      .dwattr $C$DW$647, DW_AT_type(*$C$DW$T$163)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   95
@@ -5698,7 +5698,7 @@ DRV830x_SPI.asm                                                      PAGE   95
     5199              $C$DW$656       .dwtag  DW_TAG_member
     5200                      .dwattr $C$DW$656, DW_AT_type(*$C$DW$T$203)
     5201                      .dwattr $C$DW$656, DW_AT_name("HRMSTEP")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   96
@@ -5758,7 +5758,7 @@ DRV830x_SPI.asm                                                      PAGE   96
     5254                      .dwattr $C$DW$665, DW_AT_type(*$C$DW$T$167)
     5255                      .dwattr $C$DW$665, DW_AT_name("rsvd11")
     5256                      .dwattr $C$DW$665, DW_AT_TI_symbol_name("_rsvd11")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   97
@@ -5818,7 +5818,7 @@ DRV830x_SPI.asm                                                      PAGE   97
     5309                      .dwattr $C$DW$674, DW_AT_name("rsvd14")
     5310                      .dwattr $C$DW$674, DW_AT_TI_symbol_name("_rsvd14")
     5311                      .dwattr $C$DW$674, DW_AT_data_member_location[DW_OP_plus_uconst 0x4a]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   98
@@ -5878,7 +5878,7 @@ DRV830x_SPI.asm                                                      PAGE   98
     5364                      .dwattr $C$DW$683, DW_AT_TI_symbol_name("_rsvd16")
     5365                      .dwattr $C$DW$683, DW_AT_data_member_location[DW_OP_plus_uconst 0x64]
     5366                      .dwattr $C$DW$683, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE   99
@@ -5938,7 +5938,7 @@ DRV830x_SPI.asm                                                      PAGE   99
     5419                      .dwattr $C$DW$692, DW_AT_data_member_location[DW_OP_plus_uconst 0x75]
     5420                      .dwattr $C$DW$692, DW_AT_accessibility(DW_ACCESS_public)
     5421              $C$DW$693       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  100
@@ -5998,7 +5998,7 @@ DRV830x_SPI.asm                                                      PAGE  100
     5474                      .dwattr $C$DW$701, DW_AT_accessibility(DW_ACCESS_public)
     5475              $C$DW$702       .dwtag  DW_TAG_member
     5476                      .dwattr $C$DW$702, DW_AT_type(*$C$DW$T$270)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  101
@@ -6058,7 +6058,7 @@ DRV830x_SPI.asm                                                      PAGE  101
     5529              $C$DW$711       .dwtag  DW_TAG_member
     5530                      .dwattr $C$DW$711, DW_AT_type(*$C$DW$T$31)
     5531                      .dwattr $C$DW$711, DW_AT_name("rsvd26")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  102
@@ -6118,7 +6118,7 @@ DRV830x_SPI.asm                                                      PAGE  102
     5584                      .dwattr $C$DW$720, DW_AT_type(*$C$DW$T$175)
     5585                      .dwattr $C$DW$720, DW_AT_name("ETCLR")
     5586                      .dwattr $C$DW$720, DW_AT_TI_symbol_name("_ETCLR")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  103
@@ -6178,7 +6178,7 @@ DRV830x_SPI.asm                                                      PAGE  103
     5639                      .dwattr $C$DW$729, DW_AT_name("rsvd35")
     5640                      .dwattr $C$DW$729, DW_AT_TI_symbol_name("_rsvd35")
     5641                      .dwattr $C$DW$729, DW_AT_data_member_location[DW_OP_plus_uconst 0xb3]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  104
@@ -6238,7 +6238,7 @@ DRV830x_SPI.asm                                                      PAGE  104
     5694                      .dwattr $C$DW$738, DW_AT_TI_symbol_name("_DCCAPCTL")
     5695                      .dwattr $C$DW$738, DW_AT_data_member_location[DW_OP_plus_uconst 0xc8]
     5696                      .dwattr $C$DW$738, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  105
@@ -6298,7 +6298,7 @@ DRV830x_SPI.asm                                                      PAGE  105
     5749                      .dwattr $C$DW$747, DW_AT_data_member_location[DW_OP_plus_uconst 0xd3]
     5750                      .dwattr $C$DW$747, DW_AT_accessibility(DW_ACCESS_public)
     5751              $C$DW$748       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  106
@@ -6358,7 +6358,7 @@ DRV830x_SPI.asm                                                      PAGE  106
     5804                      .dwattr $C$DW$755, DW_AT_data_member_location[DW_OP_plus_uconst 0x6]
     5805                      .dwattr $C$DW$755, DW_AT_accessibility(DW_ACCESS_public)
     5806              $C$DW$756       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  107
@@ -6418,7 +6418,7 @@ DRV830x_SPI.asm                                                      PAGE  107
     5859                      .dwattr $C$DW$764, DW_AT_accessibility(DW_ACCESS_public)
     5860              $C$DW$765       .dwtag  DW_TAG_member
     5861                      .dwattr $C$DW$765, DW_AT_type(*$C$DW$T$211)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  108
@@ -6478,7 +6478,7 @@ DRV830x_SPI.asm                                                      PAGE  108
     5914              $C$DW$774       .dwtag  DW_TAG_member
     5915                      .dwattr $C$DW$774, DW_AT_type(*$C$DW$T$31)
     5916                      .dwattr $C$DW$774, DW_AT_name("QCTMRLAT")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  109
@@ -6538,7 +6538,7 @@ DRV830x_SPI.asm                                                      PAGE  109
     5969                      .dwattr $C$DW$781, DW_AT_TI_symbol_name("_SOCB")
     5970                      .dwattr $C$DW$781, DW_AT_bit_offset(0x0c), DW_AT_bit_size(0x01)
     5971                      .dwattr $C$DW$781, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  110
@@ -6598,7 +6598,7 @@ DRV830x_SPI.asm                                                      PAGE  110
     6024                      .dwattr $C$DW$787, DW_AT_accessibility(DW_ACCESS_public)
     6025              $C$DW$788       .dwtag  DW_TAG_member
     6026                      .dwattr $C$DW$788, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  111
@@ -6658,7 +6658,7 @@ DRV830x_SPI.asm                                                      PAGE  111
     6079                      .dwattr $C$DW$794, DW_AT_name("INTINIT")
     6080                      .dwattr $C$DW$794, DW_AT_TI_symbol_name("_INTINIT")
     6081                      .dwattr $C$DW$794, DW_AT_bit_offset(0x0c), DW_AT_bit_size(0x04)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  112
@@ -6718,7 +6718,7 @@ DRV830x_SPI.asm                                                      PAGE  112
     6134                      .dwattr $C$DW$800, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     6135                      .dwattr $C$DW$800, DW_AT_accessibility(DW_ACCESS_public)
     6136              $C$DW$801       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  113
@@ -6778,7 +6778,7 @@ DRV830x_SPI.asm                                                      PAGE  113
     6189                      .dwattr $C$DW$807, DW_AT_type(*$C$DW$T$31)
     6190                      .dwattr $C$DW$807, DW_AT_name("INT")
     6191                      .dwattr $C$DW$807, DW_AT_TI_symbol_name("_INT")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  114
@@ -6838,7 +6838,7 @@ DRV830x_SPI.asm                                                      PAGE  114
     6244              $C$DW$T$184     .dwtag  DW_TAG_structure_type
     6245                      .dwattr $C$DW$T$184, DW_AT_name("ETINTPS_BITS")
     6246                      .dwattr $C$DW$T$184, DW_AT_byte_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  115
@@ -6898,7 +6898,7 @@ DRV830x_SPI.asm                                                      PAGE  115
     6299              $C$DW$820       .dwtag  DW_TAG_member
     6300                      .dwattr $C$DW$820, DW_AT_type(*$C$DW$T$31)
     6301                      .dwattr $C$DW$820, DW_AT_name("INTCNT")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  116
@@ -6958,7 +6958,7 @@ DRV830x_SPI.asm                                                      PAGE  116
     6354                      .dwattr $C$DW$827, DW_AT_accessibility(DW_ACCESS_public)
     6355                      .dwendtag $C$DW$T$186
     6356              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  117
@@ -7018,7 +7018,7 @@ DRV830x_SPI.asm                                                      PAGE  117
     6409                      .dwattr $C$DW$834, DW_AT_name("INTSELCMP")
     6410                      .dwattr $C$DW$834, DW_AT_TI_symbol_name("_INTSELCMP")
     6411                      .dwattr $C$DW$834, DW_AT_bit_offset(0x09), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  118
@@ -7078,7 +7078,7 @@ DRV830x_SPI.asm                                                      PAGE  118
     6464                      .dwattr $C$DW$841, DW_AT_TI_symbol_name("_bit")
     6465                      .dwattr $C$DW$841, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     6466                      .dwattr $C$DW$841, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  119
@@ -7138,7 +7138,7 @@ DRV830x_SPI.asm                                                      PAGE  119
     6519                      .dwendtag $C$DW$T$191
     6520              
     6521              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  120
@@ -7198,7 +7198,7 @@ DRV830x_SPI.asm                                                      PAGE  120
     6574              $C$DW$855       .dwtag  DW_TAG_member
     6575                      .dwattr $C$DW$855, DW_AT_type(*$C$DW$T$31)
     6576                      .dwattr $C$DW$855, DW_AT_name("DBCTL")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  121
@@ -7258,7 +7258,7 @@ DRV830x_SPI.asm                                                      PAGE  121
     6629              
     6630              $C$DW$T$194     .dwtag  DW_TAG_structure_type
     6631                      .dwattr $C$DW$T$194, DW_AT_name("GLDCTL2_BITS")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  122
@@ -7318,7 +7318,7 @@ DRV830x_SPI.asm                                                      PAGE  122
     6684                      .dwattr $C$DW$867, DW_AT_accessibility(DW_ACCESS_public)
     6685              $C$DW$868       .dwtag  DW_TAG_member
     6686                      .dwattr $C$DW$868, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  123
@@ -7378,7 +7378,7 @@ DRV830x_SPI.asm                                                      PAGE  123
     6739              $C$DW$875       .dwtag  DW_TAG_member
     6740                      .dwattr $C$DW$875, DW_AT_type(*$C$DW$T$196)
     6741                      .dwattr $C$DW$875, DW_AT_name("bit")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  124
@@ -7438,7 +7438,7 @@ DRV830x_SPI.asm                                                      PAGE  124
     6794              
     6795              
     6796              $C$DW$T$199     .dwtag  DW_TAG_union_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  125
@@ -7498,7 +7498,7 @@ DRV830x_SPI.asm                                                      PAGE  125
     6849                      .dwattr $C$DW$888, DW_AT_bit_offset(0x09), DW_AT_bit_size(0x01)
     6850                      .dwattr $C$DW$888, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     6851                      .dwattr $C$DW$888, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  126
@@ -7558,7 +7558,7 @@ DRV830x_SPI.asm                                                      PAGE  126
     6904                      .dwattr $C$DW$895, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     6905                      .dwattr $C$DW$895, DW_AT_accessibility(DW_ACCESS_public)
     6906              $C$DW$896       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  127
@@ -7618,7 +7618,7 @@ DRV830x_SPI.asm                                                      PAGE  127
     6959                      .dwattr $C$DW$901, DW_AT_TI_symbol_name("_HRPE")
     6960                      .dwattr $C$DW$901, DW_AT_bit_offset(0x0f), DW_AT_bit_size(0x01)
     6961                      .dwattr $C$DW$901, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  128
@@ -7678,7 +7678,7 @@ DRV830x_SPI.asm                                                      PAGE  128
     7014                      .dwattr $C$DW$908, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7015                      .dwattr $C$DW$908, DW_AT_accessibility(DW_ACCESS_public)
     7016                      .dwendtag $C$DW$T$205
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  129
@@ -7738,7 +7738,7 @@ DRV830x_SPI.asm                                                      PAGE  129
     7069                      .dwattr $C$DW$915, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7070                      .dwattr $C$DW$915, DW_AT_accessibility(DW_ACCESS_public)
     7071              $C$DW$916       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  130
@@ -7798,7 +7798,7 @@ DRV830x_SPI.asm                                                      PAGE  130
     7124                      .dwattr $C$DW$922, DW_AT_type(*$C$DW$T$31)
     7125                      .dwattr $C$DW$922, DW_AT_name("CHPDUTY")
     7126                      .dwattr $C$DW$922, DW_AT_TI_symbol_name("_CHPDUTY")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  131
@@ -7858,7 +7858,7 @@ DRV830x_SPI.asm                                                      PAGE  131
     7179                      .dwattr $C$DW$928, DW_AT_bit_offset(0x01), DW_AT_bit_size(0x08)
     7180                      .dwattr $C$DW$928, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7181                      .dwattr $C$DW$928, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  132
@@ -7918,7 +7918,7 @@ DRV830x_SPI.asm                                                      PAGE  132
     7234              $C$DW$935       .dwtag  DW_TAG_member
     7235                      .dwattr $C$DW$935, DW_AT_type(*$C$DW$T$31)
     7236                      .dwattr $C$DW$935, DW_AT_name("QDC")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  133
@@ -7978,7 +7978,7 @@ DRV830x_SPI.asm                                                      PAGE  133
     7289                      .dwattr $C$DW$942, DW_AT_accessibility(DW_ACCESS_public)
     7290              $C$DW$943       .dwtag  DW_TAG_member
     7291                      .dwattr $C$DW$943, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  134
@@ -8038,7 +8038,7 @@ DRV830x_SPI.asm                                                      PAGE  134
     7344                      .dwattr $C$DW$949, DW_AT_name("QIP")
     7345                      .dwattr $C$DW$949, DW_AT_TI_symbol_name("_QIP")
     7346                      .dwattr $C$DW$949, DW_AT_bit_offset(0x09), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  135
@@ -8098,7 +8098,7 @@ DRV830x_SPI.asm                                                      PAGE  135
     7399                      .dwattr $C$DW$957, DW_AT_type(*$C$DW$T$31)
     7400                      .dwattr $C$DW$957, DW_AT_name("QSRC")
     7401                      .dwattr $C$DW$957, DW_AT_TI_symbol_name("_QSRC")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  136
@@ -8158,7 +8158,7 @@ DRV830x_SPI.asm                                                      PAGE  136
     7454                      .dwattr $C$DW$963, DW_AT_bit_offset(0x0c), DW_AT_bit_size(0x01)
     7455                      .dwattr $C$DW$963, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7456                      .dwattr $C$DW$963, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  137
@@ -8218,7 +8218,7 @@ DRV830x_SPI.asm                                                      PAGE  137
     7509                      .dwattr $C$DW$971, DW_AT_TI_symbol_name("_UTO")
     7510                      .dwattr $C$DW$971, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x01)
     7511                      .dwattr $C$DW$971, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  138
@@ -8278,7 +8278,7 @@ DRV830x_SPI.asm                                                      PAGE  138
     7564                      .dwattr $C$DW$977, DW_AT_accessibility(DW_ACCESS_public)
     7565              $C$DW$978       .dwtag  DW_TAG_member
     7566                      .dwattr $C$DW$978, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  139
@@ -8338,7 +8338,7 @@ DRV830x_SPI.asm                                                      PAGE  139
     7619                      .dwattr $C$DW$985, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7620                      .dwattr $C$DW$985, DW_AT_accessibility(DW_ACCESS_public)
     7621                      .dwendtag $C$DW$T$218
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  140
@@ -8398,7 +8398,7 @@ DRV830x_SPI.asm                                                      PAGE  140
     7674                      .dwattr $C$DW$992, DW_AT_type(*$C$DW$T$31)
     7675                      .dwattr $C$DW$992, DW_AT_name("QDLF")
     7676                      .dwattr $C$DW$992, DW_AT_TI_symbol_name("_QDLF")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  141
@@ -8458,7 +8458,7 @@ DRV830x_SPI.asm                                                      PAGE  141
     7729              $C$DW$T$222     .dwtag  DW_TAG_structure_type
     7730                      .dwattr $C$DW$T$222, DW_AT_name("QFLG_BITS")
     7731                      .dwattr $C$DW$T$222, DW_AT_byte_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  142
@@ -8518,7 +8518,7 @@ DRV830x_SPI.asm                                                      PAGE  142
     7784                      .dwattr $C$DW$1006, DW_AT_TI_symbol_name("_PCR")
     7785                      .dwattr $C$DW$1006, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x01)
     7786                      .dwattr $C$DW$1006, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  143
@@ -8578,7 +8578,7 @@ DRV830x_SPI.asm                                                      PAGE  143
     7839                      .dwattr $C$DW$1013, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7840                      .dwattr $C$DW$1013, DW_AT_accessibility(DW_ACCESS_public)
     7841                      .dwendtag $C$DW$T$223
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  144
@@ -8638,7 +8638,7 @@ DRV830x_SPI.asm                                                      PAGE  144
     7894                      .dwattr $C$DW$1020, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     7895                      .dwattr $C$DW$1020, DW_AT_accessibility(DW_ACCESS_public)
     7896              $C$DW$1021      .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  145
@@ -8698,7 +8698,7 @@ DRV830x_SPI.asm                                                      PAGE  145
     7949                      .dwattr $C$DW$1027, DW_AT_accessibility(DW_ACCESS_public)
     7950              $C$DW$1028      .dwtag  DW_TAG_member
     7951                      .dwattr $C$DW$1028, DW_AT_type(*$C$DW$T$224)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  146
@@ -8758,7 +8758,7 @@ DRV830x_SPI.asm                                                      PAGE  146
     8004                      .dwattr $C$DW$1034, DW_AT_type(*$C$DW$T$31)
     8005                      .dwattr $C$DW$1034, DW_AT_name("all")
     8006                      .dwattr $C$DW$1034, DW_AT_TI_symbol_name("_all")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  147
@@ -8818,7 +8818,7 @@ DRV830x_SPI.asm                                                      PAGE  147
     8059              $C$DW$1040      .dwtag  DW_TAG_member
     8060                      .dwattr $C$DW$1040, DW_AT_type(*$C$DW$T$31)
     8061                      .dwattr $C$DW$1040, DW_AT_name("SPICHAR")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  148
@@ -8878,7 +8878,7 @@ DRV830x_SPI.asm                                                      PAGE  148
     8114                      .dwattr $C$DW$1047, DW_AT_type(*$C$DW$T$230)
     8115                      .dwattr $C$DW$1047, DW_AT_name("bit")
     8116                      .dwattr $C$DW$1047, DW_AT_TI_symbol_name("_bit")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  149
@@ -8938,7 +8938,7 @@ DRV830x_SPI.asm                                                      PAGE  149
     8169              
     8170              $C$DW$T$233     .dwtag  DW_TAG_union_type
     8171                      .dwattr $C$DW$T$233, DW_AT_name("SPICTL_REG")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  150
@@ -8998,7 +8998,7 @@ DRV830x_SPI.asm                                                      PAGE  150
     8224              
     8225              
     8226              $C$DW$T$236     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  151
@@ -9058,7 +9058,7 @@ DRV830x_SPI.asm                                                      PAGE  151
     8279                      .dwattr $C$DW$1067, DW_AT_type(*$C$DW$T$31)
     8280                      .dwattr $C$DW$1067, DW_AT_name("RXFFOVF")
     8281                      .dwattr $C$DW$1067, DW_AT_TI_symbol_name("_RXFFOVF")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  152
@@ -9118,7 +9118,7 @@ DRV830x_SPI.asm                                                      PAGE  152
     8334                      .dwattr $C$DW$1073, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x01)
     8335                      .dwattr $C$DW$1073, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     8336                      .dwattr $C$DW$1073, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  153
@@ -9178,7 +9178,7 @@ DRV830x_SPI.asm                                                      PAGE  153
     8389              $C$DW$1080      .dwtag  DW_TAG_member
     8390                      .dwattr $C$DW$1080, DW_AT_type(*$C$DW$T$31)
     8391                      .dwattr $C$DW$1080, DW_AT_name("TRIWIRE")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  154
@@ -9238,7 +9238,7 @@ DRV830x_SPI.asm                                                      PAGE  154
     8444              $C$DW$1087      .dwtag  DW_TAG_member
     8445                      .dwattr $C$DW$1087, DW_AT_type(*$C$DW$T$31)
     8446                      .dwattr $C$DW$1087, DW_AT_name("all")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  155
@@ -9298,7 +9298,7 @@ DRV830x_SPI.asm                                                      PAGE  155
     8499              
     8500              $C$DW$T$243     .dwtag  DW_TAG_union_type
     8501                      .dwattr $C$DW$T$243, DW_AT_name("SPISTS_REG")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  156
@@ -9358,7 +9358,7 @@ DRV830x_SPI.asm                                                      PAGE  156
     8554                      .dwattr $C$DW$1101, DW_AT_TI_symbol_name("_rsvd2")
     8555                      .dwattr $C$DW$1101, DW_AT_data_member_location[DW_OP_plus_uconst 0x5]
     8556                      .dwattr $C$DW$1101, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  157
@@ -9418,7 +9418,7 @@ DRV830x_SPI.asm                                                      PAGE  157
     8609                      .dwattr $C$DW$1110, DW_AT_data_member_location[DW_OP_plus_uconst 0xf]
     8610                      .dwattr $C$DW$1110, DW_AT_accessibility(DW_ACCESS_public)
     8611                      .dwendtag $C$DW$T$244
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  158
@@ -9478,7 +9478,7 @@ DRV830x_SPI.asm                                                      PAGE  158
     8664                      .dwattr $C$DW$1117, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     8665                      .dwattr $C$DW$1117, DW_AT_accessibility(DW_ACCESS_public)
     8666              $C$DW$1118      .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  159
@@ -9538,7 +9538,7 @@ DRV830x_SPI.asm                                                      PAGE  159
     8719                      .dwattr $C$DW$1124, DW_AT_type(*$C$DW$T$31)
     8720                      .dwattr $C$DW$1124, DW_AT_name("SYNCOSEL")
     8721                      .dwattr $C$DW$1124, DW_AT_TI_symbol_name("_SYNCOSEL")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  160
@@ -9598,7 +9598,7 @@ DRV830x_SPI.asm                                                      PAGE  160
     8774                      .dwattr $C$DW$1131, DW_AT_name("bit")
     8775                      .dwattr $C$DW$1131, DW_AT_TI_symbol_name("_bit")
     8776                      .dwattr $C$DW$1131, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  161
@@ -9658,7 +9658,7 @@ DRV830x_SPI.asm                                                      PAGE  161
     8829              $C$DW$1137      .dwtag  DW_TAG_member
     8830                      .dwattr $C$DW$1137, DW_AT_type(*$C$DW$T$31)
     8831                      .dwattr $C$DW$1137, DW_AT_name("SYNCI")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  162
@@ -9718,7 +9718,7 @@ DRV830x_SPI.asm                                                      PAGE  162
     8884                      .dwattr $C$DW$1143, DW_AT_TI_symbol_name("_CBC2")
     8885                      .dwattr $C$DW$1143, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x01)
     8886                      .dwattr $C$DW$1143, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  163
@@ -9778,7 +9778,7 @@ DRV830x_SPI.asm                                                      PAGE  163
     8939              
     8940              $C$DW$T$254     .dwtag  DW_TAG_union_type
     8941                      .dwattr $C$DW$T$254, DW_AT_name("TZCBCCLR_REG")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  164
@@ -9838,7 +9838,7 @@ DRV830x_SPI.asm                                                      PAGE  164
     8994                      .dwattr $C$DW$1157, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     8995                      .dwattr $C$DW$1157, DW_AT_accessibility(DW_ACCESS_public)
     8996              $C$DW$1158      .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  165
@@ -9898,7 +9898,7 @@ DRV830x_SPI.asm                                                      PAGE  165
     9049                      .dwattr $C$DW$1164, DW_AT_type(*$C$DW$T$31)
     9050                      .dwattr $C$DW$1164, DW_AT_name("INT")
     9051                      .dwattr $C$DW$1164, DW_AT_TI_symbol_name("_INT")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  166
@@ -9958,7 +9958,7 @@ DRV830x_SPI.asm                                                      PAGE  166
     9104              $C$DW$1172      .dwtag  DW_TAG_member
     9105                      .dwattr $C$DW$1172, DW_AT_type(*$C$DW$T$31)
     9106                      .dwattr $C$DW$1172, DW_AT_name("CBCPULSE")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  167
@@ -10018,7 +10018,7 @@ DRV830x_SPI.asm                                                      PAGE  167
     9159                      .dwattr $C$DW$1178, DW_AT_TI_symbol_name("_TZBD")
     9160                      .dwattr $C$DW$1178, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x03)
     9161                      .dwattr $C$DW$1178, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  168
@@ -10078,7 +10078,7 @@ DRV830x_SPI.asm                                                      PAGE  168
     9214                      .dwattr $C$DW$1184, DW_AT_accessibility(DW_ACCESS_public)
     9215              $C$DW$1185      .dwtag  DW_TAG_member
     9216                      .dwattr $C$DW$1185, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  169
@@ -10138,7 +10138,7 @@ DRV830x_SPI.asm                                                      PAGE  169
     9269                      .dwattr $C$DW$1191, DW_AT_name("DCBEVT1D")
     9270                      .dwattr $C$DW$1191, DW_AT_TI_symbol_name("_DCBEVT1D")
     9271                      .dwattr $C$DW$1191, DW_AT_bit_offset(0x0a), DW_AT_bit_size(0x03)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  170
@@ -10198,7 +10198,7 @@ DRV830x_SPI.asm                                                      PAGE  170
     9324                      .dwattr $C$DW$1197, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     9325                      .dwattr $C$DW$1197, DW_AT_accessibility(DW_ACCESS_public)
     9326              $C$DW$1198      .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  171
@@ -10258,7 +10258,7 @@ DRV830x_SPI.asm                                                      PAGE  171
     9379                      .dwattr $C$DW$1204, DW_AT_accessibility(DW_ACCESS_public)
     9380              $C$DW$1205      .dwtag  DW_TAG_member
     9381                      .dwattr $C$DW$1205, DW_AT_type(*$C$DW$T$265)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  172
@@ -10318,7 +10318,7 @@ DRV830x_SPI.asm                                                      PAGE  172
     9434                      .dwattr $C$DW$1211, DW_AT_type(*$C$DW$T$31)
     9435                      .dwattr $C$DW$1211, DW_AT_name("all")
     9436                      .dwattr $C$DW$1211, DW_AT_TI_symbol_name("_all")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  173
@@ -10378,7 +10378,7 @@ DRV830x_SPI.asm                                                      PAGE  173
     9489                      .dwattr $C$DW$1218, DW_AT_TI_symbol_name("_DCBEVT1")
     9490                      .dwattr $C$DW$1218, DW_AT_bit_offset(0x0a), DW_AT_bit_size(0x01)
     9491                      .dwattr $C$DW$1218, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  174
@@ -10438,7 +10438,7 @@ DRV830x_SPI.asm                                                      PAGE  174
     9544                      .dwattr $C$DW$1224, DW_AT_accessibility(DW_ACCESS_public)
     9545              $C$DW$1225      .dwtag  DW_TAG_member
     9546                      .dwattr $C$DW$1225, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  175
@@ -10498,7 +10498,7 @@ DRV830x_SPI.asm                                                      PAGE  175
     9599              $C$DW$1232      .dwtag  DW_TAG_member
     9600                      .dwattr $C$DW$1232, DW_AT_type(*$C$DW$T$271)
     9601                      .dwattr $C$DW$1232, DW_AT_name("bit")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  176
@@ -10558,7 +10558,7 @@ DRV830x_SPI.asm                                                      PAGE  176
     9654                      .dwattr $C$DW$1239, DW_AT_type(*$C$DW$T$31)
     9655                      .dwattr $C$DW$1239, DW_AT_name("DCBEVT2")
     9656                      .dwattr $C$DW$1239, DW_AT_TI_symbol_name("_DCBEVT2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  177
@@ -10618,7 +10618,7 @@ DRV830x_SPI.asm                                                      PAGE  177
     9709                      .dwattr $C$DW$1245, DW_AT_bit_offset(0x0d), DW_AT_bit_size(0x01)
     9710                      .dwattr $C$DW$1245, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     9711                      .dwattr $C$DW$1245, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  178
@@ -10678,7 +10678,7 @@ DRV830x_SPI.asm                                                      PAGE  178
     9764                      .dwattr $C$DW$1252, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     9765                      .dwattr $C$DW$1252, DW_AT_accessibility(DW_ACCESS_public)
     9766              $C$DW$1253      .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  179
@@ -10738,7 +10738,7 @@ DRV830x_SPI.asm                                                      PAGE  179
     9819                      .dwattr $C$DW$1259, DW_AT_accessibility(DW_ACCESS_public)
     9820              $C$DW$1260      .dwtag  DW_TAG_member
     9821                      .dwattr $C$DW$1260, DW_AT_type(*$C$DW$T$31)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  180
@@ -10798,7 +10798,7 @@ DRV830x_SPI.asm                                                      PAGE  180
     9874                      .dwattr $C$DW$1266, DW_AT_name("CBC2")
     9875                      .dwattr $C$DW$1266, DW_AT_TI_symbol_name("_CBC2")
     9876                      .dwattr $C$DW$1266, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  181
@@ -10858,7 +10858,7 @@ DRV830x_SPI.asm                                                      PAGE  181
     9929                      .dwattr $C$DW$1274, DW_AT_type(*$C$DW$T$31)
     9930                      .dwattr $C$DW$1274, DW_AT_name("OSHT2")
     9931                      .dwattr $C$DW$1274, DW_AT_TI_symbol_name("_OSHT2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  182
@@ -10918,7 +10918,7 @@ DRV830x_SPI.asm                                                      PAGE  182
     9984                      .dwattr $C$DW$1281, DW_AT_type(*$C$DW$T$31)
     9985                      .dwattr $C$DW$1281, DW_AT_name("all")
     9986                      .dwattr $C$DW$1281, DW_AT_TI_symbol_name("_all")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  183
@@ -10972,13 +10972,13 @@ DRV830x_SPI.asm                                                      PAGE  183
    10033                      .dwattr $C$DW$T$31, DW_AT_language(DW_LANG_C)
    10034              $C$DW$1283      .dwtag  DW_TAG_TI_far_type
    10035                      .dwattr $C$DW$1283, DW_AT_type(*$C$DW$T$31)
-   10036              $C$DW$T$290     .dwtag  DW_TAG_volatile_type
-   10037                      .dwattr $C$DW$T$290, DW_AT_type(*$C$DW$1283)
+   10036              $C$DW$T$291     .dwtag  DW_TAG_volatile_type
+   10037                      .dwattr $C$DW$T$291, DW_AT_type(*$C$DW$1283)
    10038              
    10039              $C$DW$T$163     .dwtag  DW_TAG_array_type
    10040                      .dwattr $C$DW$T$163, DW_AT_type(*$C$DW$T$31)
    10041                      .dwattr $C$DW$T$163, DW_AT_language(DW_LANG_C)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  184
@@ -11038,7 +11038,7 @@ DRV830x_SPI.asm                                                      PAGE  184
    10094                      .dwattr $C$DW$T$169, DW_AT_type(*$C$DW$T$31)
    10095                      .dwattr $C$DW$T$169, DW_AT_language(DW_LANG_C)
    10096                      .dwattr $C$DW$T$169, DW_AT_byte_size(0x0c)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  185
@@ -11065,9 +11065,9 @@ DRV830x_SPI.asm                                                      PAGE  185
    10116                      .dwattr $C$DW$1292, DW_AT_upper_bound(0x29)
    10117                      .dwendtag $C$DW$T$171
    10118              
-   10119              $C$DW$T$294     .dwtag  DW_TAG_pointer_type
-   10120                      .dwattr $C$DW$T$294, DW_AT_type(*$C$DW$T$31)
-   10121                      .dwattr $C$DW$T$294, DW_AT_address_class(0x20)
+   10119              $C$DW$T$295     .dwtag  DW_TAG_pointer_type
+   10120                      .dwattr $C$DW$T$295, DW_AT_type(*$C$DW$T$31)
+   10121                      .dwattr $C$DW$T$295, DW_AT_address_class(0x20)
    10122              $C$DW$T$12      .dwtag  DW_TAG_base_type
    10123                      .dwattr $C$DW$T$12, DW_AT_encoding(DW_ATE_signed)
    10124                      .dwattr $C$DW$T$12, DW_AT_name("long")
@@ -11098,7 +11098,7 @@ DRV830x_SPI.asm                                                      PAGE  185
    10149                      .dwattr $C$DW$T$19, DW_AT_type(*$C$DW$T$16)
    10150                      .dwattr $C$DW$T$19, DW_AT_language(DW_LANG_C)
    10151              $C$DW$T$37      .dwtag  DW_TAG_typedef, DW_AT_name("_iq21")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  186
@@ -11116,221 +11116,297 @@ DRV830x_SPI.asm                                                      PAGE  186
    10162                      .dwattr $C$DW$T$18, DW_AT_encoding(DW_ATE_float)
    10163                      .dwattr $C$DW$T$18, DW_AT_name("long double")
    10164                      .dwattr $C$DW$T$18, DW_AT_byte_size(0x04)
-   10165                      .dwattr $C$DW$CU, DW_AT_language(DW_LANG_C)
-   10166              
-   10167              ;***************************************************************
-   10168              ;* DWARF CIE ENTRIES                                           *
-   10169              ;***************************************************************
-   10170              
-   10171              $C$DW$CIE       .dwcie 26
-   10172                      .dwcfi  cfa_register, 20
-   10173                      .dwcfi  cfa_offset, 0
-   10174                      .dwcfi  undefined, 0
-   10175                      .dwcfi  undefined, 1
-   10176                      .dwcfi  undefined, 2
-   10177                      .dwcfi  undefined, 3
-   10178                      .dwcfi  undefined, 20
-   10179                      .dwcfi  undefined, 21
-   10180                      .dwcfi  undefined, 22
-   10181                      .dwcfi  undefined, 23
-   10182                      .dwcfi  undefined, 24
-   10183                      .dwcfi  undefined, 25
-   10184                      .dwcfi  undefined, 26
-   10185                      .dwcfi  same_value, 28
-   10186                      .dwcfi  undefined, 29
-   10187                      .dwcfi  undefined, 30
-   10188                      .dwcfi  undefined, 31
-   10189                      .dwcfi  undefined, 32
-   10190                      .dwcfi  undefined, 33
-   10191                      .dwcfi  undefined, 34
-   10192                      .dwcfi  undefined, 35
-   10193                      .dwcfi  undefined, 36
-   10194                      .dwcfi  undefined, 37
-   10195                      .dwcfi  undefined, 38
-   10196                      .dwcfi  undefined, 75
-   10197                      .dwcfi  undefined, 76
-   10198                      .dwcfi  undefined, 77
-   10199                      .dwcfi  undefined, 4
-   10200                      .dwcfi  undefined, 5
-   10201                      .dwcfi  same_value, 6
-   10202                      .dwcfi  same_value, 7
-   10203                      .dwcfi  same_value, 8
-   10204                      .dwcfi  same_value, 9
-   10205                      .dwcfi  same_value, 10
-   10206                      .dwcfi  same_value, 11
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+   10165              
+   10166              $C$DW$T$281     .dwtag  DW_TAG_structure_type
+   10167                      .dwattr $C$DW$T$281, DW_AT_name("piCtrl_t")
+   10168                      .dwattr $C$DW$T$281, DW_AT_byte_size(0x14)
+   10169              $C$DW$1293      .dwtag  DW_TAG_member
+   10170                      .dwattr $C$DW$1293, DW_AT_type(*$C$DW$T$16)
+   10171                      .dwattr $C$DW$1293, DW_AT_name("ref")
+   10172                      .dwattr $C$DW$1293, DW_AT_TI_symbol_name("_ref")
+   10173                      .dwattr $C$DW$1293, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
+   10174                      .dwattr $C$DW$1293, DW_AT_accessibility(DW_ACCESS_public)
+   10175              $C$DW$1294      .dwtag  DW_TAG_member
+   10176                      .dwattr $C$DW$1294, DW_AT_type(*$C$DW$T$16)
+   10177                      .dwattr $C$DW$1294, DW_AT_name("fbk")
+   10178                      .dwattr $C$DW$1294, DW_AT_TI_symbol_name("_fbk")
+   10179                      .dwattr $C$DW$1294, DW_AT_data_member_location[DW_OP_plus_uconst 0x2]
+   10180                      .dwattr $C$DW$1294, DW_AT_accessibility(DW_ACCESS_public)
+   10181              $C$DW$1295      .dwtag  DW_TAG_member
+   10182                      .dwattr $C$DW$1295, DW_AT_type(*$C$DW$T$16)
+   10183                      .dwattr $C$DW$1295, DW_AT_name("e")
+   10184                      .dwattr $C$DW$1295, DW_AT_TI_symbol_name("_e")
+   10185                      .dwattr $C$DW$1295, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
+   10186                      .dwattr $C$DW$1295, DW_AT_accessibility(DW_ACCESS_public)
+   10187              $C$DW$1296      .dwtag  DW_TAG_member
+   10188                      .dwattr $C$DW$1296, DW_AT_type(*$C$DW$T$16)
+   10189                      .dwattr $C$DW$1296, DW_AT_name("e0")
+   10190                      .dwattr $C$DW$1296, DW_AT_TI_symbol_name("_e0")
+   10191                      .dwattr $C$DW$1296, DW_AT_data_member_location[DW_OP_plus_uconst 0x6]
+   10192                      .dwattr $C$DW$1296, DW_AT_accessibility(DW_ACCESS_public)
+   10193              $C$DW$1297      .dwtag  DW_TAG_member
+   10194                      .dwattr $C$DW$1297, DW_AT_type(*$C$DW$T$16)
+   10195                      .dwattr $C$DW$1297, DW_AT_name("u")
+   10196                      .dwattr $C$DW$1297, DW_AT_TI_symbol_name("_u")
+   10197                      .dwattr $C$DW$1297, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
+   10198                      .dwattr $C$DW$1297, DW_AT_accessibility(DW_ACCESS_public)
+   10199              $C$DW$1298      .dwtag  DW_TAG_member
+   10200                      .dwattr $C$DW$1298, DW_AT_type(*$C$DW$T$16)
+   10201                      .dwattr $C$DW$1298, DW_AT_name("u0")
+   10202                      .dwattr $C$DW$1298, DW_AT_TI_symbol_name("_u0")
+   10203                      .dwattr $C$DW$1298, DW_AT_data_member_location[DW_OP_plus_uconst 0xa]
+   10204                      .dwattr $C$DW$1298, DW_AT_accessibility(DW_ACCESS_public)
+   10205              $C$DW$1299      .dwtag  DW_TAG_member
+   10206                      .dwattr $C$DW$1299, DW_AT_type(*$C$DW$T$16)
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  187
 
-   10207                      .dwcfi  undefined, 12
-   10208                      .dwcfi  undefined, 13
-   10209                      .dwcfi  undefined, 14
-   10210                      .dwcfi  undefined, 15
-   10211                      .dwcfi  undefined, 16
-   10212                      .dwcfi  undefined, 17
-   10213                      .dwcfi  undefined, 18
-   10214                      .dwcfi  undefined, 19
-   10215                      .dwcfi  undefined, 43
-   10216                      .dwcfi  undefined, 44
-   10217                      .dwcfi  undefined, 47
-   10218                      .dwcfi  undefined, 48
-   10219                      .dwcfi  undefined, 51
-   10220                      .dwcfi  undefined, 52
-   10221                      .dwcfi  undefined, 55
-   10222                      .dwcfi  undefined, 56
-   10223                      .dwcfi  same_value, 59
-   10224                      .dwcfi  same_value, 60
-   10225                      .dwcfi  same_value, 63
-   10226                      .dwcfi  same_value, 64
-   10227                      .dwcfi  same_value, 67
-   10228                      .dwcfi  same_value, 68
-   10229                      .dwcfi  same_value, 71
-   10230                      .dwcfi  same_value, 72
-   10231                      .dwcfi  undefined, 73
-   10232                      .dwcfi  undefined, 74
-   10233                      .dwcfi  undefined, 39
-   10234                      .dwcfi  undefined, 40
-   10235                      .dwcfi  undefined, 27
-   10236                      .dwendentry
-   10237              
-   10238              ;***************************************************************
-   10239              ;* DWARF REGISTER MAP                                          *
-   10240              ;***************************************************************
-   10241              
-   10242              $C$DW$1293      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AL")
-   10243                      .dwattr $C$DW$1293, DW_AT_location[DW_OP_reg0]
-   10244              $C$DW$1294      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AH")
-   10245                      .dwattr $C$DW$1294, DW_AT_location[DW_OP_reg1]
-   10246              $C$DW$1295      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PL")
-   10247                      .dwattr $C$DW$1295, DW_AT_location[DW_OP_reg2]
-   10248              $C$DW$1296      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PH")
-   10249                      .dwattr $C$DW$1296, DW_AT_location[DW_OP_reg3]
-   10250              $C$DW$1297      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("SP")
-   10251                      .dwattr $C$DW$1297, DW_AT_location[DW_OP_reg20]
-   10252              $C$DW$1298      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XT")
-   10253                      .dwattr $C$DW$1298, DW_AT_location[DW_OP_reg21]
-   10254              $C$DW$1299      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("T")
-   10255                      .dwattr $C$DW$1299, DW_AT_location[DW_OP_reg22]
-   10256              $C$DW$1300      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("ST0")
-   10257                      .dwattr $C$DW$1300, DW_AT_location[DW_OP_reg23]
-   10258              $C$DW$1301      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("ST1")
-   10259                      .dwattr $C$DW$1301, DW_AT_location[DW_OP_reg24]
-   10260              $C$DW$1302      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PC")
-   10261                      .dwattr $C$DW$1302, DW_AT_location[DW_OP_reg25]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+   10207                      .dwattr $C$DW$1299, DW_AT_name("uMin")
+   10208                      .dwattr $C$DW$1299, DW_AT_TI_symbol_name("_uMin")
+   10209                      .dwattr $C$DW$1299, DW_AT_data_member_location[DW_OP_plus_uconst 0xc]
+   10210                      .dwattr $C$DW$1299, DW_AT_accessibility(DW_ACCESS_public)
+   10211              $C$DW$1300      .dwtag  DW_TAG_member
+   10212                      .dwattr $C$DW$1300, DW_AT_type(*$C$DW$T$16)
+   10213                      .dwattr $C$DW$1300, DW_AT_name("uMax")
+   10214                      .dwattr $C$DW$1300, DW_AT_TI_symbol_name("_uMax")
+   10215                      .dwattr $C$DW$1300, DW_AT_data_member_location[DW_OP_plus_uconst 0xe]
+   10216                      .dwattr $C$DW$1300, DW_AT_accessibility(DW_ACCESS_public)
+   10217              $C$DW$1301      .dwtag  DW_TAG_member
+   10218                      .dwattr $C$DW$1301, DW_AT_type(*$C$DW$T$16)
+   10219                      .dwattr $C$DW$1301, DW_AT_name("c0")
+   10220                      .dwattr $C$DW$1301, DW_AT_TI_symbol_name("_c0")
+   10221                      .dwattr $C$DW$1301, DW_AT_data_member_location[DW_OP_plus_uconst 0x10]
+   10222                      .dwattr $C$DW$1301, DW_AT_accessibility(DW_ACCESS_public)
+   10223              $C$DW$1302      .dwtag  DW_TAG_member
+   10224                      .dwattr $C$DW$1302, DW_AT_type(*$C$DW$T$16)
+   10225                      .dwattr $C$DW$1302, DW_AT_name("c1")
+   10226                      .dwattr $C$DW$1302, DW_AT_TI_symbol_name("_c1")
+   10227                      .dwattr $C$DW$1302, DW_AT_data_member_location[DW_OP_plus_uconst 0x12]
+   10228                      .dwattr $C$DW$1302, DW_AT_accessibility(DW_ACCESS_public)
+   10229                      .dwendtag $C$DW$T$281
+   10230              
+   10231                      .dwattr $C$DW$CU, DW_AT_language(DW_LANG_C)
+   10232              
+   10233              ;***************************************************************
+   10234              ;* DWARF CIE ENTRIES                                           *
+   10235              ;***************************************************************
+   10236              
+   10237              $C$DW$CIE       .dwcie 26
+   10238                      .dwcfi  cfa_register, 20
+   10239                      .dwcfi  cfa_offset, 0
+   10240                      .dwcfi  undefined, 0
+   10241                      .dwcfi  undefined, 1
+   10242                      .dwcfi  undefined, 2
+   10243                      .dwcfi  undefined, 3
+   10244                      .dwcfi  undefined, 20
+   10245                      .dwcfi  undefined, 21
+   10246                      .dwcfi  undefined, 22
+   10247                      .dwcfi  undefined, 23
+   10248                      .dwcfi  undefined, 24
+   10249                      .dwcfi  undefined, 25
+   10250                      .dwcfi  undefined, 26
+   10251                      .dwcfi  same_value, 28
+   10252                      .dwcfi  undefined, 29
+   10253                      .dwcfi  undefined, 30
+   10254                      .dwcfi  undefined, 31
+   10255                      .dwcfi  undefined, 32
+   10256                      .dwcfi  undefined, 33
+   10257                      .dwcfi  undefined, 34
+   10258                      .dwcfi  undefined, 35
+   10259                      .dwcfi  undefined, 36
+   10260                      .dwcfi  undefined, 37
+   10261                      .dwcfi  undefined, 38
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  188
 
-   10262              $C$DW$1303      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("RPC")
-   10263                      .dwattr $C$DW$1303, DW_AT_location[DW_OP_reg26]
-   10264              $C$DW$1304      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("FP")
-   10265                      .dwattr $C$DW$1304, DW_AT_location[DW_OP_reg28]
-   10266              $C$DW$1305      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("DP")
-   10267                      .dwattr $C$DW$1305, DW_AT_location[DW_OP_reg29]
-   10268              $C$DW$1306      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("SXM")
-   10269                      .dwattr $C$DW$1306, DW_AT_location[DW_OP_reg30]
-   10270              $C$DW$1307      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PM")
-   10271                      .dwattr $C$DW$1307, DW_AT_location[DW_OP_reg31]
-   10272              $C$DW$1308      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("OVM")
-   10273                      .dwattr $C$DW$1308, DW_AT_location[DW_OP_regx 0x20]
-   10274              $C$DW$1309      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PAGE0")
-   10275                      .dwattr $C$DW$1309, DW_AT_location[DW_OP_regx 0x21]
-   10276              $C$DW$1310      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AMODE")
-   10277                      .dwattr $C$DW$1310, DW_AT_location[DW_OP_regx 0x22]
-   10278              $C$DW$1311      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("INTM")
-   10279                      .dwattr $C$DW$1311, DW_AT_location[DW_OP_regx 0x23]
-   10280              $C$DW$1312      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("IFR")
-   10281                      .dwattr $C$DW$1312, DW_AT_location[DW_OP_regx 0x24]
-   10282              $C$DW$1313      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("IER")
-   10283                      .dwattr $C$DW$1313, DW_AT_location[DW_OP_regx 0x25]
-   10284              $C$DW$1314      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("V")
-   10285                      .dwattr $C$DW$1314, DW_AT_location[DW_OP_regx 0x26]
-   10286              $C$DW$1315      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PSEUDOH")
-   10287                      .dwattr $C$DW$1315, DW_AT_location[DW_OP_regx 0x4c]
-   10288              $C$DW$1316      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("VOL")
-   10289                      .dwattr $C$DW$1316, DW_AT_location[DW_OP_regx 0x4d]
-   10290              $C$DW$1317      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR0")
-   10291                      .dwattr $C$DW$1317, DW_AT_location[DW_OP_reg4]
-   10292              $C$DW$1318      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR0")
-   10293                      .dwattr $C$DW$1318, DW_AT_location[DW_OP_reg5]
-   10294              $C$DW$1319      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR1")
-   10295                      .dwattr $C$DW$1319, DW_AT_location[DW_OP_reg6]
-   10296              $C$DW$1320      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR1")
-   10297                      .dwattr $C$DW$1320, DW_AT_location[DW_OP_reg7]
-   10298              $C$DW$1321      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR2")
-   10299                      .dwattr $C$DW$1321, DW_AT_location[DW_OP_reg8]
-   10300              $C$DW$1322      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR2")
-   10301                      .dwattr $C$DW$1322, DW_AT_location[DW_OP_reg9]
-   10302              $C$DW$1323      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR3")
-   10303                      .dwattr $C$DW$1323, DW_AT_location[DW_OP_reg10]
-   10304              $C$DW$1324      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR3")
-   10305                      .dwattr $C$DW$1324, DW_AT_location[DW_OP_reg11]
-   10306              $C$DW$1325      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR4")
-   10307                      .dwattr $C$DW$1325, DW_AT_location[DW_OP_reg12]
-   10308              $C$DW$1326      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR4")
-   10309                      .dwattr $C$DW$1326, DW_AT_location[DW_OP_reg13]
-   10310              $C$DW$1327      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR5")
-   10311                      .dwattr $C$DW$1327, DW_AT_location[DW_OP_reg14]
-   10312              $C$DW$1328      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR5")
-   10313                      .dwattr $C$DW$1328, DW_AT_location[DW_OP_reg15]
-   10314              $C$DW$1329      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR6")
-   10315                      .dwattr $C$DW$1329, DW_AT_location[DW_OP_reg16]
-   10316              $C$DW$1330      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR6")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:36:50 2017
+   10262                      .dwcfi  undefined, 75
+   10263                      .dwcfi  undefined, 76
+   10264                      .dwcfi  undefined, 77
+   10265                      .dwcfi  undefined, 4
+   10266                      .dwcfi  undefined, 5
+   10267                      .dwcfi  same_value, 6
+   10268                      .dwcfi  same_value, 7
+   10269                      .dwcfi  same_value, 8
+   10270                      .dwcfi  same_value, 9
+   10271                      .dwcfi  same_value, 10
+   10272                      .dwcfi  same_value, 11
+   10273                      .dwcfi  undefined, 12
+   10274                      .dwcfi  undefined, 13
+   10275                      .dwcfi  undefined, 14
+   10276                      .dwcfi  undefined, 15
+   10277                      .dwcfi  undefined, 16
+   10278                      .dwcfi  undefined, 17
+   10279                      .dwcfi  undefined, 18
+   10280                      .dwcfi  undefined, 19
+   10281                      .dwcfi  undefined, 43
+   10282                      .dwcfi  undefined, 44
+   10283                      .dwcfi  undefined, 47
+   10284                      .dwcfi  undefined, 48
+   10285                      .dwcfi  undefined, 51
+   10286                      .dwcfi  undefined, 52
+   10287                      .dwcfi  undefined, 55
+   10288                      .dwcfi  undefined, 56
+   10289                      .dwcfi  same_value, 59
+   10290                      .dwcfi  same_value, 60
+   10291                      .dwcfi  same_value, 63
+   10292                      .dwcfi  same_value, 64
+   10293                      .dwcfi  same_value, 67
+   10294                      .dwcfi  same_value, 68
+   10295                      .dwcfi  same_value, 71
+   10296                      .dwcfi  same_value, 72
+   10297                      .dwcfi  undefined, 73
+   10298                      .dwcfi  undefined, 74
+   10299                      .dwcfi  undefined, 39
+   10300                      .dwcfi  undefined, 40
+   10301                      .dwcfi  undefined, 27
+   10302                      .dwendentry
+   10303              
+   10304              ;***************************************************************
+   10305              ;* DWARF REGISTER MAP                                          *
+   10306              ;***************************************************************
+   10307              
+   10308              $C$DW$1303      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AL")
+   10309                      .dwattr $C$DW$1303, DW_AT_location[DW_OP_reg0]
+   10310              $C$DW$1304      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AH")
+   10311                      .dwattr $C$DW$1304, DW_AT_location[DW_OP_reg1]
+   10312              $C$DW$1305      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PL")
+   10313                      .dwattr $C$DW$1305, DW_AT_location[DW_OP_reg2]
+   10314              $C$DW$1306      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PH")
+   10315                      .dwattr $C$DW$1306, DW_AT_location[DW_OP_reg3]
+   10316              $C$DW$1307      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("SP")
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 DRV830x_SPI.asm                                                      PAGE  189
 
-   10317                      .dwattr $C$DW$1330, DW_AT_location[DW_OP_reg17]
-   10318              $C$DW$1331      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR7")
-   10319                      .dwattr $C$DW$1331, DW_AT_location[DW_OP_reg18]
-   10320              $C$DW$1332      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR7")
-   10321                      .dwattr $C$DW$1332, DW_AT_location[DW_OP_reg19]
-   10322              $C$DW$1333      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R0HL")
-   10323                      .dwattr $C$DW$1333, DW_AT_location[DW_OP_regx 0x2b]
-   10324              $C$DW$1334      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R0H")
-   10325                      .dwattr $C$DW$1334, DW_AT_location[DW_OP_regx 0x2c]
-   10326              $C$DW$1335      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R1HL")
-   10327                      .dwattr $C$DW$1335, DW_AT_location[DW_OP_regx 0x2f]
-   10328              $C$DW$1336      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R1H")
-   10329                      .dwattr $C$DW$1336, DW_AT_location[DW_OP_regx 0x30]
-   10330              $C$DW$1337      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R2HL")
-   10331                      .dwattr $C$DW$1337, DW_AT_location[DW_OP_regx 0x33]
-   10332              $C$DW$1338      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R2H")
-   10333                      .dwattr $C$DW$1338, DW_AT_location[DW_OP_regx 0x34]
-   10334              $C$DW$1339      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R3HL")
-   10335                      .dwattr $C$DW$1339, DW_AT_location[DW_OP_regx 0x37]
-   10336              $C$DW$1340      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R3H")
-   10337                      .dwattr $C$DW$1340, DW_AT_location[DW_OP_regx 0x38]
-   10338              $C$DW$1341      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R4HL")
-   10339                      .dwattr $C$DW$1341, DW_AT_location[DW_OP_regx 0x3b]
-   10340              $C$DW$1342      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R4H")
-   10341                      .dwattr $C$DW$1342, DW_AT_location[DW_OP_regx 0x3c]
-   10342              $C$DW$1343      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R5HL")
-   10343                      .dwattr $C$DW$1343, DW_AT_location[DW_OP_regx 0x3f]
-   10344              $C$DW$1344      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R5H")
-   10345                      .dwattr $C$DW$1344, DW_AT_location[DW_OP_regx 0x40]
-   10346              $C$DW$1345      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R6HL")
-   10347                      .dwattr $C$DW$1345, DW_AT_location[DW_OP_regx 0x43]
-   10348              $C$DW$1346      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R6H")
-   10349                      .dwattr $C$DW$1346, DW_AT_location[DW_OP_regx 0x44]
-   10350              $C$DW$1347      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R7HL")
-   10351                      .dwattr $C$DW$1347, DW_AT_location[DW_OP_regx 0x47]
-   10352              $C$DW$1348      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R7H")
-   10353                      .dwattr $C$DW$1348, DW_AT_location[DW_OP_regx 0x48]
-   10354              $C$DW$1349      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("RBL")
-   10355                      .dwattr $C$DW$1349, DW_AT_location[DW_OP_regx 0x49]
-   10356              $C$DW$1350      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("RB")
-   10357                      .dwattr $C$DW$1350, DW_AT_location[DW_OP_regx 0x4a]
-   10358              $C$DW$1351      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("STFL")
-   10359                      .dwattr $C$DW$1351, DW_AT_location[DW_OP_regx 0x27]
-   10360              $C$DW$1352      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("STF")
-   10361                      .dwattr $C$DW$1352, DW_AT_location[DW_OP_regx 0x28]
-   10362              $C$DW$1353      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("FPUHAZ")
-   10363                      .dwattr $C$DW$1353, DW_AT_location[DW_OP_reg27]
-   10364                      .dwendtag $C$DW$CU
-   10365              
+   10317                      .dwattr $C$DW$1307, DW_AT_location[DW_OP_reg20]
+   10318              $C$DW$1308      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XT")
+   10319                      .dwattr $C$DW$1308, DW_AT_location[DW_OP_reg21]
+   10320              $C$DW$1309      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("T")
+   10321                      .dwattr $C$DW$1309, DW_AT_location[DW_OP_reg22]
+   10322              $C$DW$1310      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("ST0")
+   10323                      .dwattr $C$DW$1310, DW_AT_location[DW_OP_reg23]
+   10324              $C$DW$1311      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("ST1")
+   10325                      .dwattr $C$DW$1311, DW_AT_location[DW_OP_reg24]
+   10326              $C$DW$1312      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PC")
+   10327                      .dwattr $C$DW$1312, DW_AT_location[DW_OP_reg25]
+   10328              $C$DW$1313      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("RPC")
+   10329                      .dwattr $C$DW$1313, DW_AT_location[DW_OP_reg26]
+   10330              $C$DW$1314      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("FP")
+   10331                      .dwattr $C$DW$1314, DW_AT_location[DW_OP_reg28]
+   10332              $C$DW$1315      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("DP")
+   10333                      .dwattr $C$DW$1315, DW_AT_location[DW_OP_reg29]
+   10334              $C$DW$1316      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("SXM")
+   10335                      .dwattr $C$DW$1316, DW_AT_location[DW_OP_reg30]
+   10336              $C$DW$1317      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PM")
+   10337                      .dwattr $C$DW$1317, DW_AT_location[DW_OP_reg31]
+   10338              $C$DW$1318      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("OVM")
+   10339                      .dwattr $C$DW$1318, DW_AT_location[DW_OP_regx 0x20]
+   10340              $C$DW$1319      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PAGE0")
+   10341                      .dwattr $C$DW$1319, DW_AT_location[DW_OP_regx 0x21]
+   10342              $C$DW$1320      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AMODE")
+   10343                      .dwattr $C$DW$1320, DW_AT_location[DW_OP_regx 0x22]
+   10344              $C$DW$1321      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("INTM")
+   10345                      .dwattr $C$DW$1321, DW_AT_location[DW_OP_regx 0x23]
+   10346              $C$DW$1322      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("IFR")
+   10347                      .dwattr $C$DW$1322, DW_AT_location[DW_OP_regx 0x24]
+   10348              $C$DW$1323      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("IER")
+   10349                      .dwattr $C$DW$1323, DW_AT_location[DW_OP_regx 0x25]
+   10350              $C$DW$1324      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("V")
+   10351                      .dwattr $C$DW$1324, DW_AT_location[DW_OP_regx 0x26]
+   10352              $C$DW$1325      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PSEUDOH")
+   10353                      .dwattr $C$DW$1325, DW_AT_location[DW_OP_regx 0x4c]
+   10354              $C$DW$1326      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("VOL")
+   10355                      .dwattr $C$DW$1326, DW_AT_location[DW_OP_regx 0x4d]
+   10356              $C$DW$1327      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR0")
+   10357                      .dwattr $C$DW$1327, DW_AT_location[DW_OP_reg4]
+   10358              $C$DW$1328      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR0")
+   10359                      .dwattr $C$DW$1328, DW_AT_location[DW_OP_reg5]
+   10360              $C$DW$1329      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR1")
+   10361                      .dwattr $C$DW$1329, DW_AT_location[DW_OP_reg6]
+   10362              $C$DW$1330      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR1")
+   10363                      .dwattr $C$DW$1330, DW_AT_location[DW_OP_reg7]
+   10364              $C$DW$1331      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR2")
+   10365                      .dwattr $C$DW$1331, DW_AT_location[DW_OP_reg8]
+   10366              $C$DW$1332      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR2")
+   10367                      .dwattr $C$DW$1332, DW_AT_location[DW_OP_reg9]
+   10368              $C$DW$1333      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR3")
+   10369                      .dwattr $C$DW$1333, DW_AT_location[DW_OP_reg10]
+   10370              $C$DW$1334      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR3")
+   10371                      .dwattr $C$DW$1334, DW_AT_location[DW_OP_reg11]
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
+
+Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
+DRV830x_SPI.asm                                                      PAGE  190
+
+   10372              $C$DW$1335      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR4")
+   10373                      .dwattr $C$DW$1335, DW_AT_location[DW_OP_reg12]
+   10374              $C$DW$1336      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR4")
+   10375                      .dwattr $C$DW$1336, DW_AT_location[DW_OP_reg13]
+   10376              $C$DW$1337      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR5")
+   10377                      .dwattr $C$DW$1337, DW_AT_location[DW_OP_reg14]
+   10378              $C$DW$1338      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR5")
+   10379                      .dwattr $C$DW$1338, DW_AT_location[DW_OP_reg15]
+   10380              $C$DW$1339      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR6")
+   10381                      .dwattr $C$DW$1339, DW_AT_location[DW_OP_reg16]
+   10382              $C$DW$1340      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR6")
+   10383                      .dwattr $C$DW$1340, DW_AT_location[DW_OP_reg17]
+   10384              $C$DW$1341      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR7")
+   10385                      .dwattr $C$DW$1341, DW_AT_location[DW_OP_reg18]
+   10386              $C$DW$1342      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR7")
+   10387                      .dwattr $C$DW$1342, DW_AT_location[DW_OP_reg19]
+   10388              $C$DW$1343      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R0HL")
+   10389                      .dwattr $C$DW$1343, DW_AT_location[DW_OP_regx 0x2b]
+   10390              $C$DW$1344      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R0H")
+   10391                      .dwattr $C$DW$1344, DW_AT_location[DW_OP_regx 0x2c]
+   10392              $C$DW$1345      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R1HL")
+   10393                      .dwattr $C$DW$1345, DW_AT_location[DW_OP_regx 0x2f]
+   10394              $C$DW$1346      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R1H")
+   10395                      .dwattr $C$DW$1346, DW_AT_location[DW_OP_regx 0x30]
+   10396              $C$DW$1347      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R2HL")
+   10397                      .dwattr $C$DW$1347, DW_AT_location[DW_OP_regx 0x33]
+   10398              $C$DW$1348      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R2H")
+   10399                      .dwattr $C$DW$1348, DW_AT_location[DW_OP_regx 0x34]
+   10400              $C$DW$1349      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R3HL")
+   10401                      .dwattr $C$DW$1349, DW_AT_location[DW_OP_regx 0x37]
+   10402              $C$DW$1350      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R3H")
+   10403                      .dwattr $C$DW$1350, DW_AT_location[DW_OP_regx 0x38]
+   10404              $C$DW$1351      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R4HL")
+   10405                      .dwattr $C$DW$1351, DW_AT_location[DW_OP_regx 0x3b]
+   10406              $C$DW$1352      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R4H")
+   10407                      .dwattr $C$DW$1352, DW_AT_location[DW_OP_regx 0x3c]
+   10408              $C$DW$1353      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R5HL")
+   10409                      .dwattr $C$DW$1353, DW_AT_location[DW_OP_regx 0x3f]
+   10410              $C$DW$1354      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R5H")
+   10411                      .dwattr $C$DW$1354, DW_AT_location[DW_OP_regx 0x40]
+   10412              $C$DW$1355      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R6HL")
+   10413                      .dwattr $C$DW$1355, DW_AT_location[DW_OP_regx 0x43]
+   10414              $C$DW$1356      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R6H")
+   10415                      .dwattr $C$DW$1356, DW_AT_location[DW_OP_regx 0x44]
+   10416              $C$DW$1357      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R7HL")
+   10417                      .dwattr $C$DW$1357, DW_AT_location[DW_OP_regx 0x47]
+   10418              $C$DW$1358      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("R7H")
+   10419                      .dwattr $C$DW$1358, DW_AT_location[DW_OP_regx 0x48]
+   10420              $C$DW$1359      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("RBL")
+   10421                      .dwattr $C$DW$1359, DW_AT_location[DW_OP_regx 0x49]
+   10422              $C$DW$1360      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("RB")
+   10423                      .dwattr $C$DW$1360, DW_AT_location[DW_OP_regx 0x4a]
+   10424              $C$DW$1361      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("STFL")
+   10425                      .dwattr $C$DW$1361, DW_AT_location[DW_OP_regx 0x27]
+   10426              $C$DW$1362      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("STF")
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:25:56 2017
+
+Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
+DRV830x_SPI.asm                                                      PAGE  191
+
+   10427                      .dwattr $C$DW$1362, DW_AT_location[DW_OP_regx 0x28]
+   10428              $C$DW$1363      .dwtag  DW_TAG_TI_assign_register, DW_AT_name("FPUHAZ")
+   10429                      .dwattr $C$DW$1363, DW_AT_location[DW_OP_reg27]
+   10430                      .dwendtag $C$DW$CU
+   10431              
 
 No Assembly Errors, No Assembly Warnings

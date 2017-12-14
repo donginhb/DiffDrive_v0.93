@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                         PC v6.4.2 *
-       3              ;* Date/Time created: Thu Dec 14 13:37:49 2017                 *
+       3              ;* Date/Time created: Thu Dec 14 15:26:59 2017                 *
        4              ;***************************************************************
        5                      .compiler_opts --cla_support=cla0 --float_support=fpu32 --hll_source=on --mem_model:code=flat --mem_m
        6        0002  FP      .set    XAR2
@@ -58,7 +58,7 @@ config_mode_cmd.asm                                                  PAGE    1
       53                      .dwattr $C$DW$9, DW_AT_external
       54              $C$DW$10        .dwtag  DW_TAG_formal_parameter
       55                      .dwattr $C$DW$10, DW_AT_type(*$C$DW$T$16)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE    2
@@ -118,7 +118,7 @@ config_mode_cmd.asm                                                  PAGE    2
      108                      .dwattr $C$DW$19, DW_AT_TI_begin_line(0x0e)
      109                      .dwattr $C$DW$19, DW_AT_TI_begin_column(0x0a)
      110                      .dwattr $C$DW$19, DW_AT_TI_max_frame_size(-4)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE    3
@@ -178,7 +178,7 @@ config_mode_cmd.asm                                                  PAGE    3
      161 0000000a 7640!         LCR       #_set_potentiometer_left ; [CPU_] |22| 
          0000000b 0000 
      162                      ; call occurs [#_set_potentiometer_left] ; [] |22| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE    4
@@ -238,7 +238,7 @@ config_mode_cmd.asm                                                  PAGE    4
      207 0000002a 7700          NOP       ; [CPU_] 
      208 0000002b 7700          NOP       ; [CPU_] 
      209 0000002c 7700          NOP       ; [CPU_] 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE    5
@@ -298,7 +298,7 @@ config_mode_cmd.asm                                                  PAGE    5
      257                      .dwpsn  file "../Source/App/config_mode_cmd.c",line 51,column 3,is_stmt,isa 0
      258 0000003e 9241          MOV       AL,*-SP[1]            ; [CPU_] |51| 
      259 0000003f 9CF0          ADDB      AL,#-16               ; [CPU_] |51| 
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE    6
@@ -358,7 +358,7 @@ config_mode_cmd.asm                                                  PAGE    6
      299 00000012 0039'         .long   $C$L8   ; 9
          00000013 0000 
      300 00000014 0039'         .long   $C$L8   ; 10
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE    7
@@ -418,7 +418,7 @@ config_mode_cmd.asm                                                  PAGE    7
      344              ;* TYPE INFORMATION                                            *
      345              ;***************************************************************
      346              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE    8
@@ -478,7 +478,7 @@ config_mode_cmd.asm                                                  PAGE    8
      399                      .dwattr $C$DW$53, DW_AT_name("all")
      400                      .dwattr $C$DW$53, DW_AT_TI_symbol_name("_all")
      401                      .dwattr $C$DW$53, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE    9
@@ -538,7 +538,7 @@ config_mode_cmd.asm                                                  PAGE    9
      454                      .dwattr $C$DW$59, DW_AT_type(*$C$DW$T$19)
      455                      .dwattr $C$DW$59, DW_AT_name("PPBRESULT")
      456                      .dwattr $C$DW$59, DW_AT_TI_symbol_name("_PPBRESULT")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   10
@@ -598,7 +598,7 @@ config_mode_cmd.asm                                                  PAGE   10
      509                      .dwattr $C$DW$T$28, DW_AT_name("ADCPPB4RESULT_REG")
      510                      .dwattr $C$DW$T$28, DW_AT_byte_size(0x02)
      511              $C$DW$65        .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   11
@@ -658,7 +658,7 @@ config_mode_cmd.asm                                                  PAGE   11
      564                      .dwattr $C$DW$72, DW_AT_accessibility(DW_ACCESS_public)
      565              $C$DW$73        .dwtag  DW_TAG_member
      566                      .dwattr $C$DW$73, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   12
@@ -718,7 +718,7 @@ config_mode_cmd.asm                                                  PAGE   12
      619              $C$DW$82        .dwtag  DW_TAG_member
      620                      .dwattr $C$DW$82, DW_AT_type(*$C$DW$T$19)
      621                      .dwattr $C$DW$82, DW_AT_name("ADCRESULT15")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   13
@@ -778,7 +778,7 @@ config_mode_cmd.asm                                                  PAGE   13
      674                      .dwattr $C$DW$90, DW_AT_type(*$C$DW$T$19)
      675                      .dwattr $C$DW$90, DW_AT_name("rsvd1")
      676                      .dwattr $C$DW$90, DW_AT_TI_symbol_name("_rsvd1")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   14
@@ -838,7 +838,7 @@ config_mode_cmd.asm                                                  PAGE   14
      729                      .dwattr $C$DW$96, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x02)
      730                      .dwattr $C$DW$96, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
      731                      .dwattr $C$DW$96, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   15
@@ -898,7 +898,7 @@ config_mode_cmd.asm                                                  PAGE   15
      784              $C$DW$103       .dwtag  DW_TAG_member
      785                      .dwattr $C$DW$103, DW_AT_type(*$C$DW$T$19)
      786                      .dwattr $C$DW$103, DW_AT_name("CAD")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   16
@@ -958,7 +958,7 @@ config_mode_cmd.asm                                                  PAGE   16
      839                      .dwattr $C$DW$109, DW_AT_TI_symbol_name("_T1U")
      840                      .dwattr $C$DW$109, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x02)
      841                      .dwattr $C$DW$109, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   17
@@ -1018,7 +1018,7 @@ config_mode_cmd.asm                                                  PAGE   17
      894                      .dwattr $C$DW$T$38, DW_AT_byte_size(0x01)
      895              $C$DW$116       .dwtag  DW_TAG_member
      896                      .dwattr $C$DW$116, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   18
@@ -1078,7 +1078,7 @@ config_mode_cmd.asm                                                  PAGE   18
      949                      .dwattr $C$DW$T$39, DW_AT_byte_size(0x01)
      950              $C$DW$123       .dwtag  DW_TAG_member
      951                      .dwattr $C$DW$123, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   19
@@ -1138,7 +1138,7 @@ config_mode_cmd.asm                                                  PAGE   19
     1004                      .dwattr $C$DW$130, DW_AT_type(*$C$DW$T$19)
     1005                      .dwattr $C$DW$130, DW_AT_name("rsvd2")
     1006                      .dwattr $C$DW$130, DW_AT_TI_symbol_name("_rsvd2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   20
@@ -1198,7 +1198,7 @@ config_mode_cmd.asm                                                  PAGE   20
     1059                      .dwattr $C$DW$136, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x02)
     1060                      .dwattr $C$DW$136, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1061                      .dwattr $C$DW$136, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   21
@@ -1258,7 +1258,7 @@ config_mode_cmd.asm                                                  PAGE   21
     1114                      .dwattr $C$DW$143, DW_AT_accessibility(DW_ACCESS_public)
     1115                      .dwendtag $C$DW$T$43
     1116              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   22
@@ -1318,7 +1318,7 @@ config_mode_cmd.asm                                                  PAGE   22
     1169                      .dwattr $C$DW$149, DW_AT_TI_symbol_name("_CMPAHR")
     1170                      .dwattr $C$DW$149, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x10)
     1171                      .dwattr $C$DW$149, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   23
@@ -1378,7 +1378,7 @@ config_mode_cmd.asm                                                  PAGE   23
     1224              $C$DW$155       .dwtag  DW_TAG_member
     1225                      .dwattr $C$DW$155, DW_AT_type(*$C$DW$T$21)
     1226                      .dwattr $C$DW$155, DW_AT_name("all")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   24
@@ -1438,7 +1438,7 @@ config_mode_cmd.asm                                                  PAGE   24
     1279                      .dwattr $C$DW$162, DW_AT_name("rsvd2")
     1280                      .dwattr $C$DW$162, DW_AT_TI_symbol_name("_rsvd2")
     1281                      .dwattr $C$DW$162, DW_AT_bit_offset(0x06), DW_AT_bit_size(0x03)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   25
@@ -1498,7 +1498,7 @@ config_mode_cmd.asm                                                  PAGE   25
     1334                      .dwattr $C$DW$168, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1335                      .dwattr $C$DW$168, DW_AT_accessibility(DW_ACCESS_public)
     1336              $C$DW$169       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   26
@@ -1558,7 +1558,7 @@ config_mode_cmd.asm                                                  PAGE   26
     1389                      .dwattr $C$DW$176, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x02)
     1390                      .dwattr $C$DW$176, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1391                      .dwattr $C$DW$176, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   27
@@ -1618,7 +1618,7 @@ config_mode_cmd.asm                                                  PAGE   27
     1444              $C$DW$183       .dwtag  DW_TAG_member
     1445                      .dwattr $C$DW$183, DW_AT_type(*$C$DW$T$19)
     1446                      .dwattr $C$DW$183, DW_AT_name("rsvd1")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   28
@@ -1678,7 +1678,7 @@ config_mode_cmd.asm                                                  PAGE   28
     1499                      .dwattr $C$DW$189, DW_AT_TI_symbol_name("_LOADREDMODE")
     1500                      .dwattr $C$DW$189, DW_AT_bit_offset(0x08), DW_AT_bit_size(0x02)
     1501                      .dwattr $C$DW$189, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   29
@@ -1738,7 +1738,7 @@ config_mode_cmd.asm                                                  PAGE   29
     1554                      .dwattr $C$DW$196, DW_AT_TI_symbol_name("_all")
     1555                      .dwattr $C$DW$196, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1556                      .dwattr $C$DW$196, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   30
@@ -1798,7 +1798,7 @@ config_mode_cmd.asm                                                  PAGE   30
     1609              $C$DW$203       .dwtag  DW_TAG_member
     1610                      .dwattr $C$DW$203, DW_AT_type(*$C$DW$T$58)
     1611                      .dwattr $C$DW$203, DW_AT_name("bit")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   31
@@ -1858,7 +1858,7 @@ config_mode_cmd.asm                                                  PAGE   31
     1664                      .dwattr $C$DW$209, DW_AT_TI_symbol_name("_bit")
     1665                      .dwattr $C$DW$209, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1666                      .dwattr $C$DW$209, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   32
@@ -1918,7 +1918,7 @@ config_mode_cmd.asm                                                  PAGE   32
     1719                      .dwattr $C$DW$216, DW_AT_bit_offset(0x06), DW_AT_bit_size(0x01)
     1720                      .dwattr $C$DW$216, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1721                      .dwattr $C$DW$216, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   33
@@ -1978,7 +1978,7 @@ config_mode_cmd.asm                                                  PAGE   33
     1774              $C$DW$223       .dwtag  DW_TAG_member
     1775                      .dwattr $C$DW$223, DW_AT_type(*$C$DW$T$19)
     1776                      .dwattr $C$DW$223, DW_AT_name("TRIPINPUT4")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   34
@@ -2038,7 +2038,7 @@ config_mode_cmd.asm                                                  PAGE   34
     1829                      .dwattr $C$DW$230, DW_AT_accessibility(DW_ACCESS_public)
     1830              $C$DW$231       .dwtag  DW_TAG_member
     1831                      .dwattr $C$DW$231, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   35
@@ -2098,7 +2098,7 @@ config_mode_cmd.asm                                                  PAGE   35
     1884              
     1885              
     1886              $C$DW$T$66      .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   36
@@ -2158,7 +2158,7 @@ config_mode_cmd.asm                                                  PAGE   36
     1939                      .dwattr $C$DW$245, DW_AT_type(*$C$DW$T$19)
     1940                      .dwattr $C$DW$245, DW_AT_name("TRIPINPUT8")
     1941                      .dwattr $C$DW$245, DW_AT_TI_symbol_name("_TRIPINPUT8")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   37
@@ -2218,7 +2218,7 @@ config_mode_cmd.asm                                                  PAGE   37
     1994              $C$DW$253       .dwtag  DW_TAG_member
     1995                      .dwattr $C$DW$253, DW_AT_type(*$C$DW$T$19)
     1996                      .dwattr $C$DW$253, DW_AT_name("rsvd2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   38
@@ -2278,7 +2278,7 @@ config_mode_cmd.asm                                                  PAGE   38
     2049                      .dwattr $C$DW$259, DW_AT_TI_symbol_name("_EVT1SYNCE")
     2050                      .dwattr $C$DW$259, DW_AT_bit_offset(0x0c), DW_AT_bit_size(0x01)
     2051                      .dwattr $C$DW$259, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   39
@@ -2338,7 +2338,7 @@ config_mode_cmd.asm                                                  PAGE   39
     2104                      .dwattr $C$DW$T$70, DW_AT_byte_size(0x01)
     2105              $C$DW$266       .dwtag  DW_TAG_member
     2106                      .dwattr $C$DW$266, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   40
@@ -2398,7 +2398,7 @@ config_mode_cmd.asm                                                  PAGE   40
     2159                      .dwattr $C$DW$273, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2160                      .dwattr $C$DW$273, DW_AT_accessibility(DW_ACCESS_public)
     2161              $C$DW$274       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   41
@@ -2458,7 +2458,7 @@ config_mode_cmd.asm                                                  PAGE   41
     2214                      .dwattr $C$DW$281, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x01)
     2215                      .dwattr $C$DW$281, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2216                      .dwattr $C$DW$281, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   42
@@ -2518,7 +2518,7 @@ config_mode_cmd.asm                                                  PAGE   42
     2269              $C$DW$288       .dwtag  DW_TAG_member
     2270                      .dwattr $C$DW$288, DW_AT_type(*$C$DW$T$19)
     2271                      .dwattr $C$DW$288, DW_AT_name("TRIPINPUT5")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   43
@@ -2578,7 +2578,7 @@ config_mode_cmd.asm                                                  PAGE   43
     2324                      .dwattr $C$DW$295, DW_AT_accessibility(DW_ACCESS_public)
     2325              $C$DW$296       .dwtag  DW_TAG_member
     2326                      .dwattr $C$DW$296, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   44
@@ -2638,7 +2638,7 @@ config_mode_cmd.asm                                                  PAGE   44
     2379                      .dwattr $C$DW$302, DW_AT_name("CAPE")
     2380                      .dwattr $C$DW$302, DW_AT_TI_symbol_name("_CAPE")
     2381                      .dwattr $C$DW$302, DW_AT_bit_offset(0x0f), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   45
@@ -2698,7 +2698,7 @@ config_mode_cmd.asm                                                  PAGE   45
     2434                      .dwattr $C$DW$309, DW_AT_TI_symbol_name("_bit")
     2435                      .dwattr $C$DW$309, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2436                      .dwattr $C$DW$309, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   46
@@ -2758,7 +2758,7 @@ config_mode_cmd.asm                                                  PAGE   46
     2489                      .dwattr $C$DW$316, DW_AT_bit_offset(0x06), DW_AT_bit_size(0x02)
     2490                      .dwattr $C$DW$316, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     2491                      .dwattr $C$DW$316, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   47
@@ -2818,7 +2818,7 @@ config_mode_cmd.asm                                                  PAGE   47
     2544              $C$DW$323       .dwtag  DW_TAG_member
     2545                      .dwattr $C$DW$323, DW_AT_type(*$C$DW$T$19)
     2546                      .dwattr $C$DW$323, DW_AT_name("DCBHCOMPSEL")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   48
@@ -2878,7 +2878,7 @@ config_mode_cmd.asm                                                  PAGE   48
     2599                      .dwattr $C$DW$329, DW_AT_TI_symbol_name("_CMPBLINK")
     2600                      .dwattr $C$DW$329, DW_AT_bit_offset(0x04), DW_AT_bit_size(0x04)
     2601                      .dwattr $C$DW$329, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   49
@@ -2938,7 +2938,7 @@ config_mode_cmd.asm                                                  PAGE   49
     2654                      .dwattr $C$DW$T$91, DW_AT_byte_size(0x100)
     2655              $C$DW$336       .dwtag  DW_TAG_member
     2656                      .dwattr $C$DW$336, DW_AT_type(*$C$DW$T$131)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   50
@@ -2998,7 +2998,7 @@ config_mode_cmd.asm                                                  PAGE   50
     2709              $C$DW$345       .dwtag  DW_TAG_member
     2710                      .dwattr $C$DW$345, DW_AT_type(*$C$DW$T$57)
     2711                      .dwattr $C$DW$345, DW_AT_name("DBCTL")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   51
@@ -3058,7 +3058,7 @@ config_mode_cmd.asm                                                  PAGE   51
     2764                      .dwattr $C$DW$354, DW_AT_type(*$C$DW$T$125)
     2765                      .dwattr $C$DW$354, DW_AT_name("HRPWR")
     2766                      .dwattr $C$DW$354, DW_AT_TI_symbol_name("_HRPWR")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   52
@@ -3118,7 +3118,7 @@ config_mode_cmd.asm                                                  PAGE   52
     2819                      .dwattr $C$DW$363, DW_AT_name("rsvd10")
     2820                      .dwattr $C$DW$363, DW_AT_TI_symbol_name("_rsvd10")
     2821                      .dwattr $C$DW$363, DW_AT_data_member_location[DW_OP_plus_uconst 0x36]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   53
@@ -3178,7 +3178,7 @@ config_mode_cmd.asm                                                  PAGE   53
     2874                      .dwattr $C$DW$372, DW_AT_TI_symbol_name("_rsvd13")
     2875                      .dwattr $C$DW$372, DW_AT_data_member_location[DW_OP_plus_uconst 0x48]
     2876                      .dwattr $C$DW$372, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   54
@@ -3238,7 +3238,7 @@ config_mode_cmd.asm                                                  PAGE   54
     2929                      .dwattr $C$DW$381, DW_AT_data_member_location[DW_OP_plus_uconst 0x62]
     2930                      .dwattr $C$DW$381, DW_AT_accessibility(DW_ACCESS_public)
     2931              $C$DW$382       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   55
@@ -3298,7 +3298,7 @@ config_mode_cmd.asm                                                  PAGE   55
     2984                      .dwattr $C$DW$390, DW_AT_accessibility(DW_ACCESS_public)
     2985              $C$DW$391       .dwtag  DW_TAG_member
     2986                      .dwattr $C$DW$391, DW_AT_type(*$C$DW$T$113)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   56
@@ -3358,7 +3358,7 @@ config_mode_cmd.asm                                                  PAGE   56
     3039              $C$DW$400       .dwtag  DW_TAG_member
     3040                      .dwattr $C$DW$400, DW_AT_type(*$C$DW$T$147)
     3041                      .dwattr $C$DW$400, DW_AT_name("TZCTLDCB")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   57
@@ -3418,7 +3418,7 @@ config_mode_cmd.asm                                                  PAGE   57
     3094                      .dwattr $C$DW$409, DW_AT_type(*$C$DW$T$137)
     3095                      .dwattr $C$DW$409, DW_AT_name("TZCBCCLR")
     3096                      .dwattr $C$DW$409, DW_AT_TI_symbol_name("_TZCBCCLR")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   58
@@ -3478,7 +3478,7 @@ config_mode_cmd.asm                                                  PAGE   58
     3149                      .dwattr $C$DW$418, DW_AT_name("ETFLG")
     3150                      .dwattr $C$DW$418, DW_AT_TI_symbol_name("_ETFLG")
     3151                      .dwattr $C$DW$418, DW_AT_data_member_location[DW_OP_plus_uconst 0xa8]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   59
@@ -3538,7 +3538,7 @@ config_mode_cmd.asm                                                  PAGE   59
     3204                      .dwattr $C$DW$427, DW_AT_TI_symbol_name("_rsvd34")
     3205                      .dwattr $C$DW$427, DW_AT_data_member_location[DW_OP_plus_uconst 0xb1]
     3206                      .dwattr $C$DW$427, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   60
@@ -3598,7 +3598,7 @@ config_mode_cmd.asm                                                  PAGE   60
     3259                      .dwattr $C$DW$436, DW_AT_data_member_location[DW_OP_plus_uconst 0xc5]
     3260                      .dwattr $C$DW$436, DW_AT_accessibility(DW_ACCESS_public)
     3261              $C$DW$437       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   61
@@ -3658,7 +3658,7 @@ config_mode_cmd.asm                                                  PAGE   61
     3314                      .dwattr $C$DW$445, DW_AT_accessibility(DW_ACCESS_public)
     3315              $C$DW$446       .dwtag  DW_TAG_member
     3316                      .dwattr $C$DW$446, DW_AT_type(*$C$DW$T$65)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   62
@@ -3718,7 +3718,7 @@ config_mode_cmd.asm                                                  PAGE   62
     3369              $C$DW$454       .dwtag  DW_TAG_member
     3370                      .dwattr $C$DW$454, DW_AT_type(*$C$DW$T$19)
     3371                      .dwattr $C$DW$454, DW_AT_name("SOCA")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   63
@@ -3778,7 +3778,7 @@ config_mode_cmd.asm                                                  PAGE   63
     3424                      .dwattr $C$DW$460, DW_AT_TI_symbol_name("_INTINITFRC")
     3425                      .dwattr $C$DW$460, DW_AT_bit_offset(0x05), DW_AT_bit_size(0x01)
     3426                      .dwattr $C$DW$460, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   64
@@ -3838,7 +3838,7 @@ config_mode_cmd.asm                                                  PAGE   64
     3479                      .dwattr $C$DW$467, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3480                      .dwattr $C$DW$467, DW_AT_accessibility(DW_ACCESS_public)
     3481                      .dwendtag $C$DW$T$95
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   65
@@ -3898,7 +3898,7 @@ config_mode_cmd.asm                                                  PAGE   65
     3534              
     3535              
     3536              $C$DW$T$98      .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   66
@@ -3958,7 +3958,7 @@ config_mode_cmd.asm                                                  PAGE   66
     3589                      .dwattr $C$DW$480, DW_AT_TI_symbol_name("_bit")
     3590                      .dwattr $C$DW$480, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3591                      .dwattr $C$DW$480, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   67
@@ -4018,7 +4018,7 @@ config_mode_cmd.asm                                                  PAGE   67
     3644                      .dwattr $C$DW$486, DW_AT_accessibility(DW_ACCESS_public)
     3645              $C$DW$487       .dwtag  DW_TAG_member
     3646                      .dwattr $C$DW$487, DW_AT_type(*$C$DW$T$100)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   68
@@ -4078,7 +4078,7 @@ config_mode_cmd.asm                                                  PAGE   68
     3699              $C$DW$T$104     .dwtag  DW_TAG_structure_type
     3700                      .dwattr $C$DW$T$104, DW_AT_name("ETPS_BITS")
     3701                      .dwattr $C$DW$T$104, DW_AT_byte_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   69
@@ -4138,7 +4138,7 @@ config_mode_cmd.asm                                                  PAGE   69
     3754                      .dwattr $C$DW$500, DW_AT_TI_symbol_name("_SOCBPRD")
     3755                      .dwattr $C$DW$500, DW_AT_bit_offset(0x02), DW_AT_bit_size(0x02)
     3756                      .dwattr $C$DW$500, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   70
@@ -4198,7 +4198,7 @@ config_mode_cmd.asm                                                  PAGE   70
     3809                      .dwattr $C$DW$506, DW_AT_accessibility(DW_ACCESS_public)
     3810              $C$DW$507       .dwtag  DW_TAG_member
     3811                      .dwattr $C$DW$507, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   71
@@ -4258,7 +4258,7 @@ config_mode_cmd.asm                                                  PAGE   71
     3864                      .dwattr $C$DW$T$107, DW_AT_byte_size(0x01)
     3865              $C$DW$514       .dwtag  DW_TAG_member
     3866                      .dwattr $C$DW$514, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   72
@@ -4318,7 +4318,7 @@ config_mode_cmd.asm                                                  PAGE   72
     3919                      .dwattr $C$DW$520, DW_AT_name("all")
     3920                      .dwattr $C$DW$520, DW_AT_TI_symbol_name("_all")
     3921                      .dwattr $C$DW$520, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   73
@@ -4378,7 +4378,7 @@ config_mode_cmd.asm                                                  PAGE   73
     3974                      .dwattr $C$DW$527, DW_AT_bit_offset(0x0a), DW_AT_bit_size(0x01)
     3975                      .dwattr $C$DW$527, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     3976                      .dwattr $C$DW$527, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   74
@@ -4438,7 +4438,7 @@ config_mode_cmd.asm                                                  PAGE   74
     4029                      .dwattr $C$DW$534, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4030                      .dwattr $C$DW$534, DW_AT_accessibility(DW_ACCESS_public)
     4031              $C$DW$535       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   75
@@ -4498,7 +4498,7 @@ config_mode_cmd.asm                                                  PAGE   75
     4084              
     4085              $C$DW$T$114     .dwtag  DW_TAG_structure_type
     4086                      .dwattr $C$DW$T$114, DW_AT_name("GLDCTL_BITS")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   76
@@ -4558,7 +4558,7 @@ config_mode_cmd.asm                                                  PAGE   76
     4139              
     4140              $C$DW$T$115     .dwtag  DW_TAG_union_type
     4141                      .dwattr $C$DW$T$115, DW_AT_name("GLDCTL_REG")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   77
@@ -4618,7 +4618,7 @@ config_mode_cmd.asm                                                  PAGE   77
     4194                      .dwattr $C$DW$554, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4195                      .dwattr $C$DW$554, DW_AT_accessibility(DW_ACCESS_public)
     4196              $C$DW$555       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   78
@@ -4678,7 +4678,7 @@ config_mode_cmd.asm                                                  PAGE   78
     4249                      .dwattr $C$DW$561, DW_AT_type(*$C$DW$T$19)
     4250                      .dwattr $C$DW$561, DW_AT_name("SELOUTB")
     4251                      .dwattr $C$DW$561, DW_AT_TI_symbol_name("_SELOUTB")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   79
@@ -4738,7 +4738,7 @@ config_mode_cmd.asm                                                  PAGE   79
     4304                      .dwendtag $C$DW$T$118
     4305              
     4306              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   80
@@ -4798,7 +4798,7 @@ config_mode_cmd.asm                                                  PAGE   80
     4359                      .dwattr $C$DW$574, DW_AT_accessibility(DW_ACCESS_public)
     4360                      .dwendtag $C$DW$T$121
     4361              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   81
@@ -4858,7 +4858,7 @@ config_mode_cmd.asm                                                  PAGE   81
     4414              $C$DW$581       .dwtag  DW_TAG_member
     4415                      .dwattr $C$DW$581, DW_AT_type(*$C$DW$T$19)
     4416                      .dwattr $C$DW$581, DW_AT_name("all")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   82
@@ -4918,7 +4918,7 @@ config_mode_cmd.asm                                                  PAGE   82
     4469                      .dwattr $C$DW$588, DW_AT_name("rsvd6")
     4470                      .dwattr $C$DW$588, DW_AT_TI_symbol_name("_rsvd6")
     4471                      .dwattr $C$DW$588, DW_AT_bit_offset(0x06), DW_AT_bit_size(0x04)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   83
@@ -4978,7 +4978,7 @@ config_mode_cmd.asm                                                  PAGE   83
     4524                      .dwattr $C$DW$594, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4525                      .dwattr $C$DW$594, DW_AT_accessibility(DW_ACCESS_public)
     4526              $C$DW$595       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   84
@@ -5038,7 +5038,7 @@ config_mode_cmd.asm                                                  PAGE   84
     4579                      .dwattr $C$DW$601, DW_AT_type(*$C$DW$T$19)
     4580                      .dwattr $C$DW$601, DW_AT_name("SELFCLRTRREM")
     4581                      .dwattr $C$DW$601, DW_AT_TI_symbol_name("_SELFCLRTRREM")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   85
@@ -5098,7 +5098,7 @@ config_mode_cmd.asm                                                  PAGE   85
     4634                      .dwattr $C$DW$608, DW_AT_name("bit")
     4635                      .dwattr $C$DW$608, DW_AT_TI_symbol_name("_bit")
     4636                      .dwattr $C$DW$608, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   86
@@ -5158,7 +5158,7 @@ config_mode_cmd.asm                                                  PAGE   86
     4689                      .dwattr $C$DW$615, DW_AT_TI_symbol_name("_CLKDIV")
     4690                      .dwattr $C$DW$615, DW_AT_bit_offset(0x03), DW_AT_bit_size(0x03)
     4691                      .dwattr $C$DW$615, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   87
@@ -5218,7 +5218,7 @@ config_mode_cmd.asm                                                  PAGE   87
     4744                      .dwattr $C$DW$621, DW_AT_accessibility(DW_ACCESS_public)
     4745                      .dwendtag $C$DW$T$132
     4746              
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   88
@@ -5278,7 +5278,7 @@ config_mode_cmd.asm                                                  PAGE   88
     4799              
     4800              $C$DW$T$135     .dwtag  DW_TAG_union_type
     4801                      .dwattr $C$DW$T$135, DW_AT_name("TBSTS_REG")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   89
@@ -5338,7 +5338,7 @@ config_mode_cmd.asm                                                  PAGE   89
     4854                      .dwattr $C$DW$634, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     4855                      .dwattr $C$DW$634, DW_AT_accessibility(DW_ACCESS_public)
     4856              $C$DW$635       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   90
@@ -5398,7 +5398,7 @@ config_mode_cmd.asm                                                  PAGE   90
     4909                      .dwattr $C$DW$641, DW_AT_type(*$C$DW$T$19)
     4910                      .dwattr $C$DW$641, DW_AT_name("CBC1")
     4911                      .dwattr $C$DW$641, DW_AT_TI_symbol_name("_CBC1")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   91
@@ -5458,7 +5458,7 @@ config_mode_cmd.asm                                                  PAGE   91
     4964              $C$DW$649       .dwtag  DW_TAG_member
     4965                      .dwattr $C$DW$649, DW_AT_type(*$C$DW$T$19)
     4966                      .dwattr $C$DW$649, DW_AT_name("rsvd1")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   92
@@ -5518,7 +5518,7 @@ config_mode_cmd.asm                                                  PAGE   92
     5019                      .dwattr $C$DW$655, DW_AT_TI_symbol_name("_DCAEVT1")
     5020                      .dwattr $C$DW$655, DW_AT_bit_offset(0x0c), DW_AT_bit_size(0x01)
     5021                      .dwattr $C$DW$655, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   93
@@ -5578,7 +5578,7 @@ config_mode_cmd.asm                                                  PAGE   93
     5074                      .dwattr $C$DW$662, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     5075                      .dwattr $C$DW$662, DW_AT_accessibility(DW_ACCESS_public)
     5076                      .dwendtag $C$DW$T$141
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   94
@@ -5638,7 +5638,7 @@ config_mode_cmd.asm                                                  PAGE   94
     5129                      .dwattr $C$DW$T$143, DW_AT_byte_size(0x01)
     5130              $C$DW$669       .dwtag  DW_TAG_member
     5131                      .dwattr $C$DW$669, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   95
@@ -5698,7 +5698,7 @@ config_mode_cmd.asm                                                  PAGE   95
     5184              
     5185              
     5186              $C$DW$T$145     .dwtag  DW_TAG_union_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   96
@@ -5758,7 +5758,7 @@ config_mode_cmd.asm                                                  PAGE   96
     5239                      .dwattr $C$DW$682, DW_AT_bit_offset(0x00), DW_AT_bit_size(0x04)
     5240                      .dwattr $C$DW$682, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     5241                      .dwattr $C$DW$682, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   97
@@ -5818,7 +5818,7 @@ config_mode_cmd.asm                                                  PAGE   97
     5294              $C$DW$689       .dwtag  DW_TAG_member
     5295                      .dwattr $C$DW$689, DW_AT_type(*$C$DW$T$19)
     5296                      .dwattr $C$DW$689, DW_AT_name("DCBEVT1")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   98
@@ -5878,7 +5878,7 @@ config_mode_cmd.asm                                                  PAGE   98
     5349                      .dwattr $C$DW$695, DW_AT_TI_symbol_name("_DCAEVT2")
     5350                      .dwattr $C$DW$695, DW_AT_bit_offset(0x0a), DW_AT_bit_size(0x03)
     5351                      .dwattr $C$DW$695, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE   99
@@ -5938,7 +5938,7 @@ config_mode_cmd.asm                                                  PAGE   99
     5404                      .dwattr $C$DW$701, DW_AT_accessibility(DW_ACCESS_public)
     5405              $C$DW$702       .dwtag  DW_TAG_member
     5406                      .dwattr $C$DW$702, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  100
@@ -5998,7 +5998,7 @@ config_mode_cmd.asm                                                  PAGE  100
     5459                      .dwattr $C$DW$T$153, DW_AT_byte_size(0x01)
     5460              $C$DW$709       .dwtag  DW_TAG_member
     5461                      .dwattr $C$DW$709, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  101
@@ -6058,7 +6058,7 @@ config_mode_cmd.asm                                                  PAGE  101
     5514                      .dwattr $C$DW$716, DW_AT_type(*$C$DW$T$19)
     5515                      .dwattr $C$DW$716, DW_AT_name("DCBEVT1")
     5516                      .dwattr $C$DW$716, DW_AT_TI_symbol_name("_DCBEVT1")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  102
@@ -6118,7 +6118,7 @@ config_mode_cmd.asm                                                  PAGE  102
     5569                      .dwattr $C$DW$722, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x01)
     5570                      .dwattr $C$DW$722, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     5571                      .dwattr $C$DW$722, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  103
@@ -6178,7 +6178,7 @@ config_mode_cmd.asm                                                  PAGE  103
     5624                      .dwattr $C$DW$729, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     5625                      .dwattr $C$DW$729, DW_AT_accessibility(DW_ACCESS_public)
     5626              $C$DW$730       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  104
@@ -6238,7 +6238,7 @@ config_mode_cmd.asm                                                  PAGE  104
     5679                      .dwattr $C$DW$736, DW_AT_accessibility(DW_ACCESS_public)
     5680              $C$DW$737       .dwtag  DW_TAG_member
     5681                      .dwattr $C$DW$737, DW_AT_type(*$C$DW$T$19)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  105
@@ -6298,7 +6298,7 @@ config_mode_cmd.asm                                                  PAGE  105
     5734                      .dwattr $C$DW$743, DW_AT_name("OST2")
     5735                      .dwattr $C$DW$743, DW_AT_TI_symbol_name("_OST2")
     5736                      .dwattr $C$DW$743, DW_AT_bit_offset(0x0e), DW_AT_bit_size(0x01)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  106
@@ -6358,7 +6358,7 @@ config_mode_cmd.asm                                                  PAGE  106
     5789              
     5790              
     5791              $C$DW$T$161     .dwtag  DW_TAG_union_type
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  107
@@ -6418,7 +6418,7 @@ config_mode_cmd.asm                                                  PAGE  107
     5844                      .dwattr $C$DW$757, DW_AT_bit_offset(0x0b), DW_AT_bit_size(0x01)
     5845                      .dwattr $C$DW$757, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     5846                      .dwattr $C$DW$757, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  108
@@ -6478,7 +6478,7 @@ config_mode_cmd.asm                                                  PAGE  108
     5899                      .dwattr $C$DW$765, DW_AT_TI_symbol_name("_OSHT5")
     5900                      .dwattr $C$DW$765, DW_AT_bit_offset(0x03), DW_AT_bit_size(0x01)
     5901                      .dwattr $C$DW$765, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  109
@@ -6538,7 +6538,7 @@ config_mode_cmd.asm                                                  PAGE  109
     5954              $C$DW$T$6       .dwtag  DW_TAG_base_type
     5955                      .dwattr $C$DW$T$6, DW_AT_encoding(DW_ATE_unsigned_char)
     5956                      .dwattr $C$DW$T$6, DW_AT_name("unsigned char")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  110
@@ -6598,7 +6598,7 @@ config_mode_cmd.asm                                                  PAGE  110
     6009              $C$DW$T$85      .dwtag  DW_TAG_array_type
     6010                      .dwattr $C$DW$T$85, DW_AT_type(*$C$DW$T$19)
     6011                      .dwattr $C$DW$T$85, DW_AT_language(DW_LANG_C)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  111
@@ -6658,7 +6658,7 @@ config_mode_cmd.asm                                                  PAGE  111
     6064                      .dwattr $C$DW$T$174, DW_AT_language(DW_LANG_C)
     6065              $C$DW$T$12      .dwtag  DW_TAG_base_type
     6066                      .dwattr $C$DW$T$12, DW_AT_encoding(DW_ATE_signed)
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  112
@@ -6718,7 +6718,7 @@ config_mode_cmd.asm                                                  PAGE  112
     6119                      .dwcfi  undefined, 31
     6120                      .dwcfi  undefined, 32
     6121                      .dwcfi  undefined, 33
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  113
@@ -6778,7 +6778,7 @@ config_mode_cmd.asm                                                  PAGE  113
     6174                      .dwattr $C$DW$780, DW_AT_location[DW_OP_reg0]
     6175              $C$DW$781       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AH")
     6176                      .dwattr $C$DW$781, DW_AT_location[DW_OP_reg1]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  114
@@ -6838,7 +6838,7 @@ config_mode_cmd.asm                                                  PAGE  114
     6229              $C$DW$808       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AR2")
     6230                      .dwattr $C$DW$808, DW_AT_location[DW_OP_reg8]
     6231              $C$DW$809       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("XAR2")
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  115
@@ -6898,7 +6898,7 @@ config_mode_cmd.asm                                                  PAGE  115
     6284                      .dwattr $C$DW$835, DW_AT_location[DW_OP_regx 0x48]
     6285              $C$DW$836       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("RBL")
     6286                      .dwattr $C$DW$836, DW_AT_location[DW_OP_regx 0x49]
-TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 13:37:49 2017
+TMS320C2000 Assembler PC v6.4.2 Thu Dec 14 15:26:59 2017
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
 config_mode_cmd.asm                                                  PAGE  116

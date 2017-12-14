@@ -81,6 +81,7 @@ fsm_main.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/sp
 fsm_main.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_fr.h
 fsm_main.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_grando.h
 fsm_main.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_reg3.h
+fsm_main.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/Motor_ctrl.h
 fsm_main.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/F2837x_QEP_Module.h
 fsm_main.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/f2837xbmsk.h
 fsm_main.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/HAL/drv8301_defs.h
@@ -182,6 +183,7 @@ C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_est.h:
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_fr.h: 
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_grando.h: 
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_reg3.h: 
+U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/Motor_ctrl.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/F2837x_QEP_Module.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/f2837xbmsk.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/HAL/drv8301_defs.h: 

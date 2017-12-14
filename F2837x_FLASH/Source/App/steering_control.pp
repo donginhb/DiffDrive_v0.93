@@ -81,6 +81,7 @@ steering_control.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks
 steering_control.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_fr.h
 steering_control.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_grando.h
 steering_control.obj: C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_reg3.h
+steering_control.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/Motor_ctrl.h
 steering_control.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/F2837x_QEP_Module.h
 steering_control.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/f2837xbmsk.h
 steering_control.obj: U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/HAL/drv8301_defs.h
@@ -175,6 +176,7 @@ C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_est.h:
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/speed_fr.h: 
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_grando.h: 
 C:/ti/controlSUITE/libs/app_libs/motor_control/math_blocks/v4.3/pid_reg3.h: 
+U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/Motor_ctrl.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/F2837x_QEP_Module.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/TI/HAL/f2837xbmsk.h: 
 U:/02_MSE/MT/07_Software/CCS_workspace/DiffDrive_v0.93/motors/HAL/drv8301_defs.h: 
