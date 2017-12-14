@@ -147,6 +147,8 @@ int16 SerialCommsTimer;
 // Global variables used in this system
 //****************************************************************************
 
+_iq Test_ref = _IQ(0.0);
+
 // ****************************************************************************
 // Flag variables
 // ****************************************************************************
@@ -1378,7 +1380,7 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 	} else if (motor->lsw == 1){
 		motor->pi_iq.ref = motor->IqRef;//motor->pi_iq.Ref = motor->IqRef;
 	} else {
-		motor->pi_iq.ref = motor->pid_spd.term.Out;//motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
+		motor->pi_iq.ref = Test_ref;//motor->pid_spd.term.Out;//motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
 	}
 	motor->pi_iq.fbk = motor->park.Qs;//motor->pi_iq.Fbk = motor->park.Qs;
 	piController(&motor->pi_iq);//PI_MACRO(motor->pi_iq)
