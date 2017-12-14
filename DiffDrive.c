@@ -85,15 +85,8 @@
 interrupt void MotorControlISR(void);
 
 // Core Motor Control Functions
-// ------------------------------
-#if BUILDLEVEL  != LEVEL1
 inline void motor1CurrentSense(void);
 inline void posEncoderIndex(MOTOR_VARS * motor);
-#endif
-
-void PwmTripConfig(volatile struct EPWM_REGS * PwmRegs, Uint16 TripNum);
-void DMC1_Protection(void);
-void DMC2_Protection(void);
 
 // Miscellaneous functions
 // -------------------------
@@ -182,18 +175,6 @@ int16 ptrMax = 2, ptr1 = 0;
 
 Uint16 DRV_RESET = 0;
 
-// ****************************************************************************
-// Variables for Datalog module
-// ****************************************************************************
-float DBUFF_4CH1[200], DBUFF_4CH2[200], DBUFF_4CH3[200], DBUFF_4CH4[200],
-		DlogCh1, DlogCh2, DlogCh3, DlogCh4;
-
-// Create an instance of DATALOG Module
-DLOG_4CH_F dlog_4ch1;
-
-//*******************************************************************************
-
-#if BUILDLEVEL != LEVEL1
 // ******************************************************************************
 // CURRENT SENSOR SUITE
 // - Reads motor currents from inverter bottom leg SHUNTs
@@ -264,110 +245,6 @@ inline void posEncoderIndex(MOTOR_VARS * motor) {
 
 	return;
 }
-#endif
-
-// ****************************************************************************
-// ****************************************************************************
-// DMC Protection Against Over Current Protection (Disabled)
-// ****************************************************************************
-// ****************************************************************************
-
-#define  TRIP4   3
-#define  TRIP5   4
-
-void PwmTripConfig(volatile struct EPWM_REGS * PwmRegs, Uint16 TripNum) {
-	EALLOW;
-
-	PwmRegs->DCTRIPSEL.bit.DCAHCOMPSEL = TripNum; //TripNum is input to DCAHCOMPSEL
-	PwmRegs->TZDCSEL.bit.DCAEVT1 = TZ_DCAH_HI;
-	PwmRegs->DCACTL.bit.EVT1SRCSEL = DC_EVT1;
-	PwmRegs->DCACTL.bit.EVT1FRCSYNCSEL = DC_EVT_ASYNC;
-	PwmRegs->TZSEL.bit.DCAEVT1 = 1;
-	PwmRegs->TZSEL.bit.CBC6 = 0x1;         // Emulator Stop
-	PwmRegs->TZCTL.bit.TZA = TZ_FORCE_LO; // TZA event force EPWMxA go low
-	PwmRegs->TZCTL.bit.TZB = TZ_FORCE_LO; // TZB event force EPWMxB go low
-	PwmRegs->TZCLR.bit.DCAEVT1 = 1;           // Clear any spurious OV trip
-	PwmRegs->TZCLR.bit.OST = 1;           // clear any spurious OST set early
-
-	EDIS;
-}
-
-//*****************************************************************************
-void DMC1_Protection(void) {
-	// Configure GPIO used for Trip Mechanism
-
-	// Configure as Input - Motor 1 - OCTW - (active low), trip PWM based on this
-	GPIO_SetupPinOptions(MOTOR1_OCTW_GPIO, GPIO_INPUT, GPIO_INVERT);
-	GPIO_SetupPinMux(MOTOR1_OCTW_GPIO, 0, MOTOR1_OCTW_MUX);
-
-	// Configure as Input - Motor 1 - FAULT - (active low), trip PWM based on this
-	GPIO_SetupPinOptions(MOTOR1_FAULT_GPIO, GPIO_INPUT, GPIO_INVERT);
-	GPIO_SetupPinMux(MOTOR1_FAULT_GPIO, 0, MOTOR1_FAULT_MUX);
-
-	EALLOW;
-	// TODO Build-in the inputs from motor 2 to control it as well against Overcurrent and Fault, probably build a new trip...
-	// Enable Mux 0  OR Mux 4 to generate TRIP4
-	// Clear everything first
-	EPwmXbarRegs.TRIP4MUX0TO15CFG.all = 0x0000; // clear all MUXes - MUX  0 to 15
-	EPwmXbarRegs.TRIP4MUX16TO31CFG.all = 0x0000; // clear all MUXes - MUX 16 to 31
-	EPwmXbarRegs.TRIP4MUXENABLE.all = 0x0000;    // Disable all the muxes first
-
-	// Enable Muxes for ORed input of InputXbar1, InputXbar2
-	InputXbarRegs.INPUT1SELECT = MOTOR1_FAULT_GPIO; // Select FAULT as INPUTXBAR1
-	EPwmXbarRegs.TRIP4MUX0TO15CFG.bit.MUX1 = 1; // Enable Mux for ored input of inputxbar1
-	EPwmXbarRegs.TRIP4MUXENABLE.bit.MUX1 = 1;   // Enable MUX1 to generate TRIP4
-
-	InputXbarRegs.INPUT2SELECT = MOTOR1_OCTW_GPIO;  // Select OCTW as INPUTXBAR2
-	EPwmXbarRegs.TRIP4MUX0TO15CFG.bit.MUX3 = 1; // Enable Mux for ored input of inputxbar2
-	EPwmXbarRegs.TRIP4MUXENABLE.bit.MUX3 = 1;   // Enable MUX3 to generate TRIP4
-
-	EDIS;
-
-	PwmTripConfig(motor1.PwmARegs, TRIP4);
-	PwmTripConfig(motor1.PwmBRegs, TRIP4);
-	PwmTripConfig(motor1.PwmCRegs, TRIP4);
-
-	return;
-}
-
-void DMC2_Protection(void) {
-	// Configure GPIO used for Trip Mechanism
-
-	// Configure as Input - Motor 2 - OCTW - (active low), trip PWM based on this
-	GPIO_SetupPinOptions(MOTOR2_OCTW_GPIO, GPIO_INPUT, GPIO_INVERT);
-	GPIO_SetupPinMux(MOTOR2_OCTW_GPIO, 0, MOTOR2_OCTW_MUX);
-
-	// Configure as Input - Motor 2 - FAULT - (active low), trip PWM based on this
-	GPIO_SetupPinOptions(MOTOR2_FAULT_GPIO, GPIO_INPUT, GPIO_INVERT);
-	GPIO_SetupPinMux(MOTOR2_FAULT_GPIO, 0, MOTOR2_FAULT_MUX);
-
-	EALLOW;
-	// TODO Build-in the inputs from motor 2 to control it as well against Overcurrent and Fault, probably build a new trip...
-	// Enable Mux 0  OR Mux 4 to generate TRIP5
-	// Clear everything first
-	EPwmXbarRegs.TRIP5MUX0TO15CFG.all = 0x0000; // clear all MUXes - MUX  0 to 15
-	EPwmXbarRegs.TRIP5MUX16TO31CFG.all = 0x0000; // clear all MUXes - MUX 16 to 31
-	EPwmXbarRegs.TRIP5MUXENABLE.all = 0x0000;    // Disable all the muxes first
-
-	// Enable Muxes for ORed input of InputXbar3, InputXbar3
-	InputXbarRegs.INPUT3SELECT = MOTOR2_FAULT_GPIO; // Select FAULT as INPUTXBAR3
-	EPwmXbarRegs.TRIP5MUX0TO15CFG.bit.MUX1 = 1; // Enable Mux for ored input of inputxbar1
-	EPwmXbarRegs.TRIP5MUXENABLE.bit.MUX1 = 1;   // Enable MUX1 to generate TRIP5
-
-#if (MOTOR1_DRV == DRV8301)
-	InputXbarRegs.INPUT2SELECT = MOTOR2_OCTW_GPIO;  // Select OCTW as INPUTXBAR2
-	EPwmXbarRegs.TRIP5MUX0TO15CFG.bit.MUX3 = 1; // Enable Mux for ored input of inputxbar2
-	EPwmXbarRegs.TRIP5MUXENABLE.bit.MUX3 = 1;   // Enable MUX3 to generate TRIP5
-#endif
-
-	EDIS;
-
-	PwmTripConfig(motor2.PwmARegs, TRIP5);
-	PwmTripConfig(motor2.PwmBRegs, TRIP5);
-	PwmTripConfig(motor2.PwmCRegs, TRIP5);
-
-	return;
-}
 
 // ****************************************************************************
 // ****************************************************************************
@@ -385,26 +262,6 @@ _iq ramper(_iq in, _iq out, _iq rampDelta) {
 	else if (err < -rampDelta)
 		return (out - rampDelta);
 	else
-		return (in);
-}
-
-//*****************************************************************************
-// Ramp Controller for speed reference (Not currently used)
-_iq ramper_speed(_iq in, _iq out, _iq rampDelta) {
-	_iq err;
-
-	err = in - out;
-	if (err > rampDelta) {
-		if ((out + rampDelta) > 1.0)
-			return (1.0);
-		else
-			return (out + rampDelta);
-	} else if (err < -rampDelta) {
-		if (out - rampDelta <= 0.0)
-			return (0.0);
-		else
-			return (out - rampDelta);
-	} else
 		return (in);
 }
 
@@ -879,39 +736,11 @@ void main(void) {
 //	in project manuals. Violation of this procedure yields distorted  current
 //  waveforms and unstable closed loop operations which may damage the inverter.
 
-// ****************************************************
-// Initialize DATALOG module
-// ****************************************************
-	DLOG_4CH_F_init(&dlog_4ch1);
-	dlog_4ch1.input_ptr1 = &DlogCh1;	//data value
-	dlog_4ch1.input_ptr2 = &DlogCh2;
-	dlog_4ch1.input_ptr3 = &DlogCh3;
-	dlog_4ch1.input_ptr4 = &DlogCh4;
-	dlog_4ch1.output_ptr1 = &DBUFF_4CH1[0];
-	dlog_4ch1.output_ptr2 = &DBUFF_4CH2[0];
-	dlog_4ch1.output_ptr3 = &DBUFF_4CH3[0];
-	dlog_4ch1.output_ptr4 = &DBUFF_4CH4[0];
-	dlog_4ch1.size = 200;
-	dlog_4ch1.pre_scalar = 5;
-	dlog_4ch1.trig_value = 0.01;
-	dlog_4ch1.status = 2;
-
-// ****************************************************************************
-// ****************************************************************************
-// Call DMC Protection function
-// ****************************************************************************
-// ****************************************************************************
-	//DMC1_Protection();
-	//DMC2_Protection();
-//
-// ****************************************************************************
 // ****************************************************************************
 // Feedbacks OFFSET Calibration Routine
 // ****************************************************************************
 // ****************************************************************************
-#if (MOTOR1_DRV == DRV8301)
 	GPIO_WritePin(MOTOR1_DC_CAL_GPIO, 0); // Set DC-CAL to 0 to enable current amplifiers
-#endif
 
 	DELAY_US(5);		          // delay to allow DRV830x amplifiers to settle
 
@@ -938,9 +767,7 @@ void main(void) {
 		}
 	}
 
-#if (MOTOR2_DRV == DRV8301)
 	GPIO_WritePin(MOTOR2_DC_CAL_GPIO, 0); // Set DC-CAL to 0 to enable current amplifiers
-#endif
 
 	DELAY_US(5);		          // delay to allow DRV830x amplifiers to settle
 
@@ -1032,9 +859,7 @@ void A0(void) {
 	if (CpuTimer0Regs.TCR.bit.TIF == 1) {
 		CpuTimer0Regs.TCR.bit.TIF = 1;	// clear flag
 
-		//-----------------------------------------------------------
 		(*A_Task_Ptr)();		// jump to an A Task (A1,A2,A3,...)
-		//-----------------------------------------------------------
 
 		VTimer0[0]++;			// virtual timer 0, instance 0 (spare)
 		SerialCommsTimer++;
@@ -1048,9 +873,7 @@ void B0(void) {
 	if (CpuTimer1Regs.TCR.bit.TIF == 1) {
 		CpuTimer1Regs.TCR.bit.TIF = 1;				// clear flag
 
-		//-----------------------------------------------------------
 		(*B_Task_Ptr)();		// jump to a B Task (B1,B2,B3,...)
-		//-----------------------------------------------------------
 		VTimer1[0]++;			// virtual timer 1, instance 0 (spare)
 	}
 
@@ -1062,9 +885,7 @@ void C0(void) {
 	if (CpuTimer2Regs.TCR.bit.TIF == 1) {
 		CpuTimer2Regs.TCR.bit.TIF = 1;				// clear flag
 
-		//-----------------------------------------------------------
 		(*C_Task_Ptr)();		// jump to a C Task (C1,C2,C3,...)
-		//-----------------------------------------------------------
 		VTimer2[0]++;			//virtual timer 2, instance 0 (spare)
 	}
 
@@ -1078,7 +899,6 @@ void C0(void) {
 void A1(void) // Check Trip Flag Motor 1
 //--------------------------------------------------------
 {
-
 	// *******************************************************
 	// Motor 1 -- DRV830x protections
 	// *******************************************************
@@ -1105,10 +925,7 @@ void A1(void) // Check Trip Flag Motor 1
 		EDIS;
 	}
 
-	//-------------------
-	//the next time CpuTimer0 'counter' reaches Period value go to A2
 	A_Task_Ptr = &A2;
-	//-------------------
 }
 
 //-----------------------------------------------------------------
@@ -1140,10 +957,8 @@ void A2(void) // Check Trip Flag Motor 2
 		(motor2.PwmCRegs)->TZCLR.bit.OST = 1;
 		EDIS;
 	}
-	//-------------------
-	//the next time CpuTimer0 'counter' reaches Period value go to A3
+
 	A_Task_Ptr = &A3;
-	//-------------------
 }
 
 //-----------------------------------------
@@ -1151,17 +966,12 @@ void A3(void) // SPARE (not used)
 //-----------------------------------------
 {
 
-	//-----------------
-	//the next time CpuTimer0 'counter' reaches Period value go to A1
 	A_Task_Ptr = &A1;
-	//-----------------
 }
 
 //=================================================================================
 //	B - TASKS (executed in every 100 usec -> 10kHz)
 //=================================================================================
-
-//----------------------------------- USER ----------------------------------------
 
 //----------------------------------------
 void B1(void) // Control steering velocities
@@ -1171,10 +981,7 @@ void B1(void) // Control steering velocities
 	motor1.SpeedRef = steeringContr.motor_speed_1;
 	motor2.SpeedRef = steeringContr.motor_speed_2;
 
-	//-----------------
-	//the next time CpuTimer1 'counter' reaches Period value go to B2
 	B_Task_Ptr = &B2;
-	//-----------------
 }
 
 
@@ -1186,10 +993,7 @@ void B2(void) //  Send measure Data
 		send_measurement_command(&motor1, &motor2, &steeringContr);
 	}
 
-	//-----------------
-	//the next time CpuTimer1 'counter' reaches Period value go to B3
 	B_Task_Ptr = &B3;
-	//-----------------
 }
 
 //----------------------------------------
@@ -1201,17 +1005,12 @@ void B3(void) //  Ramp the servo
 		servo_ramp();
 	}
 
-	//-----------------
-	//the next time CpuTimer1 'counter' reaches Period value go to B1
 	B_Task_Ptr = &B1;
-	//-----------------
 }
 
 //=================================================================================
 //	C - TASKS (executed in every 150 usec)
 //=================================================================================
-
-//--------------------------------- USER ------------------------------------------
 
 //----------------------------------------
 void C1(void)
@@ -1231,11 +1030,7 @@ void C1(void)
 		motor1.newCmdDRV = 0;
 	}
 
-	//-----------------
-	//the next time CpuTimer2 'counter' reaches Period value go to C2
 	C_Task_Ptr = &C2;
-	//-----------------
-
 }
 
 //----------------------------------------
@@ -1243,10 +1038,8 @@ void C2(void)
 //----------------------------------------
 {
 	DRV8301_diagnostics(&motor1);
-	//-----------------
-	//the next time CpuTimer2 'counter' reaches Period value go to C3
+
 	C_Task_Ptr = &C3;
-	//-----------------
 }
 
 //-----------------------------------------
@@ -1257,10 +1050,7 @@ void C3(void) //  Overcurrent and Battery Supply check
 		fsm_main_set_state(FSM_ERROR);
 	}
 
-	//-----------------
-	//the next time CpuTimer2 'counter' reaches Period value go to C1
 	C_Task_Ptr = &C1;
-	//-----------------
 }
 
 // ****************************************************************************
@@ -1354,11 +1144,9 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 	if (++motor->SpeedLoopCount >= motor->SpeedLoopPrescaler) {
 		motor->SpeedLoopCount = 0;
 
-		//EDITED
 		motor->pid_spd.term.Ref = motor->SpeedRef;
 		motor->pid_spd.term.Fbk = motor->speed.Speed;
 		PID_MACRO_USER(motor->pid_spd);
-		//EDITED_END
 	}
 
 	if (motor->lsw == 0 || motor->lsw == 1) {
@@ -1380,7 +1168,7 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 	} else if (motor->lsw == 1){
 		motor->pi_iq.ref = motor->IqRef;//motor->pi_iq.Ref = motor->IqRef;
 	} else {
-		motor->pi_iq.ref = Test_ref;//motor->pid_spd.term.Out;//motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
+		motor->pi_iq.ref = motor->pid_spd.term.Out;//motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
 	}
 	motor->pi_iq.fbk = motor->park.Qs;//motor->pi_iq.Fbk = motor->park.Qs;
 	piController(&motor->pi_iq);//PI_MACRO(motor->pi_iq)
@@ -1419,7 +1207,6 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 	+ INV_PWM_HALF_TBPRD;
 
 	return;
-
 }
 
 // ****************************************************************************
