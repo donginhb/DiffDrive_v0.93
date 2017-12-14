@@ -3,7 +3,7 @@
 #include "steering_config.h"
 #include "pwm_servo.h"
 #include "flash.h"
-#include "debug_disables.h"
+//#include "debug_disables.h"
 #include "DiffDrive-Settings.h"
 
 
@@ -260,7 +260,7 @@ float generate_middle_radius(void) {
 	float radius;
 	float angle;
 	const float MIN_ANGLE = 4.0; // minimal steering angle for calculation (°)
-	angle = get_servo_angle();
+	angle = 0;//angle = get_servo_angle(); DEBUG
 
 	// avoid divide by 0
 	if ( (angle<MIN_ANGLE) && (angle > -MIN_ANGLE) ) {

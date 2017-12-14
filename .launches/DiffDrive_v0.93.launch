@@ -6,6 +6,9 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.Texas Instruments XDS100v2 USB Debug Probe_0/C28xx_CPU1" value="DiffDrive_v0.93"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:DiffDrive_v0.93}"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.Texas Instruments XDS100v2 USB Debug Probe_0/C28xx_CPU1" value="U:/02_MSE\MT\07_Software\CCS_workspace\DiffDrive_v0.93\F2837x_FLASH\DiffDrive_v0.93.out"/>
+<mapAttribute key="com.ti.ccstudio.debug.ui.displayFormats">
+<mapEntry key="Texas Instruments XDS100v2 USB Debug Probe_0/C28xx_CPU1@##separator##@1" value="32-Bit Floating Point"/>
+</mapAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/DiffDrive_v0.93"/>
 </listAttribute>

@@ -21,9 +21,4 @@
 #define CURRENT_ID_CONTROLLER_KI motor1.T / 0.04
 #define CURRENT_ID_CONTROLLER_SAT 0.5
 
-// controller params for current controller iq
-#define CURRENT_IQ_CONTROLLER_KP 2.0
-#define CURRENT_IQ_CONTROLLER_KI motor1.T / 0.04
-#define CURRENT_IQ_CONTROLLER_SAT 0.8
-
 #endif /* DIFFDRIVE_V0_85_SOURCE_HEADER_CONTROLLER_SPEED_CURRENT_PARAM_H_ */

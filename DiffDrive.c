@@ -52,22 +52,19 @@
 #include "DiffDrive.h"
 #include "DiffDrive-Settings.h" // settings for buildlevel controller frequency...
 
-//EDITED includes
 #include <controller_speed_current.h> // User PI and PID Macros (anti windup)
 #include <controller_speed_current_param.h> // User params for speed and current controllers
-#include <debug_disables.h> // configuration of disabled functions for debug
 #include "hal_led.h" // HAL for external LEDs
 #include "hal_button.h" // HAL for external Buttons
 #include "F28x_Project.h"     // Device Headerfile and Examples Include File
-#include "pwm_servo.h"		  // HAL for Servo PWM
+//#include "pwm_servo.h"		  // HAL for Servo PWM
 #include "fsm_main.h"		  // Main state machine
 #include "sysctl.h"
 #include "WiFly_Commands.h" // HAL for WiFly module
 #include "Flash.h" // HAL for flash read and write
 #include "steering_config.h" // configuration data for steering
-#include "debug_disables.h" // disable functions for debug
+//#include "debug_disables.h" // disable functions for debug
 #include "Motor_ctrl.h"
-//EDITED_END
 
 // **********************************************************
 // Prototypes for local functions within this file
@@ -141,6 +138,13 @@ int16 SerialCommsTimer;
 //****************************************************************************
 
 _iq Test_ref = _IQ(0.0);
+
+int start_measure = 0;
+float measure[2][400];
+int16 measure_cnt = 0;
+int16 delay_cnt = 0;
+int16 cnt_max = 100;
+float test_speed = 0.2;
 
 // ****************************************************************************
 // Flag variables
@@ -314,7 +318,6 @@ void main(void) {
 	}
 
 	// Clear all interrupts and initialize PIE vector table:
-
 	// Disable CPU interrupts
 	DINT;
 
@@ -426,8 +429,6 @@ void main(void) {
 
 	InitMotor2EPwmGpio();  // Set up GPIOs for EPWMA of 2,6,10
 
-//---------------------------------------------------------------------------------------
-
 	// Setting up link from EPWM to ADC (EPwm7 is chosen)
 	EPwm7Regs.ETSEL.bit.SOCASEL = ET_CTR_PRD; // Select SOC from counter at ctr = PRD
 	EPwm7Regs.ETPS.bit.SOCAPRD = ET_1ST;     // Generate pulse on 1st even
@@ -440,8 +441,6 @@ void main(void) {
 // ****************************************************************************
 	//Configure the ADC and power it up
 	ConfigureADC();
-
-	//Select the channels to convert and end of conversion flag
 
 	EALLOW;
 
@@ -576,7 +575,6 @@ void main(void) {
 	IER |= M_INT1;                       // Enable group 1 interrupts
 
 	// SETUP DAC-C (DACs A, B and C are already used up)
-
 	EDIS;
 
 // ****************************************************************************
@@ -697,24 +695,12 @@ void main(void) {
 	motor1.pi_id.Umax = _IQ(CURRENT_ID_CONTROLLER_SAT);
 	motor1.pi_id.Umin = _IQ(-CURRENT_ID_CONTROLLER_SAT);
 
-	/*// Init PI module for IQ loop
-	motor1.pi_iq.Kp = _IQ(CURRENT_IQ_CONTROLLER_KP);          //_IQ(4.0);
-	motor1.pi_iq.Ki = _IQ(CURRENT_IQ_CONTROLLER_KI);          //_IQ(0.015);
-	motor1.pi_iq.Umax = _IQ(CURRENT_IQ_CONTROLLER_SAT);
-	motor1.pi_iq.Umin = _IQ(-CURRENT_IQ_CONTROLLER_SAT);
-*/
 	// Init PI module for ID loop
 	motor2.pi_id.Kp = _IQ(CURRENT_ID_CONTROLLER_KP);          //_IQ(3.0);
 	motor2.pi_id.Ki = _IQ(CURRENT_ID_CONTROLLER_KI);          //0.0075);
 	motor2.pi_id.Umax = _IQ(CURRENT_ID_CONTROLLER_SAT);
 	motor2.pi_id.Umin = _IQ(-CURRENT_ID_CONTROLLER_KP);
-/*
-	// Init PI module for IQ loop
-	motor2.pi_iq.Kp = _IQ(CURRENT_IQ_CONTROLLER_KP);          //_IQ(4.0);
-	motor2.pi_iq.Ki = _IQ(CURRENT_IQ_CONTROLLER_KI);          //_IQ(0.015);
-	motor2.pi_iq.Umax = _IQ(CURRENT_IQ_CONTROLLER_SAT);
-	motor2.pi_iq.Umin = _IQ(-CURRENT_IQ_CONTROLLER_SAT);
-*/
+
 	// Set mock REFERENCES for Speed and Iq loops
 	motor1.SpeedRef = 0.05;
 	motor1.IqRef = _IQ(0.1);
@@ -823,15 +809,13 @@ void main(void) {
 //  - IDLE loop. Just loop forever
 // ***************************************************************************
 
-	//EDITED
 	set_steering_config_from_flash(); // load configuration from flash, must be the first init
 	init_wifly(SysCtlLowSpeedClockGet(10000000), 115200u);	// init WiFly
 	hal_led_init(); // init LEDs
 	hal_button_init(); // init Buttons
 	init_steering_control(&steeringContr, motor1.speed.BaseRpm); // init values of steering control
-	pwm_servo_init(); // init servo gpio and pwm
 	fsm_main_init(); // init main state machine
-	//EDITED_END
+
 	for (;;)  //infinite loop
 			{
 		// State machine entry & exit point
@@ -1002,7 +986,7 @@ void B3(void) //  Ramp the servo
 {
 
 	if (FSM_RUN == fsm_main_get_state()){
-		servo_ramp();
+		//servo_ramp();
 	}
 
 	B_Task_Ptr = &B1;
@@ -1168,7 +1152,7 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 	} else if (motor->lsw == 1){
 		motor->pi_iq.ref = motor->IqRef;//motor->pi_iq.Ref = motor->IqRef;
 	} else {
-		motor->pi_iq.ref = motor->pid_spd.term.Out;//motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
+		motor->pi_iq.ref = Test_ref;//motor->pid_spd.term.Out;//motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
 	}
 	motor->pi_iq.fbk = motor->park.Qs;//motor->pi_iq.Fbk = motor->park.Qs;
 	piController(&motor->pi_iq);//PI_MACRO(motor->pi_iq)
@@ -1230,6 +1214,30 @@ interrupt void MotorControlISR(void) {
 
 	BuildLevel4(&motor1);
 	BuildLevel4(&motor2);
+
+	   // ****** DEBUG ****** //
+	  	if(start_measure==1){
+	  		if(delay_cnt>=cnt_max){
+				if(measure_cnt>10){
+					Test_ref = test_speed;
+				}
+				else{
+					Test_ref = 0;
+				}
+				if(measure_cnt>=400){
+					measure_cnt = 0;
+					start_measure = 0;
+					Test_ref = 0;
+				}
+				else{
+					measure[0][measure_cnt] = Test_ref;//motor1.pid_spd.Ref;
+					measure[1][measure_cnt] = motor1.pid_spd.term.Fbk;
+					measure_cnt++;
+				}
+				delay_cnt = 0;
+	  		}
+	  		delay_cnt++;
+		}
 
 	//clear ADCINT1 INT and ack PIE INT
 	AdcbRegs.ADCINTFLGCLR.bit.ADCINT1 = 1;

@@ -27,7 +27,7 @@
 #include "WiFly_Commands.h"
 #include "steering_Config.h"
 #include "flash.h"
-#include "debug_disables.h"
+//#include "debug_disables.h"
 
 // extern variables
 extern MOTOR_VARS motor1;

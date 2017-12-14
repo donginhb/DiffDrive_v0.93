@@ -30,15 +30,6 @@ void control_steering(steering_control_t *control_instruction)
 	speed_factor_right = get_right_wheel_factor();
 	speed_factor_left = get_left_wheel_factor();
 
-	// PI controller
-	// deviation form ref value
-	//angle_deviation = 0;//(float32)get_potentiometer_zero() - (float32)control_instruction->steering_feedback;
-	// integral part with anti windup
-	//integral += angle_deviation * control_instruction->dt; //debug
-	//integral = _IQsat(integral, INTEGRAL_SATURATION_ANGLE_CONTROL, -INTEGRAL_SATURATION_ANGLE_CONTROL); //debug
-	// calculate output
-	//speed_difference_pi = control_instruction->kp * angle_deviation + control_instruction->ki * integral;
-	//speed_difference_pi = control_instruction->steering_feedback; //debug
 	if((float)control_instruction->angle_ref>=0){
 		control_instruction->scale_1 = 1;
 		control_instruction->scale_2 = (float)-2/45*control_instruction->angle_ref+1;

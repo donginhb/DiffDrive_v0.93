@@ -328,7 +328,7 @@ void send_measurement_command(MOTOR_VARS *motor1, MOTOR_VARS *motor2, steering_c
 		data[5] = (int16_t)(motor2->SpeedRef/steeringContr->speed_scaling_ms_to_mot*100);
 		data[6] = (int16_t)(motor1->speed.Speed/steeringContr->speed_scaling_ms_to_mot*100);
 		data[7] = (int16_t)(motor2->speed.Speed/steeringContr->speed_scaling_ms_to_mot*100);
-		data[8] = (int16_t)(get_servo_angle()*100);
+		data[8] = (int16_t)(0.0);//(get_servo_angle()*100);
 		data[9] = ((int16_t)get_potentiometer_zero() - (int16_t)steeringContr->steering_feedback) * 100;
 		data[10] = 'E';
 		data[11] = 'O';
