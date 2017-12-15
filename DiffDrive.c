@@ -640,7 +640,7 @@ void main(void) {
 	motor1.speed.K1 = _IQ21(1/(BASE_FREQ*motor1.T));
 	motor1.speed.K2 = _IQ(1/(1+motor1.T*2*PI*5));  // Low-pass cut-off frequency
 	motor1.speed.K3 = _IQ(1) - motor1.speed.K2;
-	motor1.speed.BaseRpm = 120 * (BASE_FREQ / POLES);
+	motor1.speed.BaseRpm = 6000;//120 * (BASE_FREQ / POLES);
 
 	// Initialize the RAMPGEN module
 	motor1.rg.StepAngleMax = _IQ(BASE_FREQ*motor1.T);
@@ -663,7 +663,7 @@ void main(void) {
 	motor2.speed.K1 = _IQ21(1/(BASE_FREQ*motor2.T));
 	motor2.speed.K2 = _IQ(1/(1+motor2.T*2*PI*5));  // Low-pass cut-off frequency
 	motor2.speed.K3 = _IQ(1) - motor2.speed.K2;
-	motor2.speed.BaseRpm = 120 * (BASE_FREQ / POLES);
+	motor2.speed.BaseRpm = 6000;//120 * (BASE_FREQ / POLES);
 
 	// Initialize the RAMPGEN module
 	motor2.rg.StepAngleMax = _IQ(BASE_FREQ*motor2.T);
@@ -675,7 +675,7 @@ void main(void) {
 	motor2.pi_pos.Umin = _IQ(-1.0);
 
 	// Initialize the PID module for speed
-	motor1.pid_spd.param.Kp = _IQ(SPEED_CONTROLLER_KP);
+/*	motor1.pid_spd.param.Kp = _IQ(SPEED_CONTROLLER_KP);
 	motor1.pid_spd.param.Ki = _IQ(SPEED_CONTROLLER_KI);
 	motor1.pid_spd.param.Kd = _IQ(SPEED_CONTROLLER_KD);
 	motor1.pid_spd.param.Kr = _IQ(SPEED_CONTROLLER_KR);
@@ -688,7 +688,7 @@ void main(void) {
 	motor2.pid_spd.param.Kr = _IQ(SPEED_CONTROLLER_KR);
 	motor2.pid_spd.param.Umax = _IQ(SPEED_CONTROLLER_SAT);
 	motor2.pid_spd.param.Umin = _IQ(-SPEED_CONTROLLER_SAT);
-
+*/
 	// Init PI module for ID loop
 	motor1.pi_id.Kp = _IQ(CURRENT_ID_CONTROLLER_KP);          //_IQ(3.0);
 	motor1.pi_id.Ki = _IQ(CURRENT_ID_CONTROLLER_KI);          //0.0075);
@@ -962,8 +962,8 @@ void B1(void) // Control steering velocities
 //----------------------------------------
 {
 	control_steering(&steeringContr);	// Calculate the single velocities
-	motor1.SpeedRef = steeringContr.motor_speed_1;
-	motor2.SpeedRef = steeringContr.motor_speed_2;
+	//motor1.SpeedRef = steeringContr.motor_speed_1;
+	//motor2.SpeedRef = steeringContr.motor_speed_2;
 
 	B_Task_Ptr = &B2;
 }
@@ -1128,18 +1128,21 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 	if (++motor->SpeedLoopCount >= motor->SpeedLoopPrescaler) {
 		motor->SpeedLoopCount = 0;
 
-		motor->pid_spd.term.Ref = motor->SpeedRef;
-		motor->pid_spd.term.Fbk = motor->speed.Speed;
-		PID_MACRO_USER(motor->pid_spd);
+		motor->pi_spd.ref = Test_ref;//motor->SpeedRef;//motor->pid_spd.term.Ref = motor->SpeedRef;
+		motor->pi_spd.fbk = motor->speed.Speed;//motor->pid_spd.term.Fbk = motor->speed.Speed;
+		piController(&motor->pi_spd);//PID_MACRO_USER(motor->pid_spd);
 	}
 
 	if (motor->lsw == 0 || motor->lsw == 1) {
-		motor->pid_spd.data.d1 = 0;
+	/*	motor->pid_spd.data.d1 = 0;
 		motor->pid_spd.data.d2 = 0;
 		motor->pid_spd.data.i1 = 0;
 		motor->pid_spd.data.ud = 0;
 		motor->pid_spd.data.ui = 0;
-		motor->pid_spd.data.up = 0;
+		motor->pid_spd.data.up = 0;*/
+		motor->pi_spd.e0 = 0;
+		motor->pi_spd.u0 = 0;
+		motor->pi_spd.u = 0;
 	}
 
 // ------------------------------------------------------------------------------
@@ -1152,7 +1155,7 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 	} else if (motor->lsw == 1){
 		motor->pi_iq.ref = motor->IqRef;//motor->pi_iq.Ref = motor->IqRef;
 	} else {
-		motor->pi_iq.ref = Test_ref;//motor->pid_spd.term.Out;//motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
+		motor->pi_iq.ref = Test_ref;//motor->pi_spd.u;//motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
 	}
 	motor->pi_iq.fbk = motor->park.Qs;//motor->pi_iq.Fbk = motor->park.Qs;
 	piController(&motor->pi_iq);//PI_MACRO(motor->pi_iq)
@@ -1231,7 +1234,7 @@ interrupt void MotorControlISR(void) {
 				}
 				else{
 					measure[0][measure_cnt] = Test_ref;//motor1.pid_spd.Ref;
-					measure[1][measure_cnt] = motor1.pid_spd.term.Fbk;
+					measure[1][measure_cnt] = motor1.pi_spd.fbk;
 					measure_cnt++;
 				}
 				delay_cnt = 0;

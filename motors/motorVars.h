@@ -96,7 +96,7 @@ typedef struct {
 	// Controller variables
 //	PIDREG3         pid_pos;          // (optional - for eval)
 	PI_CONTROLLER   pi_pos;
-	PID_CONTROLLER	pid_spd;
+	struct piCtrl_t	pi_spd;
 	PI_CONTROLLER	pi_id;
 	struct piCtrl_t pi_iq;
 
@@ -163,7 +163,7 @@ typedef struct {
                                                           \
 		    /* PIDREG3_DEFAULTS,    pid_pos    */         \
 		    PI_CONTROLLER_DEFAULTS,  /*   pi_pos   */     \
-		    {PID_TERM_DEFAULTS, PID_PARAM_DEFAULTS, PID_DATA_DEFAULTS},  /*  pid_spd  */   \
+		 	SPEED_CTRL_DEFAULTS,  /*  pi_spd  */   \
 			PI_CONTROLLER_DEFAULTS,   /*  pi_id   */    \
 			CURRENT_CTRL_IQ_DEFAULTS,   /*  pi_iq   */    \
                                                           \

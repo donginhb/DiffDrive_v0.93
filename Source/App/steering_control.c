@@ -27,8 +27,8 @@ void control_steering(steering_control_t *control_instruction)
 	motor_neutral_speed = control_instruction->speed_ref;
 
 	// pre controller
-	speed_factor_right = get_right_wheel_factor();
-	speed_factor_left = get_left_wheel_factor();
+	speed_factor_right = 1;//get_right_wheel_factor();
+	speed_factor_left = 1;//get_left_wheel_factor();
 
 	if((float)control_instruction->angle_ref>=0){
 		control_instruction->scale_1 = 1;
@@ -47,11 +47,11 @@ void control_steering(steering_control_t *control_instruction)
 
 void init_steering_control(steering_control_t *control_instruction, Uint32 speed_base_rpm) {
 	control_instruction->speed_ref = 0.0;
-	control_instruction->steering_feedback = get_potentiometer_zero();
-	control_instruction->speed_scaling_ms_to_mot = 60.0 / ((float)speed_base_rpm * RADIUS_WHEEL * 2.0 * PI);
-	control_instruction->kp = get_KP();
-	control_instruction->ki = get_KI();
-	control_instruction->dt = 0.0003;
+	control_instruction->steering_feedback = 0;//get_potentiometer_zero();
+	control_instruction->speed_scaling_ms_to_mot = 0.03577;//60.0 / ((float)speed_base_rpm * RADIUS_WHEEL * 2.0 * PI);
+	control_instruction->kp = 0;//get_KP();
+	control_instruction->ki = 0;//get_KI();
+	control_instruction->dt = 0;//0.0003;
 	control_instruction->motor_speed_1 = 0.0;
 	control_instruction->motor_speed_2 = 0.0;
 }
