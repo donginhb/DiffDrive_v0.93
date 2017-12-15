@@ -1155,7 +1155,7 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 	} else if (motor->lsw == 1){
 		motor->pi_iq.ref = motor->IqRef;//motor->pi_iq.Ref = motor->IqRef;
 	} else {
-		motor->pi_iq.ref = Test_ref;//motor->pi_spd.u;//motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
+		motor->pi_iq.ref = motor->pi_spd.u;//motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
 	}
 	motor->pi_iq.fbk = motor->park.Qs;//motor->pi_iq.Fbk = motor->park.Qs;
 	piController(&motor->pi_iq);//PI_MACRO(motor->pi_iq)
@@ -1233,8 +1233,8 @@ interrupt void MotorControlISR(void) {
 					Test_ref = 0;
 				}
 				else{
-					measure[0][measure_cnt] = Test_ref;//motor1.pid_spd.Ref;
-					measure[1][measure_cnt] = motor1.pi_spd.fbk;
+					measure[0][measure_cnt] = motor1.pi_spd.fbk;
+					measure[1][measure_cnt] = motor2.pi_spd.fbk;
 					measure_cnt++;
 				}
 				delay_cnt = 0;
