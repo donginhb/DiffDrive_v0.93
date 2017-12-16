@@ -145,6 +145,7 @@ int16 measure_cnt = 0;
 int16 delay_cnt = 0;
 int16 cnt_max = 100;
 float test_speed = 0.2;
+int set_cntr_ground = 0;
 
 // ****************************************************************************
 // Flag variables
@@ -689,7 +690,7 @@ void main(void) {
 	motor2.pid_spd.param.Umax = _IQ(SPEED_CONTROLLER_SAT);
 	motor2.pid_spd.param.Umin = _IQ(-SPEED_CONTROLLER_SAT);
 */
-	// Init PI module for ID loop
+/*	// Init PI module for ID loop
 	motor1.pi_id.Kp = _IQ(CURRENT_ID_CONTROLLER_KP);          //_IQ(3.0);
 	motor1.pi_id.Ki = _IQ(CURRENT_ID_CONTROLLER_KI);          //0.0075);
 	motor1.pi_id.Umax = _IQ(CURRENT_ID_CONTROLLER_SAT);
@@ -700,7 +701,7 @@ void main(void) {
 	motor2.pi_id.Ki = _IQ(CURRENT_ID_CONTROLLER_KI);          //0.0075);
 	motor2.pi_id.Umax = _IQ(CURRENT_ID_CONTROLLER_SAT);
 	motor2.pi_id.Umin = _IQ(-CURRENT_ID_CONTROLLER_KP);
-
+*/
 	// Set mock REFERENCES for Speed and Iq loops
 	motor1.SpeedRef = 0.05;
 	motor1.IqRef = _IQ(0.1);
@@ -1055,9 +1056,13 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 // and in case of QEP also finds the index location and initializes the angle
 // w.r.t. the index location
 // ------------------------------------------------------------------------------
-	if (!motor->RunMotor)
+	if (!motor->RunMotor){
 	motor->lsw = 0;
-	else if (motor->lsw == 0) {
+	motor->pi_id.e0 = 0;
+	motor->pi_id.u0 = 0;
+	motor->pi_iq.e0 = 0;
+	motor->pi_iq.u0 = 0;
+	} else if (motor->lsw == 0) {
 		// alignment current
 		motor->IdRef = IdRef_start;//IQ(0.1);
 
@@ -1065,7 +1070,7 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 		motor->rc.TargetValue = motor->rc.SetpointValue = 0;
 
 		// set up an alignment and hold time for shaft to settle down
-		if (motor->pi_id.Ref >= motor->IdRef) {
+		if (motor->pi_id.ref >= motor->IdRef) {
 			if (++motor->alignCntr > motor->alignCnt) {
 				motor->alignCntr = 0;
 				motor->IdRef = IdRef_run;
@@ -1128,7 +1133,7 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 	if (++motor->SpeedLoopCount >= motor->SpeedLoopPrescaler) {
 		motor->SpeedLoopCount = 0;
 
-		motor->pi_spd.ref = Test_ref;//motor->SpeedRef;//motor->pid_spd.term.Ref = motor->SpeedRef;
+		//motor->pi_spd.ref = Test_ref;//motor->SpeedRef;//motor->pid_spd.term.Ref = motor->SpeedRef;
 		motor->pi_spd.fbk = motor->speed.Speed;//motor->pid_spd.term.Fbk = motor->speed.Speed;
 		piController(&motor->pi_spd);//PID_MACRO_USER(motor->pid_spd);
 	}
@@ -1163,14 +1168,14 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 // ------------------------------------------------------------------------------
 //    Connect inputs of the PI module and call the PI ID controller macro
 // ------------------------------------------------------------------------------
-	motor->pi_id.Ref = ramper(motor->IdRef, motor->pi_id.Ref, _IQ(0.0001));
-	motor->pi_id.Fbk = motor->park.Ds;
-	PI_MACRO(motor->pi_id)
+	motor->pi_id.ref = ramper(motor->IdRef, motor->pi_id.ref, _IQ(0.0001));
+	motor->pi_id.fbk = motor->park.Ds;
+	piController(&motor->pi_id);//PI_MACRO(motor->pi_id)
 
 // ------------------------------------------------------------------------------
 //	Connect inputs of the INV_PARK module and call the inverse park trans. macro
 // ------------------------------------------------------------------------------
-	motor->ipark.Ds = motor->pi_id.Out;
+	motor->ipark.Ds = motor->pi_id.u;
 	motor->ipark.Qs = motor->pi_iq.u;//motor->ipark.Qs = motor->pi_iq.Out;
 	motor->ipark.Sine = motor->park.Sine;
 	motor->ipark.Cosine = motor->park.Cosine;
@@ -1218,6 +1223,13 @@ interrupt void MotorControlISR(void) {
 	BuildLevel4(&motor1);
 	BuildLevel4(&motor2);
 
+	if(set_cntr_ground ==1){
+		motor1.pi_spd.c0 = -100.0861973084195;
+		motor1.pi_spd.c1 = 100.1140028917807;
+		motor2.pi_spd.c0 = -100.0861973084195;
+		motor2.pi_spd.c1 = 100.1140028917807;
+		set_cntr_ground = 0;
+	}
 	   // ****** DEBUG ****** //
 	  	if(start_measure==1){
 	  		if(delay_cnt>=cnt_max){
@@ -1240,8 +1252,9 @@ interrupt void MotorControlISR(void) {
 				delay_cnt = 0;
 	  		}
 	  		delay_cnt++;
+	  		motor1.pi_spd.ref = Test_ref;
+	  		motor2.pi_spd.ref = -Test_ref;
 		}
-
 	//clear ADCINT1 INT and ack PIE INT
 	AdcbRegs.ADCINTFLGCLR.bit.ADCINT1 = 1;
 	PieCtrlRegs.PIEACK.all = PIEACK_GROUP1;		// Needed to get the next interrupt again

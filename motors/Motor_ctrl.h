@@ -23,8 +23,8 @@
 /******************************************************************************
  * Defines
  *****************************************************************************/
-#define SPEED_CTRL_C0			-10.89
-#define SPEED_CTRL_C1			10.89
+#define SPEED_CTRL_C0			-3.825334821428571
+#define SPEED_CTRL_C1			3.827726403061224
 
 #define CURRENT_CTRL_C0			-0.764//-1.772//-3.056//-6.112 // C0 = Kp(Ts/2-Tn)
 #define CURRENT_CTRL_C1			0.8859//1.528//3.544//7.087 // C1 = Kp(Tn +Ts/2)
@@ -45,8 +45,8 @@ struct piCtrl_t {
 
 #define PI_CTRL_DEFAULTS {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 #define SPEED_CTRL_DEFAULTS {0, 0, 0, 0, 0, 0, -0.35, 0.35, SPEED_CTRL_C0, SPEED_CTRL_C1} //0.35 = 1.4 A
-#define CURRENT_CTRL_ID_DEFAULTS {0, 0, 0, 0, 0, 0, -0.5, 0.5, CURRENT_CTRL_C0, CURRENT_CTRL_C1}
-#define CURRENT_CTRL_IQ_DEFAULTS {0, 0, 0, 0, 0, 0, -0.8, 0.8, CURRENT_CTRL_C0, CURRENT_CTRL_C1}
+#define CURRENT_CTRL_ID_DEFAULTS {0, 0, 0, 0, 0, 0, -0.3, 0.3, CURRENT_CTRL_C0, CURRENT_CTRL_C1}
+#define CURRENT_CTRL_IQ_DEFAULTS {0, 0, 0, 0, 0, 0, -0.95, 0.95, CURRENT_CTRL_C0, CURRENT_CTRL_C1}
 
 
 ///Struct for a Rate Limiter

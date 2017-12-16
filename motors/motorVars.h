@@ -97,7 +97,7 @@ typedef struct {
 //	PIDREG3         pid_pos;          // (optional - for eval)
 	PI_CONTROLLER   pi_pos;
 	struct piCtrl_t	pi_spd;
-	PI_CONTROLLER	pi_id;
+	struct piCtrl_t pi_id;//PI_CONTROLLER	pi_id;
 	struct piCtrl_t pi_iq;
 
 	SVGEN svgen;               // SVPWM variable
@@ -162,9 +162,9 @@ typedef struct {
 		    IPARK_DEFAULTS,    /*  ipark   */             \
                                                           \
 		    /* PIDREG3_DEFAULTS,    pid_pos    */         \
-		    PI_CONTROLLER_DEFAULTS,  /*   pi_pos   */     \
-		 	SPEED_CTRL_DEFAULTS,  /*  pi_spd  */   \
-			PI_CONTROLLER_DEFAULTS,   /*  pi_id   */    \
+		    PI_CONTROLLER_DEFAULTS,    	/*  pi_pos  */    \
+		 	SPEED_CTRL_DEFAULTS,  		/*  pi_spd  */    \
+			CURRENT_CTRL_ID_DEFAULTS,   /*  pi_id   */    \
 			CURRENT_CTRL_IQ_DEFAULTS,   /*  pi_iq   */    \
                                                           \
 		    SVGEN_DEFAULTS,           /* svgen    */      \
