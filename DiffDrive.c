@@ -142,6 +142,8 @@ int16 delay_cnt = 0;
 int16 cnt_max = 100;
 float test_speed = 0.2;
 int set_cntr_ground = 0;
+float Vx = 0.0;
+float Vw = 0.0;
 
 // ****************************************************************************
 // Flag variables
@@ -1163,6 +1165,9 @@ interrupt void MotorControlISR(void) {
 
 	BuildLevel4(&motor1);
 	BuildLevel4(&motor2);
+
+	Vx = (-motor1.speed.Speed+motor2.speed.Speed)/(2*steeringContr.speed_scaling_ms_to_mot);
+	Vw = (-motor1.speed.Speed-motor2.speed.Speed)/(2*steeringContr.speed_scaling_ms_to_mot);
 
 	if(set_cntr_ground ==1){
 		motor1.pi_spd.c0 = -100.0861973084195;
