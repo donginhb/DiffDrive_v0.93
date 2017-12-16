@@ -42,14 +42,9 @@
 /******************************************************************************
  * Variables
  *****************************************************************************/
-/*
-struct piCtrl_t speedCtrl_Motor1 = SPEED_CTRL_DEFAULTS;			  ///< Speed Controller Entity
-struct piCtrl_t speedCtrl_Motor2 = SPEED_CTRL_DEFAULTS;			  ///< Speed Controller Entity
-struct piCtrl_t currentCtrl_Id_Motor1 = CURRENT_CTRL_ID_DEFAULTS; ///< Current Controller Entity
-struct piCtrl_t currentCtrl_Iq_Motor1 = CURRENT_CTRL_IQ_DEFAULTS; ///< Current Controller Entity
-struct piCtrl_t currentCtrl_Id_Motor2 = CURRENT_CTRL_ID_DEFAULTS; ///< Current Controller Entity
-struct piCtrl_t currentCtrl_Iq_Motor2 = CURRENT_CTRL_IQ_DEFAULTS; ///< Current Controller Entity
-*/
+// None
+
+
 /******************************************************************************
  * Local Function Prototypes
  *****************************************************************************/

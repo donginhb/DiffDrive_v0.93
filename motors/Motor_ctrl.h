@@ -43,7 +43,6 @@ struct piCtrl_t {
 	float c1;				///<
 };
 
-#define PI_CTRL_DEFAULTS {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 #define SPEED_CTRL_DEFAULTS {0, 0, 0, 0, 0, 0, -0.35, 0.35, SPEED_CTRL_C0, SPEED_CTRL_C1} //0.35 = 1.4 A
 #define CURRENT_CTRL_ID_DEFAULTS {0, 0, 0, 0, 0, 0, -0.3, 0.3, CURRENT_CTRL_C0, CURRENT_CTRL_C1}
 #define CURRENT_CTRL_IQ_DEFAULTS {0, 0, 0, 0, 0, 0, -0.95, 0.95, CURRENT_CTRL_C0, CURRENT_CTRL_C1}
@@ -61,12 +60,7 @@ struct rateLim_t {
 /******************************************************************************
  * Variables
  *****************************************************************************/
-/*extern struct piCtrl_t speedCtrl_Motor1;
-extern struct piCtrl_t speedCtrl_Motor2;
-extern struct piCtrl_t currentCtrl_Id_Motor1;
-extern struct piCtrl_t currentCtrl_Iq_Motor1;
-extern struct piCtrl_t currentCtrl_Id_Motor2;
-extern struct piCtrl_t currentCtrl_Iq_Motor2;*/
+
 /******************************************************************************
  * Functions
  *****************************************************************************/

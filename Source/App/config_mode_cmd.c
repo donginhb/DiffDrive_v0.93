@@ -6,7 +6,7 @@
  */
 #include "config_mode_cmd.h"
 #include "steering_config.h"
-#include "pwm_servo.h"
+//#include "pwm_servo.h"
 #include "steering_control.h"
 
 //static config_mode_cmd_t config_mode_cmd;
@@ -25,10 +25,10 @@ uint16_t execute_config_mode_cmd (config_mode_cmd_t command) {
 		set_potentiometer_right(V_POTI);
 		break;
 	case SET_SERVO_LEFT:
-		set_time_angle_min_usec((float)(PWM_SERVO_EPWMREGS.CMPA.bit.CMPA >> 2));
+		//set_time_angle_min_usec((float)(PWM_SERVO_EPWMREGS.CMPA.bit.CMPA >> 2));
 		break;
 	case SET_SERVO_MIDDLE:
-		set_time_angle_middle_usec((float)(PWM_SERVO_EPWMREGS.CMPA.bit.CMPA >> 2));
+		//set_time_angle_middle_usec((float)(PWM_SERVO_EPWMREGS.CMPA.bit.CMPA >> 2));
 		break;
 	case INCREMENT_SERVO:
 		increment_servo();

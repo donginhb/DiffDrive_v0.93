@@ -35,8 +35,6 @@
 #include "volt_calc.h"      	// Include header for the PHASEVOLTAGE object
 #include "speed_est.h"          // Include header for the SPEED_ESTIMATION object
 #include "speed_fr.h"			// Include header for the SPEED_MEAS_QEP object
-#include "pid_grando.h"			// Include header for the PID_GRANDO object
-#include "pid_reg3.h"			// Include header for the PID_REG3 object
 #include "Motor_ctrl.h"
 
 #include "F2837x_QEP_Module.h"
@@ -62,8 +60,6 @@ typedef struct {
 	     offset_shntB,   // shunt current feedback B - offset @ 0A
 		 offset_shntC,   // shunt current feedback C - offset @ 0A
 
-		 VdTesting,			// Vd reference (pu)
-		 VqTesting,			// Vq reference (pu)
 		 IdRef,			    // Id reference (pu)
 		 IqRef,			    // Iq reference (pu)
 		 SpeedRef,          // speed ref (pu)
@@ -94,8 +90,6 @@ typedef struct {
 	IPARK  ipark;             // inv park transform
 
 	// Controller variables
-//	PIDREG3         pid_pos;          // (optional - for eval)
-	PI_CONTROLLER   pi_pos;
 	struct piCtrl_t	pi_spd;
 	struct piCtrl_t pi_id;//PI_CONTROLLER	pi_id;
 	struct piCtrl_t pi_iq;
@@ -133,8 +127,6 @@ typedef struct {
 		    0,          /*  offset_shntB          */      \
 		    0,          /*  offset_shntC          */      \
                                                           \
-		    0,          /*  VdTesting             */      \
-			_IQ(0.20),  /*  VqTesting             */      \
 			0,          /*  IdRef                 */      \
 			0,          /*  IqRef                 */      \
 			0,          /*  SpeedRef              */      \
@@ -161,8 +153,6 @@ typedef struct {
 		    PARK_DEFAULTS,     /*  park    */             \
 		    IPARK_DEFAULTS,    /*  ipark   */             \
                                                           \
-		    /* PIDREG3_DEFAULTS,    pid_pos    */         \
-		    PI_CONTROLLER_DEFAULTS,    	/*  pi_pos  */    \
 		 	SPEED_CTRL_DEFAULTS,  		/*  pi_spd  */    \
 			CURRENT_CTRL_ID_DEFAULTS,   /*  pi_id   */    \
 			CURRENT_CTRL_IQ_DEFAULTS,   /*  pi_iq   */    \

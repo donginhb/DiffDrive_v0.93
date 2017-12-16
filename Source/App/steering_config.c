@@ -1,7 +1,7 @@
 #include <stdint.h>
 #include <math.h>
 #include "steering_config.h"
-#include "pwm_servo.h"
+//#include "pwm_servo.h"
 #include "flash.h"
 //#include "debug_disables.h"
 #include "DiffDrive-Settings.h"
@@ -75,11 +75,11 @@ void set_time_angle_middle_usec(float time_angle_middle_10usec){
 }
 
 void increment_servo(void){
-	PWM_SERVO_EPWMREGS.CMPA.bit.CMPA += SERVO_INCREMENT_VAL;
+	//PWM_SERVO_EPWMREGS.CMPA.bit.CMPA += SERVO_INCREMENT_VAL;
 }
 
 void decrement_servo(void){
-	PWM_SERVO_EPWMREGS.CMPA.bit.CMPA -= SERVO_INCREMENT_VAL;
+	//PWM_SERVO_EPWMREGS.CMPA.bit.CMPA -= SERVO_INCREMENT_VAL;
 }
 
 float get_angle_multiplier(void){

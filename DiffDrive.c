@@ -52,18 +52,14 @@
 #include "DiffDrive.h"
 #include "DiffDrive-Settings.h" // settings for buildlevel controller frequency...
 
-#include <controller_speed_current.h> // User PI and PID Macros (anti windup)
-#include <controller_speed_current_param.h> // User params for speed and current controllers
 #include "hal_led.h" // HAL for external LEDs
 #include "hal_button.h" // HAL for external Buttons
 #include "F28x_Project.h"     // Device Headerfile and Examples Include File
-//#include "pwm_servo.h"		  // HAL for Servo PWM
 #include "fsm_main.h"		  // Main state machine
 #include "sysctl.h"
 #include "WiFly_Commands.h" // HAL for WiFly module
 #include "Flash.h" // HAL for flash read and write
 #include "steering_config.h" // configuration data for steering
-//#include "debug_disables.h" // disable functions for debug
 #include "Motor_ctrl.h"
 
 // **********************************************************
@@ -227,8 +223,6 @@ inline void posEncoderIndex(MOTOR_VARS * motor) {
 		if (qepBlock->QPOSCNT > 4000) //if (v->QFLG.bit.IEL == 1)			// Check the index occurrence	//Just go to closed loop when it made a full turn
 				{
 			motor->qep.CalibratedAngle = qepBlock->QPOSILAT;
-//			v->QPOSINIT = v->QPOSILAT; //new
-//			v->QEPCTL.bit.IEI = IEI_RISING;   // new
 			motor->lsw = 2;
 		}   // Keep the latched pos. at the first index
 	}
@@ -646,12 +640,6 @@ void main(void) {
 	// Initialize the RAMPGEN module
 	motor1.rg.StepAngleMax = _IQ(BASE_FREQ*motor1.T);
 
-	// Initialize the PI module for position
-	motor1.pi_pos.Kp = _IQ(1.0);            //_IQ(10.0);
-	motor1.pi_pos.Ki = _IQ(0.001);       //_IQ(motor1.T*SpeedLoopPrescaler/0.3);
-	motor1.pi_pos.Umax = _IQ(1.0);
-	motor1.pi_pos.Umin = _IQ(-1.0);
-
 	// Init QEP parameters
 	motor2.qep.LineEncoder = 1000; // these are the number of slots in the QEP encoder
 	motor2.qep.MechScaler = _IQ30(0.25 / motor2.qep.LineEncoder);
@@ -669,39 +657,6 @@ void main(void) {
 	// Initialize the RAMPGEN module
 	motor2.rg.StepAngleMax = _IQ(BASE_FREQ*motor2.T);
 
-	// Initialize the PI module for position
-	motor2.pi_pos.Kp = _IQ(1.0);            //_IQ(10.0);
-	motor2.pi_pos.Ki = _IQ(0.001);       //_IQ(motor1.T*SpeedLoopPrescaler/0.3);
-	motor2.pi_pos.Umax = _IQ(1.0);
-	motor2.pi_pos.Umin = _IQ(-1.0);
-
-	// Initialize the PID module for speed
-/*	motor1.pid_spd.param.Kp = _IQ(SPEED_CONTROLLER_KP);
-	motor1.pid_spd.param.Ki = _IQ(SPEED_CONTROLLER_KI);
-	motor1.pid_spd.param.Kd = _IQ(SPEED_CONTROLLER_KD);
-	motor1.pid_spd.param.Kr = _IQ(SPEED_CONTROLLER_KR);
-	motor1.pid_spd.param.Umax = _IQ(SPEED_CONTROLLER_SAT);
-	motor1.pid_spd.param.Umin = _IQ(-SPEED_CONTROLLER_SAT);
-
-	motor2.pid_spd.param.Kp = _IQ(SPEED_CONTROLLER_KP);
-	motor2.pid_spd.param.Ki = _IQ(SPEED_CONTROLLER_KI);
-	motor2.pid_spd.param.Kd = _IQ(SPEED_CONTROLLER_KD);
-	motor2.pid_spd.param.Kr = _IQ(SPEED_CONTROLLER_KR);
-	motor2.pid_spd.param.Umax = _IQ(SPEED_CONTROLLER_SAT);
-	motor2.pid_spd.param.Umin = _IQ(-SPEED_CONTROLLER_SAT);
-*/
-/*	// Init PI module for ID loop
-	motor1.pi_id.Kp = _IQ(CURRENT_ID_CONTROLLER_KP);          //_IQ(3.0);
-	motor1.pi_id.Ki = _IQ(CURRENT_ID_CONTROLLER_KI);          //0.0075);
-	motor1.pi_id.Umax = _IQ(CURRENT_ID_CONTROLLER_SAT);
-	motor1.pi_id.Umin = _IQ(-CURRENT_ID_CONTROLLER_SAT);
-
-	// Init PI module for ID loop
-	motor2.pi_id.Kp = _IQ(CURRENT_ID_CONTROLLER_KP);          //_IQ(3.0);
-	motor2.pi_id.Ki = _IQ(CURRENT_ID_CONTROLLER_KI);          //0.0075);
-	motor2.pi_id.Umax = _IQ(CURRENT_ID_CONTROLLER_SAT);
-	motor2.pi_id.Umin = _IQ(-CURRENT_ID_CONTROLLER_KP);
-*/
 	// Set mock REFERENCES for Speed and Iq loops
 	motor1.SpeedRef = 0.05;
 	motor1.IqRef = _IQ(0.1);
@@ -827,12 +782,6 @@ void main(void) {
 		fsm_main_run();
 	}
 } //END MAIN CODE
-
-/******************************************************************************
- * ****************************************************************************
- * ****************************************************************************
- * ****************************************************************************
- */
 
 //=================================================================================
 //	STATE-MACHINE SEQUENCING AND SYNCRONIZATION FOR SLOW BACKGROUND TASKS
@@ -963,8 +912,8 @@ void B1(void) // Control steering velocities
 //----------------------------------------
 {
 	control_steering(&steeringContr);	// Calculate the single velocities
-	//motor1.SpeedRef = steeringContr.motor_speed_1;
-	//motor2.SpeedRef = steeringContr.motor_speed_2;
+	motor1.SpeedRef = steeringContr.motor_speed_1;
+	motor2.SpeedRef = steeringContr.motor_speed_2;
 
 	B_Task_Ptr = &B2;
 }
@@ -1075,7 +1024,6 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 				motor->alignCntr = 0;
 				motor->IdRef = IdRef_run;
 				motor->lsw = 1; // for QEP, spin the motor to find the index pulse
-//				motor->IqRef = _IQ(0.05);
 			}
 		}
 	} // end else if (lsw=0)
@@ -1133,18 +1081,12 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 	if (++motor->SpeedLoopCount >= motor->SpeedLoopPrescaler) {
 		motor->SpeedLoopCount = 0;
 
-		//motor->pi_spd.ref = Test_ref;//motor->SpeedRef;//motor->pid_spd.term.Ref = motor->SpeedRef;
-		motor->pi_spd.fbk = motor->speed.Speed;//motor->pid_spd.term.Fbk = motor->speed.Speed;
-		piController(&motor->pi_spd);//PID_MACRO_USER(motor->pid_spd);
+		motor->pi_spd.ref = motor->SpeedRef;
+		motor->pi_spd.fbk = motor->speed.Speed;
+		piController(&motor->pi_spd);
 	}
 
 	if (motor->lsw == 0 || motor->lsw == 1) {
-	/*	motor->pid_spd.data.d1 = 0;
-		motor->pid_spd.data.d2 = 0;
-		motor->pid_spd.data.i1 = 0;
-		motor->pid_spd.data.ud = 0;
-		motor->pid_spd.data.ui = 0;
-		motor->pid_spd.data.up = 0;*/
 		motor->pi_spd.e0 = 0;
 		motor->pi_spd.u0 = 0;
 		motor->pi_spd.u = 0;
@@ -1154,29 +1096,29 @@ inline void BuildLevel4(MOTOR_VARS * motor) {
 //    Connect inputs of the PI module and call the PI IQ controller macro
 // ------------------------------------------------------------------------------
 	if (motor->lsw == 0) {
-		motor->pi_iq.ref = 0;//motor->pi_iq.Ref = 0;
-		motor->pi_iq.u0 = 0;//motor->pi_iq.ui = 0;
+		motor->pi_iq.ref = 0;
+		motor->pi_iq.u0 = 0;
 		motor->pi_iq.e0 = 0;
 	} else if (motor->lsw == 1){
-		motor->pi_iq.ref = motor->IqRef;//motor->pi_iq.Ref = motor->IqRef;
+		motor->pi_iq.ref = motor->IqRef;
 	} else {
-		motor->pi_iq.ref = motor->pi_spd.u;//motor->pi_iq.Ref = motor->pid_spd.term.Out; //ref value of speed is input for iq
+		motor->pi_iq.ref = motor->pi_spd.u;
 	}
-	motor->pi_iq.fbk = motor->park.Qs;//motor->pi_iq.Fbk = motor->park.Qs;
-	piController(&motor->pi_iq);//PI_MACRO(motor->pi_iq)
+	motor->pi_iq.fbk = motor->park.Qs;
+	piController(&motor->pi_iq);
 
 // ------------------------------------------------------------------------------
 //    Connect inputs of the PI module and call the PI ID controller macro
 // ------------------------------------------------------------------------------
 	motor->pi_id.ref = ramper(motor->IdRef, motor->pi_id.ref, _IQ(0.0001));
 	motor->pi_id.fbk = motor->park.Ds;
-	piController(&motor->pi_id);//PI_MACRO(motor->pi_id)
+	piController(&motor->pi_id);
 
 // ------------------------------------------------------------------------------
 //	Connect inputs of the INV_PARK module and call the inverse park trans. macro
 // ------------------------------------------------------------------------------
 	motor->ipark.Ds = motor->pi_id.u;
-	motor->ipark.Qs = motor->pi_iq.u;//motor->ipark.Qs = motor->pi_iq.Out;
+	motor->ipark.Qs = motor->pi_iq.u;
 	motor->ipark.Sine = motor->park.Sine;
 	motor->ipark.Cosine = motor->park.Cosine;
 	IPARK_MACRO(motor->ipark)
@@ -1218,7 +1160,6 @@ interrupt void MotorControlISR(void) {
 	posEncoderIndex(&motor1);			//  Motor 1 Position encoder
 	motor2CurrentSense();		//  Measure normalised phase currents (-1,+1)
 	posEncoderIndex(&motor2);			//  Motor 2 Position encoder
-	//steeringContr.steering_feedback = V_POTI; // Set steering feedback from potentiometer
 
 	BuildLevel4(&motor1);
 	BuildLevel4(&motor2);
@@ -1252,8 +1193,8 @@ interrupt void MotorControlISR(void) {
 				delay_cnt = 0;
 	  		}
 	  		delay_cnt++;
-	  		motor1.pi_spd.ref = Test_ref;
-	  		motor2.pi_spd.ref = -Test_ref;
+	  		//motor1.pi_spd.ref = Test_ref;
+	  		//motor2.pi_spd.ref = -Test_ref;
 		}
 	//clear ADCINT1 INT and ack PIE INT
 	AdcbRegs.ADCINTFLGCLR.bit.ADCINT1 = 1;
